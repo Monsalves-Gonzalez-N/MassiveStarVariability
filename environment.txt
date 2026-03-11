@@ -1,0 +1,7 @@
+CNN_TESS environment (used for periodogram computation and CNN training)
+
+python:  3.8.20
+ray:     2.10.0
+astropy: 5.2.2  (LombScargle via astropy.timeseries)
+
+Note: TensorFlow (model prediction) runs in a separate environment.
