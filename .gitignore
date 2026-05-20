@@ -1,3 +1,7 @@
 catalogos/
 cubos/
 lightcurves/
+.ipynb_checkpoints/
+CheckAperture/
+download_paralell/
+*.parquet
