@@ -5,3 +5,4 @@ lightcurves/
 CheckAperture/
 download_paralell/
 *.parquet
+!test_data/*.parquet
