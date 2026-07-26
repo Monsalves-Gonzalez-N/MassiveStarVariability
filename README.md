@@ -60,14 +60,26 @@ Los paths a los pesos de la CNN (`Paper_OGLE/Weights/`) y al modelo BRF
 (`balanced_random_forest_model.joblib`) se configuran en `src/msv/config.py` o
 por variables de entorno `MSV_WEIGHTS` / `MSV_BRF`.
 
+## Mapa de notebooks
+
+En orden de pipeline (el número indica la etapa):
+
+| Notebook | Qué muestra |
+|---|---|
+| `0_Validate_Preprocessing.ipynb` | **Validación visual paso a paso** de UNA curva: cruda → rampas → sigma-clip en bordes → LS/ACF → phase-fold de todos los peaks. Punto de entrada para entender el pipeline. |
+| `1_TESS_variability_MassiveStarG12_preparate_data_OGLE.ipynb` | Cross-match Vizier/TIC, descarga MAST, chequeo de apertura (masivas y OGLE). |
+| `1_preparate_data_VSX.ipynb` | Cross-match masivas × VSX (benchmark de validación). |
+| `2_Github_TESS_variability_MassiveStarG12.ipynb` | Periodogramas + peaks + clasificación sobre las masivas. |
+| `2_Github_TESS_variability_OGLE.ipynb` | Benchmark OGLE: peaks, CNN+BRF, cascada Path-2, gate. |
+| `2_Github_TESS_variability_VSX.ipynb` | Benchmark VSX: métricas, barrido de τ, predicción final. |
+| `3_HowToUse_CNN_BRF.ipynb` | Demo de la CNN+BRF y el gate de MC-dropout. |
+| `4_Visual_Review_Pipeline.ipynb` | Auditoría end-to-end con `viz.show_sample` sobre samples aleatorios, relabelados por el gate y periódicos sobrevivientes. |
+
 ## Layout
 
 - `src/msv/` — paquete: `config.py`, `cleaning.py`, `periodograms.py`,
-  `peaks.py`, `features.py`, `classify_brf.py`.
+  `peaks.py`, `features.py`, `classify_brf.py`, `viz.py`.
 - `scripts/` — CLIs `run_peaks.py` y `run_brf_snr.py`.
-- Notebooks `1_*` — cross-match Vizier/TIC, descarga MAST, chequeo de apertura.
-- Notebooks `2_*` — periodogramas y peaks (interfaz de prueba/visualización).
-- `3_HowToUse_CNN_BRF.ipynb` — demo de la CNN+BRF y el gate de MC-dropout.
 - `catalogs/` — catálogos de cross-match y salidas Path-2 (versionados).
 - `test_data/` — subsample de 10 TICs para smoke tests (versionado).
 - `results/` — salidas derivadas (ignorado por git).
