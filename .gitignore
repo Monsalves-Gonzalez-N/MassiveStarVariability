@@ -7,7 +7,9 @@ CheckAperture/
 
 # Derived outputs
 results/
+reports/
 train_number_M.csv
+xmatch_tic_result.fits
 *.parquet
 !test_data/*.parquet
 *.fits
@@ -19,3 +21,4 @@ __pycache__/
 *.egg-info/
 .ipynb_checkpoints/
 .claude/
+.DS_Store
