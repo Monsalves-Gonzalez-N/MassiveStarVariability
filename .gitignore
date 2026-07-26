@@ -1,8 +1,21 @@
-catalogos/
+# Data directories (large / downloadable)
 cubos/
 lightcurves/
-.ipynb_checkpoints/
-CheckAperture/
+ogle_download/
 download_paralell/
+CheckAperture/
+
+# Derived outputs
+results/
+train_number_M.csv
 *.parquet
 !test_data/*.parquet
+*.fits
+
+# Backups & caches
+*.bak
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.claude/
