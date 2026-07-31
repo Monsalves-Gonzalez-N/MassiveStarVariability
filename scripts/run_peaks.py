@@ -113,7 +113,9 @@ def main():
                     help="parquet de curvas de luz (Time, flux, flux_err, TIC, sector)")
     ap.add_argument("--out", default=str(config.RESULTS_DIR / "peaks.parquet"))
     ap.add_argument("--min-peak-sep-days", type=float, default=config.MIN_PEAK_SEP_DAYS,
-                    help="ventana temporal mínima entre picos del ACF [días]")
+                    help="ventana FIJA entre picos del ACF [días]; default None "
+                         "= ventana adaptativa de Rayleigh (k*P^2/T, k=%.1f)"
+                         % config.ACF_RAYLEIGH_K)
     ap.add_argument("--sources", nargs="+", default=["ls", "acf"], choices=["ls", "acf"])
     ap.add_argument("--top-n", type=int, default=None, help="máx. picos por periodograma")
     ap.add_argument("--oversample", type=int, default=5)

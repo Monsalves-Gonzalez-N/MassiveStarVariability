@@ -1,13 +1,17 @@
 """Selección de picos en periodogramas LS/ACF con scipy.signal.find_peaks.
 
 Reemplaza el suavizado gaussiano del ACF (gaussian_filter1d, sigma=50 pts)
-que degradaba la resolución de la grilla de períodos: en su lugar, los picos
-espurios de ruido se suprimen imponiendo una separación temporal mínima entre
-picos (`min_peak_sep_days`) vía el parámetro `distance` de find_peaks,
-operando SIEMPRE sobre el power crudo.
+que degradaba la resolución de la grilla de períodos: los picos operan
+SIEMPRE sobre el power crudo, con FAP + prominencia + una separación mínima
+entre picos.
 
-- ACF: la grilla es uniforme en período (per = lag * cadence), así que
-  distance = round(min_peak_sep_days / cadence) muestras.
+- ACF: separación adaptativa de Rayleigh (default): dos picos a menos de
+  k·P²/T (T = baseline) no son distinguibles físicamente. Como `distance`
+  de scipy es un escalar, se aplica como post-filtro greedy por prominencia
+  (`_rayleigh_nms`). Alternativa legacy: ventana temporal FIJA
+  (`min_peak_sep_days`) vía distance = round(sep/cadence) — ojo: una fija
+  de 0.5 d suprimía el fundamental de estrellas con per < 0.5 d y dejaba
+  el armónico 2x.
 - LS: la grilla es uniforme en FRECUENCIA; una separación fija en período no
   es constante en frecuencia. Se convierte con |Δf| ≈ ΔP/P² evaluado en el
   período más largo buscado (conversión conservadora: garantiza al menos esa
@@ -18,7 +22,7 @@ import numpy as np
 import pandas as pd
 from scipy.signal import find_peaks, peak_prominences, peak_widths
 
-from .config import ACF_PROMINENCE_FRAC, MIN_PEAK_SEP_DAYS
+from .config import ACF_PROMINENCE_FRAC, ACF_RAYLEIGH_K, MIN_PEAK_SEP_DAYS
 
 _EMPTY = ["per", "power", "prominence", "width"]
 
@@ -52,22 +56,51 @@ def _build(per, power, idx, prom, wid, sort_by, top_n):
     return out
 
 
-def select_peaks_acf(per, power, fap, cadence, *,
+def _rayleigh_nms(per_peaks, prom, window_days):
+    """Supresión greedy por prominencia con ventana por-pico (en días).
+
+    Acepta picos en orden de prominencia descendente; descarta los que caen
+    a menos de max(ventana propia, ventana del ya aceptado) de un aceptado.
+    Devuelve máscara booleana sobre los picos de entrada.
+    """
+    order = np.argsort(prom)[::-1]
+    keep = np.zeros(per_peaks.size, dtype=bool)
+    kept_per, kept_win = [], []
+    for j in order:
+        p = per_peaks[j]
+        if all(abs(p - q) >= max(window_days[j], w)
+               for q, w in zip(kept_per, kept_win)):
+            keep[j] = True
+            kept_per.append(p)
+            kept_win.append(window_days[j])
+    return keep
+
+
+def select_peaks_acf(per, power, fap, cadence=None, *,
+                     rayleigh_k=ACF_RAYLEIGH_K,
                      min_peak_sep_days=MIN_PEAK_SEP_DAYS,
                      prominence_frac=ACF_PROMINENCE_FRAC, width=None,
                      sort_by="prominence", top_n=None):
-    """Picos del ACF sobre power CRUDO con ventana temporal mínima.
+    """Picos del ACF sobre power CRUDO con separación mínima adaptativa.
 
-    - `distance = round(min_peak_sep_days / cadence)`: dos picos no pueden
-      estar a menos de esa ventana temporal (reemplaza al smoothing).
     - `height = fap`: array de Bartlett dependiente del lag — solo picos
       significativos.
     - `prominence_frac`: prominencia mínima como fracción del máximo del
       power. Suprime los wiggles de ruido sobre el decaimiento de red noise
       del ACF (lo que antes hacía el smoothing gaussiano, pero sin perder
-      resolución de grilla). Default 0.05: en los 24 FP_PAIRS elimina todos
-      los picos espurios y en 68 pares label=1 no pierde ningún match con
-      per_ogle (el smoothing viejo recuperaba 0%).
+      resolución de grilla).
+    - `rayleigh_k`: ventana adaptativa k·P²/T entre picos (post-filtro greedy
+      por prominencia). T se toma como 2·max(per) — asume el default del
+      pipeline maxlag = baseline/2. Dos picos más cercanos que el límite de
+      Rayleigh no son distinguibles físicamente.
+    - `min_peak_sep_days`: alternativa legacy — ventana temporal FIJA vía
+      `distance` de find_peaks (requiere `cadence`). Si se pasa, reemplaza
+      a la de Rayleigh. Ojo: 0.5 d suprimía el fundamental de per < 0.5 d.
+
+    Validación 2026-07-26 (67 pares label=1, 24 FP_PAIRS, top-3
+    exact+harmonic TOL=0.05): Rayleigh k=3 + prominence 0.20 → recovery
+    77.6% / 0 espurios (fija 0.5 d + prominence 0.05 daba 68.7% / 1).
+    Con todos los peaks (top_n=None): ACF 80.6%, ACF∪LS 98.5%.
     """
     per = np.asarray(per)
     power = np.asarray(power)
@@ -86,6 +119,12 @@ def select_peaks_acf(per, power, fap, cadence, *,
 
     idx, prom, wid = _find(power, height=fap, distance=distance,
                            prominence=prominence, width=width)
+
+    if idx.size and distance is None and rayleigh_k is not None:
+        T = 2.0 * float(np.nanmax(per))
+        keep = _rayleigh_nms(per[idx], prom, rayleigh_k * per[idx] ** 2 / T)
+        idx, prom, wid = idx[keep], prom[keep], wid[keep]
+
     return _build(per, power, idx, prom, wid, sort_by, top_n)
 
 

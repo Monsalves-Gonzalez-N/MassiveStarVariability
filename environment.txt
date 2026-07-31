@@ -1,7 +1,13 @@
-CNN_TESS environment (used for periodogram computation and CNN training)
+MSV environment (unified; replaces CNN_TESS + CNN_TESS_min)
 
-python:  3.8.20
-ray:     2.10.0
-astropy: 5.2.2  (LombScargle via astropy.timeseries)
+Single conda env for the whole pipeline: periodograms, CNN prediction and BRF.
 
-Note: TensorFlow (model prediction) runs in a separate environment.
+python:           3.8.20
+tensorflow:       2.13.1
+scikit-learn:     1.0.2   (required: the BRF joblib does not load with sklearn >= 1.3)
+imbalanced-learn: 0.10.1
+lightkurve:       2.5.0
+ray:              2.10.0
+astropy:          5.2.2   (LombScargle via astropy.timeseries)
+
+Usage: conda activate MSV
