@@ -1,9 +1,10 @@
 # Data directories (large / downloadable)
-cubos/
-lightcurves/
-ogle_download/
-download_paralell/
-CheckAperture/
+# Sin barra final: son symlinks a ~/Dropbox/MassiveStarVariability/raw/
+cubos
+lightcurves
+ogle_download
+download_paralell
+CheckAperture
 
 # Derived outputs
 results/

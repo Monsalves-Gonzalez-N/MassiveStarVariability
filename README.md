@@ -25,20 +25,55 @@ gate (PROB_MIN, SIGMA_MAX)  y cascada Path-2 → catalogs/catalog_path2_*.csv
 
 ## Entornos
 
-Dos entornos (ver `environment.txt`):
+Un solo entorno **MSV** (ver `environment.txt`): python 3.8, ray, astropy
+5.2.2, TF 2.13.1, sklearn 1.0.2, lightkurve. Cubre todo el pipeline: peaks,
+predicción CNN y BRF (`scripts/run_brf_snr.py`). Ojo: el joblib del BRF
+requiere sklearn 1.0.x — versiones más nuevas no lo cargan, por eso el env
+fija 1.0.2.
 
-- **CNN_TESS** (python 3.8, ray, astropy 5.2.2, statsmodels): todo el pipeline
-  hasta peaks. `msv.classify_brf` importa TF de forma lazy, así el resto del
-  paquete funciona aquí.
-- **CNN_TESS_min** (TF 2.13.1, sklearn 1.0.2): predicción CNN + BRF
-  (`scripts/run_brf_snr.py`). Ojo: el joblib del BRF requiere sklearn 1.0.x —
-  versiones más nuevas no lo cargan.
-
-Instalación (editable, en ambos envs):
+Instalación (editable):
 
 ```bash
 pip install -e .
 ```
+
+## Datos (setup en una máquina nueva)
+
+Los ~36 GB de datos **no están en git**: viven en Dropbox, en
+`~/Dropbox/MassiveStarVariability/`, para poder trabajar desde varias máquinas.
+
+```
+~/Dropbox/MassiveStarVariability/
+├── raw/       27 GB  cubos/, download_paralell/, ogle_download/,
+│                     CheckAperture/, lightcurves/   (re-descargables de MAST/OGLE)
+└── derived/  8.4 GB  lightcurves_all{,_OGLE}.parquet, peaks*.parquet,
+                      periodograms_{ls,acf}.parquet, train_number_M.csv
+```
+
+Para dejar una máquina lista: clonar el repo, esperar a que Dropbox termine de
+sincronizar y correr
+
+```bash
+python scripts/link_data.py      # --check para solo diagnosticar
+```
+
+Eso crea en la raíz del repo un symlink por dataset, así las rutas relativas de
+los notebooks (`peaks.parquet`, `cubos/...`) funcionan sin cambios. Es
+idempotente y nunca pisa un archivo real.
+
+`config.DATA_DIR` localiza la carpeta buscando, en orden: `$MSV_DATA_DIR`, los
+candidatos de `_DATA_DIR_CANDIDATES` en `src/msv/config.py` (añadir ahí la ruta
+de cada máquina nueva) y, como fallback, la raíz del repo (layout antiguo).
+Cada dataset admite además su propio override `MSV_*` — útil para correr en un
+cluster sin Dropbox:
+
+```bash
+MSV_DATA_DIR=/scratch/$USER/msv python scripts/run_peaks.py ...
+```
+
+Importante: si usás *selective sync* / "online-only" sobre esta carpeta,
+Dropbox reemplaza los archivos por placeholders y los symlinks apuntan a nada.
+Mantenela disponible offline.
 
 ## Uso rápido
 
@@ -71,20 +106,37 @@ En orden de pipeline (el número indica la etapa):
 | `1_preparate_data_VSX.ipynb` | Cross-match masivas × VSX (benchmark de validación). |
 | `2_Github_TESS_variability_MassiveStarG12.ipynb` | Periodogramas + peaks + clasificación sobre las masivas. |
 | `2_Github_TESS_variability_OGLE.ipynb` | Benchmark OGLE: peaks, CNN+BRF, cascada Path-2, gate. |
-| `2_Github_TESS_variability_VSX.ipynb` | Benchmark VSX: métricas, barrido de τ, predicción final. |
+| `2_Github_TESS_variability_VSX.ipynb` | Benchmark VSX: métricas, barrido de τ, predicción final y **revisión visual** de las 567 estrellas con período VSX. |
 | `3_HowToUse_CNN_BRF.ipynb` | Demo de la CNN+BRF y el gate de MC-dropout. |
 | `4_Visual_Review_Pipeline.ipynb` | Auditoría end-to-end con `viz.show_sample` sobre samples aleatorios, relabelados por el gate y periódicos sobrevivientes. |
 
 ## Layout
 
 - `src/msv/` — paquete: `config.py`, `cleaning.py`, `periodograms.py`,
-  `peaks.py`, `features.py`, `classify_brf.py`, `viz.py`.
-- `scripts/` — CLIs `run_peaks.py` y `run_brf_snr.py`.
+  `peaks.py`, `features.py`, `classify_brf.py`, `viz.py`, `review.py`.
+- `scripts/` — CLIs `run_peaks.py`, `run_brf_snr.py`, `build_vsx_review.py` y
+  `link_data.py` (setup de datos por máquina).
 - `catalogs/` — catálogos de cross-match y salidas Path-2 (versionados).
 - `test_data/` — subsample de 10 TICs para smoke tests (versionado).
 - `results/` — salidas derivadas (ignorado por git).
 - `VALIDACION_Y_COMPARACION_MODELOS.md` — especificación del benchmark
   OGLE×TESS y del gate de incertidumbre.
+
+## Revisión visual del benchmark VSX
+
+Los `Type`/`Period` de VSX no son ground truth ciego (surveys heterogéneos,
+tipos cajón como `MISC`/`VAR`, períodos que no dominan la curva TESS). Las
+567 masivas con período se marcan a mano en `catalogs/vsx_visual_review.csv`
+(versionado): `vis_verdict` valida el período — y con él el `label` —, y
+`vis_shape` valida la morfología — y con ella el `expected_class`.
+
+```
+python scripts/build_vsx_review.py --model Number_DST   # tabla + caché de curvas
+```
+
+y el revisor (`msv.review.VisualReviewer`) se usa desde
+`2_Github_TESS_variability_VSX.ipynb`. Las métricas del benchmark se reportan
+restringidas a `vis_verdict == "ok"`.
 
 ## Nota sobre columnas de período
 
