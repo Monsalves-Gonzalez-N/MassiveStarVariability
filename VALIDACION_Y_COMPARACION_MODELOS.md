@@ -9,7 +9,7 @@ Instrucciones para añadir **5 secciones nuevas** al final de
 3. Elegir el **mejor de 7 sets de pesos** (`Paper_OGLE/Weights/`).
 4. Probar si el **σ de MC-dropout** sirve como *gate* para matar los FP.
 
-> **Kernel:** `CNN_TESS_min` (sklearn 1.0.2 + tf 2.13.1), igual que la sección CNN+BRF.
+> **Kernel:** `MSV` (sklearn 1.0.2 + tf 2.13.1; antes `CNN_TESS_min`), igual que la sección CNN+BRF.
 
 ---
 
@@ -491,7 +491,7 @@ print(pd.Series(tic_best).value_counts().to_string())
 
 ## 10. Verificación
 
-1. Ejecutar el notebook top-to-bottom en kernel **`CNN_TESS_min`**.
+1. Ejecutar el notebook top-to-bottom en kernel **`MSV`** (antes `CNN_TESS_min`).
 2. `gt` tiene **147** TICs (34 `label=1`, 113 `label=0`); `build_cube` reproduce el `X` actual
    (mismo `shape` y nº de peaks sin curva que la celda `fc8e35c7`).
 3. **Baseline:** `FP_rate_0` de `batchBalanced_Number_M` debe ser alto (consistente con
