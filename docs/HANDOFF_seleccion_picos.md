@@ -61,7 +61,7 @@ phase-folds    113      (18/50 colapsan a 1 candidato, 3/50 llevan P0/2)
 
 ---
 
-## 2. Archivos tocados (sin commitear)
+## 2. Archivos tocados (commiteados en f407be2 el 2026-09-03)
 
 ```
 M  src/msv/config.py         constantes nuevas + PULSATING/CLASS_GROUPS/MC_ITER
@@ -223,22 +223,38 @@ VSX (~100 pares basta), o volver a bajarlos de MAST a un directorio local.
 
 Tres pasos, porque ningún env tiene TF y sklearn 1.0.2 a la vez.
 
+Los tres pasos ya son scripts (2026-09-03). Cadena completa desde los FITS:
+
 ```bash
-# 1. candidatos + cubo (CNN_TESS)
-PYTHONPATH=src python  → candidate_periods + phase_fold_hist2d_log + amplitude_of
-                          sobre flujo YA LIMPIO, guardar .npz
+PY=/opt/anaconda3/envs/CNN_TESS/bin/python
 
-# 2. CNN, 20 pasadas con dropout activo (tf_env)
+# 0. FITS -> parquet de curvas
+PYTHONPATH=src $PY scripts/build_lc_parquet.py --dir review_50 --out lc_review50.parquet
+
+# 1. LS + ACF -> picos con hist2d y amplitud (CNN_TESS)
+PYTHONPATH=src $PY scripts/run_peaks.py --lc results/lc_review50.parquet \
+    --out results/peaks_review50.parquet --pgram-dir results/pgrams50
+
+# 2. picos -> npz de entrada
+PYTHONPATH=src $PY scripts/step_cnn_export.py results/peaks_review50.parquet results/cnn_input.npz
+
+# 3. CNN: ensemble de los 7 checkpoints (tf_env). --mc-dropout para el método viejo
 MSV_WEIGHTS=~/ViT_VariableStars/pretrained/keras_checkpoints \
-  python step_cnn.py in.npz out.npz Number_DST     # → p_mc (20, N, 8)
+  /opt/anaconda3/envs/tf_env/bin/python scripts/step_cnn.py \
+    results/cnn_input.npz results/cnn_mc.npz          # → p_mc (7, N, 8)
 
-# 3. BRF sobre cada pasada (CNN_TESS)
-MSV_BRF=~/Dropbox/.../balanced_random_forest_model.joblib \
-  PYTHONPATH=src python step_brf.py in.npz mc.npz clasificacion.csv
+# 4. BRF sobre cada pasada (CNN_TESS)
+MSV_BRF=~/Dropbox/MassiveStarVariability/models/balanced_random_forest_model.joblib \
+  PYTHONPATH=src $PY scripts/step_brf.py results/cnn_input.npz results/cnn_mc.npz \
+    results/clasificacion.csv
+
+# 5. PDF de revisión (clase de la cascada + una barra por período candidato)
+PYTHONPATH=src $PY scripts/build_lc_prob_review.py results/clasificacion.csv \
+    --curves results/phasefold_curves.pkl
 ```
 
-`MC_ITER = 20`. El BRF corre sobre **cada pasada MC por separado** (input fijo de
-8 clases + `per` + `amplitud`); la clase sale de la **mediana** de las 20, con
+El BRF corre sobre **cada pasada por separado** (7 del ensemble, o `MC_ITER = 20` con `--mc-dropout`) (input fijo de
+8 clases + `per` + `amplitud`); la clase sale de la **mediana**, con
 `sigma` (desviación de la probabilidad ganadora) e `instability` (fracción de
 pasadas donde cambia la clase ganadora).
 
@@ -350,3 +366,71 @@ scripts/compare_hist_norms.py     las 7 normalizaciones + sonda de invariancia
 scripts/build_norm_review.py      PDF de decisión de normalización
 scripts/_preview.py               cerrar Preview antes de abrir el PDF
 ```
+
+---
+
+## 8. Plan — qué sigue (2026-09-03)
+
+### Siguiente paso directo: revisar la cascada, y LPV dentro de ella
+
+Es lo único de esta lista que se puede hacer en este laptop: no necesita ni
+datos nuevos ni recalcular nada, solo `results/clasificacion_review50.csv` y
+`src/msv/cascade.py`, que ya están.
+
+**LPV está doblemente penalizado hoy:**
+
+1. `NONPER = {"Rndm", "LPV"}` y `PERIODIC` no lo incluye, así que **LPV nunca
+   vota en el Paso 2**. Solo sobrevive por el Paso 1, y únicamente si
+   `classes ⊆ {Rndm, LPV}`: basta UN pico `ELL` espurio para que todos los
+   votos LPV se descarten.
+2. Los picos LPV de las 50 tienen períodos de 4.5 a 12.6 d, mediana 6.9 — una
+   LPV real tiene P ≫ 27 d, así que ningún período medible en un sector la
+   describe. De las 10 estrellas con picos LPV, **ninguna** llega al Paso 1:
+   todas tienen algún pico periódico. TIC 179305185 tiene LPV 0.95 con un solo
+   pico periódico; TIC 466844157, LPV 0.92 contra dos.
+
+**La idea de fondo:** `E` dice "doblada a P se ve como eclipse" — depende del
+período. `LPV` dice "esta curva varía lento y sin repetir" — NO depende de
+haber acertado el período. Son afirmaciones de distinto tipo y la cascada las
+trata igual.
+
+Propuesta, a decidir:
+
+- **(a) LPV a nivel TIC, antes del voto.** Si la fracción de candidatos con LPV
+  sobre umbral supera a la de periódicos, la estrella es LPV aunque tenga picos
+  periódicos.
+- **(b) Guarda por baseline.** Si el voto periódico solo se sostiene con
+  períodos > T/3 (mal resueltos, `±P²/T` grande) y hay señal LPV, la respuesta
+  correcta es `LPV` o `Periodo_no_medible`, no la clase periódica.
+- **(c) Separar `LPV` de `Irregular`.** Hoy colapsan en `Irregular` en el Paso
+  1. `Irregular` = "varía pero no periódico"; `LPV` = "varía en escala ≥
+  baseline", que es una afirmación astrofísica distinta y verificable con la
+  escala temporal de la curva (primer cruce por cero del ACF, o amplitud de la
+  tendencia contra la dispersión) sin depender de la CNN.
+
+Recomendación: (a) + (b), con la escala temporal como desempate.
+
+**Y de paso, revisar la cascada entera**, que nunca se auditó:
+
+- El desempate ACF vs LS de `_acf_winner`/`_ls_winner` (mayor power para el ACF,
+  MENOR power para el LS) no está justificado en ninguna parte.
+- Con las eclipsantes aprendimos que el LS localiza el período con precisión y
+  el ACF identifica el múltiplo correcto: el desempate debería reflejarlo.
+- 12 de 45 estrellas quedan `Unconstrained`: hay que ver si es ambigüedad real o
+  una regla demasiado estricta.
+- `threshold=0.8` sobre `brf_prob` está hardcodeado como default y no vive en
+  `config.py`.
+
+### En el otro laptop (necesitan datos o cómputo que aquí no hay)
+
+- **Recalcular todo el catálogo** con los dos arreglos: `periodograms_*.parquet`,
+  `peaks.parquet`, los cubos y los CSV de clasificación. Todo lo anterior está
+  sesgado (ver §7).
+- **Hidratar los FITS** de `ogle_download/` y `download_paralell/` para
+  desbloquear `scripts/validate_peak_selection.py` (§4, Tarea 4). Es lo único
+  que convertiría las decisiones de §7 —tomadas sobre DOS eclipsantes— en
+  evidencia estadística.
+- **Recalibrar `SIGMA_MAX`**: con el ensemble, `sigma` e `instability` miden
+  desacuerdo entre modelos y no dispersión MC; el gate de 0.12 se calibró sobre
+  lo segundo. Necesita el set con verdad conocida, o sea depende del punto
+  anterior.

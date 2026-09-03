@@ -1,0 +1,148 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-03T12:00:35 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-03T12:00:35	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/639/A81/table2&-out.all&-out.max=unlimited	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_36390081
+#Name: J/A+A/639/A81
+#Title: Variability of OB stars (Burssens+, 2020)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/639/a81	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/a+a/639/a81	    IVOID of underlying data collection
+#INFO	creator=Burssens S.	    First author or institution
+#INFO	cites=bibcode:2020A&A...639A..81B	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2020	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/639/A81	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.36390081	    Dataset identifier that can be used for citation
+#INFO	publication_date=2021-02-02	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	J2000_2000.000:	eq_FK5 J2000
+#Table	J_A_A_639_A81_table2:
+#Name: J/A+A/639/A81/table2
+#Title: Overview of OB-type stars with available TESS photometry and IACOB/OWN spectroscopy with spectral type O4 to B3 considered in this work
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	Sample	(I1)	Sample code (G1)	[ucd=meta.code;src.sample]
+#Column	Name	(a11)	Star name	[ucd=meta.id;meta.main]
+#Column	SpType	(a21)	Spectral type	[ucd=src.spType]
+#Column	SpClass	(a15)	Spectral class	[ucd=src.spType]
+#Column	logTeff	(F5.2)	? Effective temperature	[ucd=phys.temperature.effective]
+#Column	logLs	(F5.2)	? Spectroscopic luminosity (where Ls=Teff^4^/g) (2)	[ucd=stat.fit.param]
+#Column	vsini	(I3)	? Rotational velocity	[ucd=phys.veloc.rotat]
+#Column	vmac	(I3)	? Macroturbulent velocity	[ucd=phys.veloc.microTurb]
+#Column	Nsp	(I3)	Number of available spectra	[ucd=meta.number]
+#Column	VarTypesp	(a8)	Spectral variability type (G3)	[ucd=meta.code;src.var]
+#Column	VarTypeT	(a12)	TESS variability type (4)	[ucd=meta.note]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Column	_RA	(F9.5)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+recno	Sample	Name	SpType	SpClass	logTeff	logLs	vsini	vmac	Nsp	VarTypesp	VarTypeT	Simbad	_RA	_DE
+ 	 	 	 	 	[K]	[Sun]	km/s	km/s	 	 	 	 	deg	deg
+--------	-	-----------	---------------------	---------------	-----	-----	---	---	---	--------	------------	------	---------	---------
+       1	1	HD 96715   	O4                   	V((f))z        	 4.66	 4.10	 59	 86	  2	---     	SLF         	Simbad	166.88674	-59.96353
+       2	1	HD 46223   	O4                   	V((f))         	 4.62	 4.16	 60	 91	  7	---     	SLF+SPB?    	Simbad	098.03878	+04.82353
+       3	1	HD 155913  	O4.5                 	Vn((f))        	 4.63	 3.88	278	   	  9	---     	SLF+SPB     	Simbad	259.10972	-42.66781
+       4	1	HD 46150   	O5                   	V((f))z        	 4.61	 4.03	 71	 94	 20	SB1?    	SLF         	Simbad	097.98134	+04.94286
+       5	1	HD 90273   	ON7                  	V              	 4.59	 3.95	 55	 55	  1	---     	SLF+SPB?    	Simbad	155.93523	-57.64209
+       6	1	HD 110360  	ON7                  	V              	 4.59	 3.60	 96	 86	  2	SB1     	rot?        	Simbad	190.55293	-60.65242
+       7	1	HD 47839   	O7                   	V              	 4.58	 3.70	 43	 65	113	SB1     	SLF+beta Cep	Simbad	100.24441	+09.89576
+       8	1	HD 46485   	O7                   	V((f))nz var?  	 4.55	 3.74	322	   	  3	SB1?    	EB          	Simbad	098.46232	+04.52545
+       9	1	HD 53975   	O7.5                 	Vz             	 4.56	 3.74	181	   	  5	SB1     	SLF+rot?    	Simbad	106.64986	-12.39395
+      10	1	HD 41997   	O7.5                 	Vn((f))        	 4.55	 3.85	262	   	  4	---     	SLF+rot?    	Simbad	092.23259	+15.70505
+      11	1	HD 152590  	O7.5                 	Vz             	 4.58	 3.79	 48	 56	 10	SB1     	EB          	Simbad	254.02173	-40.34933
+      12	1	HD 46573   	O7                   	V((f))z        	 4.56	 3.93	 77	 81	  5	SB1     	SLF+rot?    	Simbad	098.59821	+02.53415
+      13	1	HD 48279   	O8                   	V              	 4.55	 3.76	131	 74	  4	---     	SLF+SPB?    	Simbad	100.66895	+01.71618
+      14	1	HD 101191  	O8                   	V              	 4.55	 3.80	138	   	  4	---     	cont.       	Simbad	174.55069	-63.39078
+      15	1	HD 38666   	O9.5                 	V              	 4.53	 3.59	111	 56	 11	---     	PQ          	Simbad	086.49956	-32.30643
+      16	1	HD 36512   	O9.7                 	V              	 4.51	 3.44	 13	 33	 23	SB1     	SLF?        	Simbad	082.98275	-07.30154
+      17	1	HD 123056  	O9.5                 	IV(n)          	 4.50	 3.70	193	   	  9	SB1     	SLF+SPB?    	Simbad	211.85682	-60.47060
+      18	1	HD 76556   	O6                   	IV(n)((f))p    	 4.58	 3.80	239	   	  4	---     	SLF+SPB?    	Simbad	133.77977	-47.60754
+      19	1	HD 74920   	O7.5                 	IVn((f))       	 4.54	 3.90	291	   	  1	---     	SLF+SPB?    	Simbad	131.29309	-46.03868
+      20	1	HD 135591  	O8                   	IV((f))        	 4.54	 3.99	 60	 60	  3	---     	SLF         	Simbad	229.70476	-60.49633
+      21	1	HD 326331  	O8                   	IVn((f))       	 4.54	 3.82	332	   	  6	WVa     	SLF         	Simbad	253.60820	-41.83216
+      22	1	HD 37041   	O9.5                 	IVp            	 4.54	 3.28	134	   	 30	SB1     	SLF?        	Simbad	083.84543	-05.41606
+      23	1	HD 48099   	O5 V((f))z + O9: V   	---            	     	     	   	   	  4	SB2     	SLF         	Simbad	100.49679	+06.34543
+      24	1	HD 159176  	O7 V((f)) + O7 V((f))	---            	     	     	   	   	  4	SB2     	EB          	Simbad	263.67705	-32.58166
+      25	1	HD 54662   	O7 Vzvar?            	---            	     	     	   	   	 12	SB2     	SLF         	Simbad	107.33437	-10.34656
+      26	1	HD 57236   	O8.5 V + ?           	---            	     	     	   	   	  6	SB2     	SLF+rot     	Simbad	109.87543	-22.00480
+      27	1	HD 75759   	O9 V + B0 V          	---            	     	     	   	   	  6	SB2     	SLF         	Simbad	132.58757	-42.08979
+      28	1	HD 37468   	O9.5 V + B0.5 V      	---            	     	     	   	   	 80	SB2     	cont.       	Simbad	084.68653	-02.60008
+      29	2	HD 66811   	O4                   	I(n)fp         	     	     	198	 12	 10	---     	SLF+rot     	Simbad	120.89603	-40.00315
+      30	2	HD 97253   	O5                   	III(f)         	 4.59	 4.16	 70	105	  2	WVa     	SLF+SPB?    	Simbad	167.67520	-60.38448
+      31	2	HD 93843   	O5                   	III(fc)        	 4.57	 4.15	 58	120	  4	WVa     	SLF+rot     	Simbad	162.15738	-60.22375
+      32	2	HD 156738  	O6.5                 	III(f)         	 4.58	 3.87	 65	103	  2	---     	SLF         	Simbad	260.21941	-36.07238
+      33	2	HD 36861   	O8                   	III((f))       	 4.55	 4.06	 53	 75	881	---     	SLF         	Simbad	083.78450	+09.93415
+      34	2	HD 150574  	ON9                  	III(n)         	 4.52	 3.87	252	   	  1	---     	SLF+rot?    	Simbad	251.03004	-46.14162
+      35	2	HD 152247  	O9.2                 	III            	 4.51	 3.94	 82	 96	  7	SB1     	SLF+SPB?    	Simbad	253.54799	-41.64194
+      36	2	HD 55879   	O9.7                 	III            	 4.49	 3.85	 26	 60	  9	---     	SLF         	Simbad	108.61772	-10.31625
+      37	2	HD 154643  	O9.7                 	III            	 4.49	 3.85	101	 78	  5	SB1     	SLF+rot?    	Simbad	257.05826	-35.00435
+      38	2	HD 152233  	O6                   	II(f)          	 4.58	 4.01	 62	105	  9	SB1?    	cont.       	Simbad	253.51496	-41.79162
+      39	2	HD 57061   	O9                   	II             	 4.51	 4.01	 57	 93	  9	WVa/SB1 	EB          	Simbad	109.67703	-24.95437
+      40	2	HD 36486   	O9.5                 	II Nwk         	 4.51	 3.99	121	 96	 65	SB1     	EB          	Simbad	083.00167	-00.29909
+      41	2	CPD-47 2963	O5                   	Ifc            	 4.57	 4.16	 67	110	  5	WVa     	SLF         	Simbad	134.47757	-47.73769
+      42	2	HD 57060   	O7                   	Iafp var       	     	     	   	   	 12	WVe/SB1 	EB          	Simbad	109.66825	-24.55870
+      43	2	HD 156154  	O7.5                 	Ib(f)          	 4.53	 4.22	 62	102	  4	WVa     	SLF+SPB?    	Simbad	259.36254	-35.53667
+      44	2	HD 112244  	O8.5                 	Iab(f)p        	 4.50	 4.15	124	 80	 12	WVe/SB1?	SLF         	Simbad	193.98806	-56.83580
+      45	2	HD 151804  	O8                   	Iaf            	 4.45	 4.33	 72	 73	  2	WVe     	SLF         	Simbad	252.89051	-41.23054
+      46	2	HD 47129   	O8                   	fp var         	     	     	   	   	  5	WVe/SB1 	EB          	Simbad	099.35017	+06.13538
+      47	2	HD 303492  	O8.5                 	Iaf            	 4.45	 4.29	 87	 55	  4	WVe     	SLF         	Simbad	162.96979	-58.97646
+      48	2	HD 152249  	OC9                  	Iab            	 4.49	 4.15	 71	 70	 19	WVe     	SLF+SPB?    	Simbad	253.54850	-41.84925
+      49	2	HD 152424  	OC9.2                	Ia             	 4.48	 4.14	 59	 66	  5	WVe/SB1 	SLF+SPB?    	Simbad	253.76387	-42.09083
+      50	2	HD 154368  	O9.5                 	Iab            	 4.48	 4.28	 65	 78	  5	WVe     	SLF+SPB?    	Simbad	256.61820	-35.45104
+      51	2	HD 152003  	O9.7                 	Iab Nwk        	 4.48	 4.12	 65	 83	  2	WVe     	SLF+rot?    	Simbad	253.19739	-41.78583
+      52	2	HD 152147  	O9.7                 	Ib Nwk         	 4.48	 4.04	 91	 64	  4	WVa/SB1 	SLF+SPB?    	Simbad	253.36924	-42.12140
+      53	2	HD 37043   	O9 III + B1 III/IV   	 ---           	     	     	   	   	 99	SB2     	SLF+SPB?    	Simbad	083.85826	-05.90990
+      54	3	HD 36960   	B0.5                 	V              	 4.46	 3.31	 23	 37	  4	---     	SLF+SPB?    	Simbad	083.76117	-06.00203
+      55	3	HD 37042   	B0.7                 	V              	 4.47	 3.06	 33	 13	 25	---     	SLF?        	Simbad	083.86000	-05.41689
+      56	3	HD 36959   	B1                   	V              	 4.41	 2.82	 11	 14	  2	---     	cont.       	Simbad	083.75419	-06.00927
+      57	3	HD 43112   	B1                   	V              	 4.41	 2.95	  7	 12	  1	---     	SLF?        	Simbad	093.78530	+13.85110
+      58	3	HD 37303   	B1.5                 	V              	 4.32	 2.88	280	   	  1	---     	hybrid      	Simbad	084.36399	-05.93839
+      59	3	HD 35912   	B2                   	V              	 4.26	 2.44	 11	 21	  2	LPV     	SPB         	Simbad	082.00613	+01.29825
+      60	3	HD 48977   	B2.5                 	V              	 4.25	 2.61	 26	  8	  1	LPV/SB2?	SPB         	Simbad	101.63506	+08.58716
+      61	3	HD 23466   	B3                   	V              	 4.20	 2.51	 75	100	  1	---     	EB          	Simbad	056.41851	+06.05000
+      62	3	HD 34816   	B0.5                 	IV             	 4.46	 3.22	 25	   	  1	---     	rot         	Simbad	079.89385	-13.17679
+      63	3	HD 46328   	B0.5                 	IV             	 4.40	 3.28	  7	 20	  2	LPV/SB1?	beta Cep    	Simbad	097.96403	-23.41842
+      64	3	HD 50707   	B1                   	IV             	 4.38	 3.31	 29	 46	  2	LPV/SB1?	beta Cep    	Simbad	103.38711	-20.22425
+      65	3	HD 37481   	B1.5                 	IV             	 4.34	 2.78	 74	 21	  2	---     	hybrid      	Simbad	084.65822	-06.57396
+      66	3	HD 16582   	B2                   	IV             	 4.34	 2.94	  9	 19	  1	---     	beta Cep    	Simbad	039.87065	+00.32851
+      67	3	HD 37209   	B2                   	IV             	 4.38	 2.76	 50	 15	  2	---     	hybrid      	Simbad	084.14872	-06.06475
+      68	3	HD 26912   	B3                   	IV             	 4.20	 2.61	 53	 30	  1	---     	SPB         	Simbad	063.88357	+08.89236
+      69	3	HD 37711   	B3                   	IV             	 4.21	 2.61	 68	 51	  3	LPV/SB1?	SPB         	Simbad	085.32382	+16.53415
+      70	3	HD 57539   	B3                   	IV             	 4.13	 2.54	162	 13	  1	---     	SPB         	Simbad	110.39430	-05.89719
+      71	3	HD 41753   	B3                   	IV             	 4.23	 2.61	 25	 40	  1	---     	SPB         	Simbad	091.89302	+14.76847
+      72	3	HD 224990  	B5                   	IV             	 4.13	 2.33	 20	 40	  1	---     	SPB         	Simbad	000.58304	-29.72044
+      73	3	HD 37018   	B1 V + ?             	---            	     	     	   	   	 33	SB2     	SLF+SPB?    	Simbad	083.84652	-04.83836
+      74	4	HD 48434   	B0                   	III            	 4.48	 3.93	 48	 82	  3	WVa     	SLF         	Simbad	100.91102	+03.93253
+      75	4	HD 61068   	B2                   	III            	 4.39	 3.08	 12	 23	  2	LPV/SB1?	beta Cep    	Simbad	114.17098	-19.70234
+      76	4	HD 35468   	B2                   	III            	 4.29	 2.99	 53	 27	  5	---     	SLF+rot?    	Simbad	081.28276	+06.34970
+      77	4	HD 44743   	B1                   	II-III         	 4.37	 3.20	 24	 40	  6	LPV/SB1?	beta Cep    	Simbad	095.67494	-17.95592
+      78	4	HD 54764   	B1                   	II             	 4.30	 3.97	123	 87	  3	---     	SLF+SPB?    	Simbad	107.38901	-16.23451
+      79	4	HD 52089   	B2                   	II             	 4.34	 3.60	 26	 50	 21	---     	SLF+rot?    	Simbad	104.65645	-28.97209
+      80	4	HD 62747   	B2                   	II             	 4.34	 3.36	 98	 29	  2	SB1     	EB          	Simbad	116.14237	-24.67408
+      81	4	HD 51309   	B3                   	II             	 4.20	 3.64	 27	 43	 11	---     	SLF         	Simbad	104.03427	-17.05424
+      82	4	HD 46769   	B5                   	II             	 4.11	 3.16	 70	 23	 25	---     	SLF+rot?    	Simbad	098.81596	+00.89022
+      83	4	HD 27563   	B7                   	II             	 4.16	 2.61	 34	 26	  1	---     	SLF+SPB     	Simbad	065.17848	-07.59250
+      84	4	HD 53244   	B8                   	II             	 4.14	 2.74	 36	 21	  3	---     	SLF+rot     	Simbad	105.93955	-15.63329
+      85	4	HD 37128   	B0                   	Ia             	 4.47	 4.05	 55	 85	281	WVe     	SLF+SPB?    	Simbad	084.05339	-01.20192
+      86	4	HD 38771   	B0.5                 	Ia             	 4.47	 4.06	 53	 83	247	WVe     	SLF+SPB?    	Simbad	086.93912	-09.66960
+      87	4	HD 53138   	B3                   	Iab            	 4.23	 4.13	 37	 56	 12	WVe     	SLF+SPB?    	Simbad	105.75613	-23.83329
+      88	4	HD 39985   	B9                   	Ib             	 4.11	 2.34	 26	 28	  7	---     	SLF?        	Simbad	089.11681	+09.50939
+      89	5	HD 37022   	O7                   	Vp             	     	     	 23	 68	 67	---     	cont.       	Simbad	083.81860	-05.38968
+      90	5	HD 46056   	O8                   	Vn             	 4.55	 3.58	370	   	  4	---     	PQ          	Simbad	097.83692	+04.83440
+      91	5	HD 37061   	O9.5                 	V              	 4.49	 3.07	210	   	  4	SB1     	rot         	Simbad	083.88069	-05.26738
+      92	5	HD 37742   	O9.2                 	Ib var Nwk     	 4.47	 4.15	122	 97	177	WVe/SB1 	SLF         	Simbad	085.18970	-01.94257
+      93	5	HD 57682   	O9.2                 	IV             	 4.54	 3.62	 12	 38	  5	---     	SLF         	Simbad	110.50856	-08.97938
+      94	5	HD 54879   	O9.7                 	V              	 4.52	 3.16	  7	 10	  8	---     	SLF?        	Simbad	107.53395	-11.80273
+      95	5	HD 37479   	B2                   	Vp             	     	     	155	 49	  2	---     	rot         	Simbad	084.69669	-02.59459
+      96	6	HD 39680   	O6                   	V:[n]pevar     	     	     	101	 31	  4	---     	SLF+SPB?    	Simbad	088.68638	+13.85474
+      97	6	HD 45314   	O9:                  	npe            	     	     	128	  4	  5	---     	SLF+SPB?    	Simbad	096.81574	+14.88923
+      98	6	HD 58978   	B0                   	IV:e           	     	     	   	   	  2	---     	beta Cep    	Simbad	111.74784	-23.08602
+

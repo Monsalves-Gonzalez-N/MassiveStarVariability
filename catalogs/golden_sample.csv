@@ -1,0 +1,1437 @@
+TIC,class_raw,class_paper,class_tokens,reference,method,period,class_is_inferred,source_table,ra_deg,dec_deg
+1152358,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+4289780,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+4373827,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+4491131,sdB candidate (Bin+R (sdB+dM?sdB+WD)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.223,False,"ApJ 989,177 Table 6 (MRT)",,
+4827953,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,107.24486,-1.01579
+5051420,SLF+rot,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.397624039133473,False,J/A+A/639/A81/table2 x tablea1,,
+5528993,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.819672131147541,False,J/AJ/163/226/table2,155.49749,-18.0345
+6110321,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3623188405797102,False,J/AJ/163/226/table2,112.255514,-8.548311
+9346617,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+9375378,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+9376301,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+10176636,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.6054001695120474,False,J/A+A/639/A81/table2 x tablea1,110.394308,-5.897167
+10176636,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,110.394308,-5.897167
+10176636,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1904761904761905,False,J/AJ/163/226/table2,110.394308,-5.897167
+10510382,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+10536200,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8547008547008548,False,J/AJ/163/226/table2,246.9534,-53.53474
+11286198,cont.,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.5956635692161067,False,J/A+A/639/A81/table2 x tablea1,,
+11286209,rot,ROT,ROT,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.5956280898207159,False,J/A+A/639/A81/table2 x tablea1,,
+11286209,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+11360636,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.571428571428571,False,J/A+A/639/A81/table2 x tablea1,85.1897,-1.94257
+11360636,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,85.1897,-1.94257
+11411724,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,85.409923,-2.259013
+11559798,Be=Y; signals=I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.425531914893617,False,J/AJ/163/226/table2,149.77637,-23.95079
+11972111,Be=Y; signals=S/I/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,146.34172,-30.20277
+12149245,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+12359289,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,0.90458,-28.41714
+12359289,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,3.0769230769230766,False,J/MNRAS/485/3457/table1,0.90458,-28.41714
+12359289,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,3.065,False,arXiv:2202.01022 Table 2,0.90458,-28.41714
+14088298,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3048780487804878,False,J/AJ/163/226/table2,77.11026,-40.91243
+14249970,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+14498757,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4716981132075471,False,J/AJ/163/226/table2,111.11521,15.51721
+14709809,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,111.8507,15.65966
+16046443,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+16876025,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,2.349,False,"ApJ 989,177 Table 6 (MRT)",,
+16876165,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+16902823,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9523809523809523,False,J/AJ/163/226/table2,264.307548,-45.157448
+17124499,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+17656164,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+18745933,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+21249978,Be=S; signals=S/I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,267.57862,-47.23054
+21343832,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+21372970,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+21599042,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+21682866,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+22123033,Be=Y; signals=S/I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5319148936170213,False,J/AJ/163/226/table2,148.52138,-27.99894
+22688271,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4716981132075471,False,J/AJ/163/226/table2,268.41493,-42.89751
+22825907,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,248.41336,-51.26262
+23037766,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9615384615384615,False,J/AJ/163/226/table2,109.576625,-36.7339527778
+23091719,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,109.659125,-36.7427361111
+23321922,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.8181818181818181,False,J/AJ/163/226/table2,269.05579,-46.70213
+23708714,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+25256180,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6211180124223602,False,J/AJ/163/226/table2,98.18017,-7.50899
+25883580,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9523809523809523,False,J/AJ/163/226/table2,248.68146,-49.55264
+26175330,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,152.531416667,-8.40816666667
+28885389,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8620689655172414,False,J/AJ/163/226/table2,249.0491,-49.26318
+29051733,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7518796992481203,False,J/AJ/163/226/table2,132.60944,-46.58458
+29122883,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.41841004184100417,False,J/AJ/163/226/table2,132.64915,-45.54896
+29207816,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0214271275520517,False,J/A+A/639/A81/table2 x tablea1,,
+29628522,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5780346820809249,False,J/AJ/163/226/table2,97.1635,-32.3712777778
+29690468,Be=Y; signals=S/I+/L/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.3513513513513513,False,J/AJ/163/226/table2,133.34172,-46.03575
+29786229,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.4084507042253522,False,J/AJ/163/226/table2,109.99744,-40.49491
+29990592,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,73.07956,-66.73148
+29990592,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,73.07956,-66.73148
+30051402,Be=Y; signals=H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3787878787878788,False,J/AJ/163/226/table2,133.78614,-43.46656
+30110048,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,73.37514,-66.9245
+30110048,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,73.37514,-66.9245
+30135331,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.25531914893617,False,J/A+A/639/A81/table2 x tablea1,,
+30268695,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,74.04357,-69.26064
+30268695,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,74.04357,-69.26064
+30275662,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,74.09789,-66.4978
+30275662,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,74.09789,-66.4978
+30275861,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,74.18013,-66.41739
+30312676,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,74.28677,-66.39033
+30312676,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,74.28677,-66.39033
+30312711,SLF / rot / EB?,ECL,ECL|ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,74.25369,-66.407
+30317301,EV / rot / SLF,ELL,ELL|ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,74.28357,-68.42008
+30317301,EB,ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,74.28357,-68.42008
+30317301,Ambiguous variability/EB/Pulsation,AMBIGUOUS,ECL|PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,74.28357,-68.42008
+30444949,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8,False,J/AJ/163/226/table2,198.66953,-38.65158
+30562668,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,134.28156,-43.25616
+30653985,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.9120458891013383,False,J/A+A/639/A81/table2 x tablea1,134.47757,-47.73769
+30653985,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,134.47757,-47.73769
+30933383,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,76.20907,-68.13121
+30933383,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,76.20907,-68.13121
+31062736,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6289308176100629,False,J/AJ/163/226/table2,135.09277,-43.17397
+31071126,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4329004329004329,False,J/AJ/163/226/table2,135.05859,-46.68569
+31105740,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,76.36298,-68.1674
+31105740,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,76.36298,-68.1674
+31181554,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,76.83509,-68.53571
+31181554,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,76.83509,-68.53571
+31449841,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4424778761061947,False,J/AJ/163/226/table2,249.54586,-48.21988
+31674330,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,47.62925,-68.60094
+31674330,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,47.62925,-68.60094
+31867144,rot / SPB + {Beta} Cep hybrid?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,52.71545,-66.48971
+31867144,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,52.71545,-66.48971
+31867144,Ambiguous variability/Rotation+SPB,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,52.71545,-66.48971
+32667467,Be=Y; signals=S,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,104.33591,-4.19375
+33287617,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2987012987012987,False,J/AJ/163/226/table2,105.84845,-2.74404
+33362448,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4081632653061224,False,J/AJ/163/226/table2,105.90491,-2.47418
+33945685,instr? ({nu}_inst_~2.8d^-1^)/puls,PULS,AMBIGUOUS|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,356.71589,-24.29362
+33945685,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.3527336860670194,False,J/MNRAS/485/3457/table1,356.71589,-24.29362
+33945685,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,356.71589,-24.29362
+33993533,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4716981132075471,False,J/AJ/163/226/table2,94.0320416667,-16.6180055556
+34512896,SLF?,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.2679738562091503,False,J/A+A/639/A81/table2 x tablea1,,
+34590771,beta Cep,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.25135732957973056,False,J/A+A/639/A81/table2 x tablea1,95.67494,-17.95592
+34590771,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,95.67494,-17.95592
+35311214,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4291845493562232,False,J/AJ/163/226/table2,249.84824,-52.53593
+35735021,Be=Y; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,249.95846,-52.12105
+37777866,SLF+SPB,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.546099290780142,False,J/A+A/639/A81/table2 x tablea1,65.17848,-7.5925
+37777866,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,65.17848,-7.5925
+38118168,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,136.92442,-29.00331
+38602305,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,64.4178,-63.25541
+38602305,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.976190476190476,False,J/MNRAS/485/3457/table1,64.4178,-63.25541
+38602305,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,2.9686,False,arXiv:2202.01022 Table 2,64.4178,-63.25541
+39174351,sdB candidate (EB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.276,False,"ApJ 989,177 Table 6 (MRT)",,
+39947484,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+40343782,SLF / SPB?,PULS,PULS|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,77.43831,-68.76941
+40343782,ACYG?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,77.43831,-68.76941
+41331819,rot / outburst?,BE,BE|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,92.18442,-68.84341
+41331819,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.400560224089636,False,J/MNRAS/485/3457/table1,92.18442,-68.84341
+41331819,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.40032,False,arXiv:2202.01022 Table 2,92.18442,-68.84341
+41792209,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.2690355329949239,False,J/A+A/639/A81/table2 x tablea1,256.6182,-35.45104
+41792209,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,256.6182,-35.45104
+42753726,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,228.81742,-58.17288
+42889751,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1764705882352942,False,J/AJ/163/226/table2,97.0941,-4.46214
+43284243,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,9.174311926605505,False,J/A+A/639/A81/table2 x tablea1,257.05826,-35.00435
+43284243,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,257.05826,-35.00435
+43708176,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4587155963302752,False,J/AJ/163/226/table2,229.28782,-57.0289
+46028220,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5128205128205129,False,J/AJ/163/226/table2,131.677291667,-56.769775
+46211527,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4,False,J/AJ/163/226/table2,230.50626,-55.23843
+46226875,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4926108374384237,False,J/AJ/163/226/table2,132.2251,-54.27296
+46705199,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4347826086956522,False,J/AJ/163/226/table2,230.844333333,-59.3207805556
+47296054,rot / SPB / Be,BE,BE|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,340.163916667,-27.0436166667
+47296054,SPB+ROT,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.1961722488038278,False,J/MNRAS/485/3457/table1,340.163916667,-27.0436166667
+47296054,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1904761904761905,False,J/AJ/163/226/table2,340.163916667,-27.0436166667
+47296054,Ambiguous variability/Rotation+Pulsation,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,340.163916667,-27.0436166667
+47377536,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+47581488,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+47583864,Pulsation (IGW?),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,2.374,False,"ApJ 989,177 Table 4 (article HTML)",,
+47763235,beta Cep,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.2095777009326208,False,J/A+A/639/A81/table2 x tablea1,97.96403,-23.41842
+47763235,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,97.96403,-23.41842
+47763235,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.203,False,"ApJ 989,177 Table 4 (article HTML)",97.96403,-23.41842
+48022676,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,6.449,False,"ApJ 989,177 Table 2 (article HTML)",,
+48217508,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.785,False,"ApJ 989,177 Table 2 (article HTML)",,
+48503549,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.936,False,"ApJ 989,177 Table 4 (article HTML)",,
+49687057,instr / binary?,OTHER,AMBIGUOUS|OTHER,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,351.68955,-11.0326
+49687057,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,351.68955,-11.0326
+49687057,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,351.68955,-11.0326
+50743458,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+50743469,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.862049227246709,False,J/A+A/639/A81/table2 x tablea1,,
+50787573,Pulsation (SPB?),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.542,False,"ApJ 989,177 Table 4 (article HTML)",,
+51033628,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4716981132075471,False,J/AJ/163/226/table2,127.58529,-10.61622
+51288359,Be=S; signals=S/I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,251.96419,-51.76774
+52638345,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.639344262295082,False,J/AJ/163/226/table2,101.118625,-31.070525
+52665242,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8771929824561404,False,J/AJ/163/226/table2,99.1472083333,-5.21114166667
+52686322,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7692307692307692,False,J/AJ/163/226/table2,101.379958333,-30.9489805556
+52748770,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,99.27393,-2.17903
+52929072,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7874015748031495,False,J/AJ/163/226/table2,125.84543,-45.75304
+53063082,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,102.597291667,-31.7060583333
+53301259,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5434782608695652,False,J/AJ/163/226/table2,126.32417,-45.16262
+53327951,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,100.00659,-4.69874
+53992511,rot / SPB / Be,BE,BE|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,331.153208333,-26.8223611111
+53992511,BE(BE),BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,331.153208333,-26.8223611111
+53992511,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6666666666666666,False,J/AJ/163/226/table2,331.153208333,-26.8223611111
+53992511,Ambiguous variability/Rotation/SPB,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,331.153208333,-26.8223611111
+55295028,rot / SPB / Be,BE,BE|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,76.80385,-61.80512
+55295028,BE,BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,76.80385,-61.80512
+55295028,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1627906976744187,False,J/AJ/163/226/table2,76.80385,-61.80512
+55295028,Ambiguous variability/Pulsation+Rot,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,76.80385,-61.80512
+55642026,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+55753808,sdB candidate (EB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.202,False,"ApJ 989,177 Table 6 (MRT)",,
+56179720,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.36986301369863,False,J/AJ/163/226/table2,71.0221666667,-8.50356666667
+56447057,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5649717514124294,False,J/AJ/163/226/table2,253.01404,-53.82939
+56863037,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+57189056,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+57257430,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+58105597,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,2.749,False,"ApJ 989,177 Table 6 (MRT)",,
+59215060,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.2207417277370642,False,J/A+A/639/A81/table2 x tablea1,85.32382,16.53415
+59215060,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,85.32382,16.53415
+61678783,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1363636363636365,False,J/AJ/163/226/table2,109.40164,-9.41444
+63198307,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.273504273504273,False,J/A+A/639/A81/table2 x tablea1,104.65645,-28.97209
+63198307,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,104.65645,-28.97209
+63719894,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+65403216,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.729,False,"ApJ 989,177 Table 2 (article HTML)",,
+65672662,Be=Y; signals=S/I/L/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5181347150259068,False,J/AJ/163/226/table2,113.99079,-3.36828
+65803653,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7518796992481203,False,J/AJ/163/226/table2,108.563375,-26.3525083333
+65903024,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.6129032258064517,False,J/AJ/163/226/table2,108.702708333,-26.7726694444
+66497441,EV / rot? / SPB?,ELL,ELL|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,356.05033,-18.27695
+66497441,ELL,ELL,ELL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,356.05033,-18.27695
+66497441,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,356.05033,-18.27695
+66651575,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,16.949152542372882,False,J/A+A/639/A81/table2 x tablea1,86.93912,-9.6696
+66651575,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,86.93912,-9.6696
+67423472,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.189,False,"ApJ 989,177 Table 6 (MRT)",,
+68003064,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,115.88389,-4.68065
+68495594,sdB candidate (Bin),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.037,False,"ApJ 989,177 Table 6 (MRT)",,
+68873560,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+69025787,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+69925250,known {Beta} Cep,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,339.40952,-18.66424
+69925250,BCEP+SPB(BCEP),PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,339.40952,-18.66424
+70966650,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5988023952095809,False,J/AJ/163/226/table2,236.51295,-58.95244
+71132174,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7246376811594204,False,J/AJ/163/226/table2,67.278875,-13.0483666667
+71146552,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+71727949,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,91.05625,-6.70893888889
+73039225,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8849557522123894,False,J/AJ/163/226/table2,120.18388,-2.88191
+73759997,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,263.29733,-58.55751
+75047606,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6060606060606061,False,J/AJ/163/226/table2,138.393541667,-47.3384055556
+75210369,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5464480874316939,False,J/AJ/163/226/table2,138.66093,-45.57603
+75581184,Be=Y; signals=I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3717472118959108,False,J/AJ/163/226/table2,139.16548,-44.4346
+75708438,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,237.17326,-54.86311
+76336597,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1111111111111112,False,J/AJ/163/226/table2,140.17549,-42.17851
+76343753,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+76556351,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.4285714285714286,False,J/AJ/163/226/table2,237.16108,-57.10397
+78897024,beta Cep,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.1845427031815162,False,J/A+A/639/A81/table2 x tablea1,103.38711,-20.22425
+78897024,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,103.38711,-20.22425
+80466973,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,7.94912559618442,False,J/A+A/639/A81/table2 x tablea1,105.75613,-23.83329
+80466973,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,105.75613,-23.83329
+80719034,Be=Y; signals=I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.33557046979865773,False,J/AJ/163/226/table2,122.09117,-47.15797
+80899869,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6535947712418301,False,J/AJ/163/226/table2,122.17309,-42.05634
+81584371,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2987012987012987,False,J/AJ/163/226/table2,106.844125,-23.8407194444
+81615536,Be=Y; signals=I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,123.4402,-46.57868
+81859368,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4566210045662101,False,J/AJ/163/226/table2,123.71353,-46.48584
+82286180,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+82370215,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,124.51174,-45.64217
+84513533,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8928571428571428,False,J/AJ/163/226/table2,238.59092,-55.32899
+85001695,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5025125628140703,False,J/AJ/163/226/table2,250.17693,-41.12698
+85145647,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+85400193,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+85407360,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+85979436,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+86430323,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+88021496,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+88484868,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+88565376,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+89545031,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,357.83891,-18.90916
+89545031,SXARI(ACV),ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,3.7593984962406015,False,J/MNRAS/485/3457/table1,357.83891,-18.90916
+89545031,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,3.75413,False,arXiv:2202.01022 Table 2,357.83891,-18.90916
+89593655,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6211180124223602,False,J/AJ/163/226/table2,239.02487,-54.95264
+90296023,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,128.09732,-49.60138
+90836305,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6535947712418301,False,J/AJ/163/226/table2,239.28151,-57.58022
+91198426,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+91689592,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4484304932735426,False,J/AJ/163/226/table2,88.504506,12.684274
+91791971,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.5927682276229994,False,J/A+A/639/A81/table2 x tablea1,,
+92124675,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+92136299,SPB+Be-type mini-outbursts / rot,BE,BE|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,355.68061,-14.54491
+92136299,ROT+FLARE?,ROT,OTHER|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.44424700133274103,False,J/MNRAS/485/3457/table1,355.68061,-14.54491
+92136299,SPB+Flares,PULS,OTHER|PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,355.68061,-14.54491
+95513457,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0408163265306123,False,J/A+A/639/A81/table2 x tablea1,107.38901,-16.23451
+95513457,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,107.38901,-16.23451
+95526898,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.241,False,"ApJ 989,177 Table 6 (MRT)",,
+95767039,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+95856782,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+99091407,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+99641129,sdB candidate (EB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.092,False,"ApJ 989,177 Table 6 (MRT)",,
+99899463,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+99954966,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+100013600,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+100589904,PQ,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.1977482333213558,False,J/A+A/639/A81/table2 x tablea1,86.49956,-32.30643
+100589904,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,86.49956,-32.30643
+100728163,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+101167744,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+101548929,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+102281507,SLF?,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.4916201117318435,False,J/A+A/639/A81/table2 x tablea1,89.11681,9.50939
+102281507,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,89.11681,9.50939
+102643159,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.6866250632484399,False,J/A+A/639/A81/table2 x tablea1,,
+106347931,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.640861317610869,False,J/A+A/639/A81/table2 x tablea1,109.67703,-24.95437
+106347931,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,109.67703,-24.95437
+106349204,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.1963540522732266,False,J/A+A/639/A81/table2 x tablea1,,
+110798652,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.908,False,"ApJ 989,177 Table 2 (article HTML)",,
+112679272,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6172839506172839,False,J/AJ/163/226/table2,269.51872,-41.52948
+115177591,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,317.17202,-37.2427
+115177591,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.5760368663594471,False,J/MNRAS/485/3457/table1,317.17202,-37.2427
+115177591,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,317.17202,-37.2427
+115286784,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+116043802,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+118269334,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,3.138,False,"ApJ 989,177 Table 6 (MRT)",,
+118298029,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+118327563,ROT+FLARE?,ROT,OTHER|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.22872827081427266,False,J/MNRAS/485/3457/table1,10.74294,-38.12703
+118327563,Ambiguous variability/sdB Pulsation?,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,10.74294,-38.12703
+118334802,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+118842700,Be=Y; signals=S/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,274.281375,-56.0233527778
+120638388,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+121345684,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9090909090909091,False,J/AJ/163/226/table2,254.73675,-46.12899
+121689850,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1494252873563218,False,J/AJ/163/226/table2,254.98716,-43.22079
+121905577,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0204081632653061,False,J/AJ/163/226/table2,255.10518,-42.31675
+123036723,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.425531914893617,False,J/AJ/163/226/table2,113.52862,-46.64378
+123545883,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,102.889196,-6.966449
+123828144,Be=Y; signals=I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,116.06479,-43.01787
+124328133,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.38759689922480617,False,J/AJ/163/226/table2,104.25594,-6.21823
+124407255,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6711409395973155,False,J/AJ/163/226/table2,104.289483,-8.541935
+124921846,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.282051282051282,False,J/AJ/163/226/table2,95.151,-34.1441444444
+125406140,Be=Y; signals=S/I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,105.55697,-6.30245
+125759847,Be=Y; signals=I/L/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4115226337448559,False,J/AJ/163/226/table2,256.72796,-44.73369
+126125347,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0869565217391304,False,J/AJ/163/226/table2,228.08129,-53.65803
+126460390,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,228.25841,-50.73509
+126586580,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.9607843137254901,False,J/A+A/639/A81/table2 x tablea1,,
+126899506,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.819672131147541,False,J/AJ/163/226/table2,137.11441,-52.57775
+127493611,Be=Y; signals=S/I/L/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,117.021541667,-25.9371694444
+129361218,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+131104893,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.639344262295082,False,J/AJ/163/226/table2,117.46758,-40.91447
+133422778,SLF+rot,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.76678445229682,False,J/A+A/639/A81/table2 x tablea1,,
+134653865,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.7857142857142856,False,J/AJ/163/226/table2,182.227458333,-41.2316027778
+136975077,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+137306463,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.282,False,"ApJ 989,177 Table 6 (MRT)",,
+137504709,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+137608661,sdB candidate (Bin+R (sdBV+dM)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.289,False,"ApJ 989,177 Table 6 (MRT)",,
+137714020,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+138187342,Be=Y; signals=L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5263157894736842,False,J/AJ/163/226/table2,230.83395,-50.11624
+138440897,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+138618727,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.332,False,"ApJ 989,177 Table 6 (MRT)",,
+139271306,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+139385056,beta Cep,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.11122233344455568,False,J/A+A/639/A81/table2 x tablea1,111.747833333,-23.0860222222
+139385056,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,111.747833333,-23.0860222222
+139468902,rot / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,337.5656,-42.29107
+139468902,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.45475216007276037,False,J/MNRAS/485/3457/table1,337.5656,-42.29107
+139468902,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,0.45707,False,arXiv:2202.01022 Table 2,337.5656,-42.29107
+139472176,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2987012987012987,False,J/AJ/163/226/table2,35.75218,-29.61945
+139723188,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+139870215,Be=Y; signals=S/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7518796992481203,False,J/AJ/163/226/table2,126.86731,-47.72878
+140001327,Be=Y; signals=S/I/L/H/V/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6369426751592356,False,J/AJ/163/226/table2,127.21694,-42.58748
+140006471,Be=Y; signals=I/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.47846889952153115,False,J/AJ/163/226/table2,127.281541667,-44.1604138889
+140031673,Be=S; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2658227848101264,False,J/AJ/163/226/table2,126.380541667,-51.7274166667
+140132301,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,127.33621,-43.84224
+140300162,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2345679012345678,False,J/AJ/163/226/table2,126.96036,-50.10002
+141037731,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.36900369003690037,False,J/AJ/163/226/table2,231.48024,-53.77106
+141281495,rot?,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,83.24848,-75.23678
+141281495,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.994011976047904,False,J/MNRAS/485/3457/table1,83.24848,-75.23678
+141281495,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,3.0086,False,arXiv:2202.01022 Table 2,83.24848,-75.23678
+141602548,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+141620982,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+141898455,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5649717514124294,False,J/AJ/163/226/table2,130.21221,-46.09592
+141973945,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,178.227166667,-33.9081305556
+142491300,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+142781574,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+143543729,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,118.29953,-45.21878
+144028101,Be=Y; signals=L/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,229.633416667,-47.8752777778
+145373620,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7042253521126761,False,J/AJ/163/226/table2,132.14332,-50.37032
+145506624,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.7241379310344829,False,J/AJ/163/226/table2,132.47403,-48.06083
+146036695,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9615384615384615,False,J/AJ/163/226/table2,123.373,-35.8995194444
+146454560,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.3333333333333333,False,J/AJ/163/226/table2,232.60006,-51.11001
+146908355,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,8.992805755395684,False,J/A+A/639/A81/table2 x tablea1,104.03427,-17.05424
+146908355,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,104.03427,-17.05424
+147244857,Be=S; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,124.90855,-31.82346
+147283842,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,324.79423,-46.09765
+147283842,Noisy+Ambiguous variability,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,324.79423,-46.09765
+148109427,SLF+rot,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,6.25,False,J/A+A/639/A81/table2 x tablea1,105.93955,-15.63329
+148109427,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,105.93955,-15.63329
+148506724,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.88235294117647,False,J/A+A/639/A81/table2 x tablea1,106.64986,-12.39395
+148506724,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,106.64986,-12.39395
+148624156,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+148785530,sdB candidate (Bin (sdB+dM)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.157,False,"ApJ 989,177 Table 6 (MRT)",,
+149039372,rot? / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,78.35474,-65.23611
+149039372,SPB?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,78.35474,-65.23611
+149039372,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,0.32226,False,arXiv:2202.01022 Table 2,78.35474,-65.23611
+149368979,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+149441063,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+149442831,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+149468778,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+149971754,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,90.01184,-61.828
+149971754,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,90.01184,-61.828
+150357404,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,96.23249,-63.82814
+150357404,SPB+ROT?,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.5625,False,J/MNRAS/485/3457/table1,96.23249,-63.82814
+150357404,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,96.23249,-63.82814
+150362541,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+150442264,EB + puls/rot,ECL,ECL|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,97.79433,-61.87954
+150442264,EB(EB:),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,97.79433,-61.87954
+150442264,Rotation ($a$),ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.490911,False,arXiv:2202.01022 Table 2,97.79433,-61.87954
+151131426,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,232.07259,-45.13494
+151300497,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,258.830208333,-33.5484194444
+151464886,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.5151515151515151,False,J/A+A/639/A81/table2 x tablea1,91.89302,14.76847
+151464886,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,91.89302,14.76847
+152283270,instr / binary(transit),ECL,AMBIGUOUS|ECL|OTHER,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,329.23144,-35.35983
+152283270,EA+ROT?,ECL,ECL|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.3041474654377883,False,J/MNRAS/485/3457/table1,329.23144,-35.35983
+152283270,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,329.23144,-35.35983
+152659955,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.219409282700422,False,J/A+A/639/A81/table2 x tablea1,259.36254,-35.53667
+152659955,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,259.36254,-35.53667
+153541389,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6172839506172839,False,J/AJ/163/226/table2,93.42578,8.7124
+153976829,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+154510451,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+155573117,Be=S; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,123.51541,-28.32386
+156423894,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+156623726,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+156627345,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.4084507042253522,False,J/AJ/163/226/table2,90.89269,9.66518
+157982674,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+158387021,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.573,False,"ApJ 989,177 Table 6 (MRT)",,
+158490159,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.239,False,"ApJ 989,177 Table 2 (article HTML)",,
+158734620,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3472222222222222,False,J/AJ/163/226/table2,87.19155,0.72555
+158918567,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+159059628,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6666666666666666,False,J/AJ/163/226/table2,88.36309,0.77922
+159502560,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.542,False,"ApJ 989,177 Table 4 (article HTML)",,
+159923054,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+160401972,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7142857142857143,False,J/AJ/163/226/table2,222.98999,-40.80584
+160553438,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.832,False,"ApJ 989,177 Table 4 (article HTML)",,
+160583519,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+160603215,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+162128750,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,0.238,False,"ApJ 989,177 Table 2 (article HTML)",,
+162576788,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+162594193,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+162616331,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.456,False,"ApJ 989,177 Table 4 (article HTML)",,
+165312944,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+165547989,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.969,False,"ApJ 989,177 Table 6 (MRT)",,
+165650748,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,2.032,False,"ApJ 989,177 Table 6 (MRT)",,
+165797593,sdB candidate (EB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.355,False,"ApJ 989,177 Table 6 (MRT)",,
+166703712,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4347826086956522,False,J/AJ/163/226/table2,208.36758,-39.05722
+167045028,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,95.519,-69.27323
+167045028,EB?,ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,3.03951367781155,False,J/MNRAS/485/3457/table1,95.519,-69.27323
+167045028,Ambiguous variability/Rotation?/EB?,AMBIGUOUS,ECL|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,95.519,-69.27323
+167107487,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.3157894736842106,False,J/AJ/163/226/table2,93.89883,7.65231
+167110617,Be=Y; signals=I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,93.917405,6.066178
+167415960,const?,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,99.28993,-70.91771
+167415960,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,99.28993,-70.91771
+167415960,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,99.28993,-70.91771
+167523976,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,100.60144,-65.74263
+167523976,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,100.60144,-65.74263
+167746025,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+168115492,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,101.52358,-5.969696
+168505959,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,193.67212,-52.48407
+168627067,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.684931506849315,False,J/AJ/163/226/table2,107.19998,-4.05745
+169285097,sdBhybrid,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,356.0917,-34.45011
+169285097,Ambiguous variability/Pulsation,AMBIGUOUS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,356.0917,-34.45011
+171895762,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.641025641025641,False,J/AJ/163/226/table2,255.44746,-58.95826
+171896106,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,255.47534,-59.0476
+172570604,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+173008025,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+173381049,Be=Y; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,111.74772,-41.62909
+173956099,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4694835680751174,False,J/AJ/163/226/table2,113.46199,-40.92995
+174008063,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1494252873563218,False,J/AJ/163/226/table2,113.462666667,-36.3383916667
+174121793,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.819672131147541,False,J/AJ/163/226/table2,258.63889,-54.37012
+175402069,sdB candidate (EB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.098,False,"ApJ 989,177 Table 6 (MRT)",,
+175523591,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3968253968253968,False,J/AJ/163/226/table2,116.543916667,-37.9336694444
+175599737,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+176935619,instr? ({nu}_inst_~2.8d^-1^),AMBIGUOUS,AMBIGUOUS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,100.60644,-67.8431
+176935619,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.363901018922853,False,J/MNRAS/485/3457/table1,100.60644,-67.8431
+176935619,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,100.60644,-67.8431
+176955379,SPB / rot,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,100.77769,-69.29778
+176955379,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.334001336005344,False,J/MNRAS/485/3457/table1,100.77769,-69.29778
+176955379,Ambiguous variability/Pulsation+Rot,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,100.77769,-69.29778
+177075997,instr / rot?,ROT,AMBIGUOUS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,102.86244,-70.96341
+177075997,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.8409090909090913,False,J/MNRAS/485/3457/table1,102.86244,-70.96341
+177075997,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,102.86244,-70.96341
+177204351,Be=Y; signals=S,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,106.39672,-8.72889
+177717406,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.4084507042253522,False,J/A+A/639/A81/table2 x tablea1,,
+177853845,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5464480874316939,False,J/AJ/163/226/table2,107.54728,-9.33631
+177860391,SLF?,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.998003992015968,False,J/A+A/639/A81/table2 x tablea1,107.53395,-11.80273
+177860391,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,107.53395,-11.80273
+177860391,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",107.53395,-11.80273
+178489528,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.504504504504505,False,J/A+A/639/A81/table2 x tablea1,108.61772,-10.31625
+178489528,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,108.61772,-10.31625
+178719204,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,125.33446,-1.60201
+179308923,SLF? / SPB?,PULS,PULS|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,79.8239,-69.65399
+179308923,ACYG+EB?,ECL,ECL|PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,79.8239,-69.65399
+179574710,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,80.36637,-71.93865
+179574710,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,80.36637,-71.93865
+179637387,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,80.57186,-67.94916
+179637387,ACYG?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,80.57186,-67.94916
+179639066,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,80.75276,-67.18946
+179639066,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,80.75276,-67.18946
+180092491,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6211180124223602,False,J/AJ/163/226/table2,188.88531,-64.22124
+181043970,EA(EA/SD),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,12.94416,-71.99803
+181506336,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5617977528089888,False,J/AJ/163/226/table2,131.25842,-41.51618
+181600430,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7692307692307692,False,J/AJ/163/226/table2,131.59902,-41.12536
+182909257,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,16.38045,-77.58465
+182909257,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,3.134796238244514,False,J/MNRAS/485/3457/table1,16.38045,-77.58465
+182909257,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,3.139,False,arXiv:2202.01022 Table 2,16.38045,-77.58465
+184427882,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+186484490,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.243,False,"ApJ 989,177 Table 6 (MRT)",,
+186513548,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+186979808,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.6129032258064517,False,J/AJ/163/226/table2,134.20101,-30.18387
+187458882,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.4843205574912894,False,J/A+A/639/A81/table2 x tablea1,110.50855,-8.97936
+187458882,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,110.50855,-8.97936
+187458882,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,110.50855,-8.97936
+187458882,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",110.50855,-8.97936
+188633484,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+189271286,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6535947712418301,False,J/AJ/163/226/table2,141.68701,-28.78774
+190393155,Be=Y; signals=S/I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,132.86672,-41.85731
+190558492,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9803921568627451,False,J/AJ/163/226/table2,235.58253,-49.99804
+191312952,Be=S; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.31746031746031744,False,J/AJ/163/226/table2,221.65334,-56.41896
+192063894,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+193600962,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+195288472,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.1185682326621924,False,J/A+A/639/A81/table2 x tablea1,260.21941,-36.07238
+195288472,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,260.21941,-36.07238
+197641601,instr / rot,ROT,AMBIGUOUS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,328.48215,-37.36487
+197641601,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,4.975124378109452,False,J/MNRAS/485/3457/table1,328.48215,-37.36487
+197641601,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,4.987,False,arXiv:2202.01022 Table 2,328.48215,-37.36487
+198106374,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+198240464,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,2.296,False,"ApJ 989,177 Table 6 (MRT)",,
+198279946,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,5.577,False,"ApJ 989,177 Table 2 (article HTML)",,
+198386262,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.444,False,"ApJ 989,177 Table 6 (MRT)",,
+198388195,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.453,False,"ApJ 989,177 Table 2 (article HTML)",,
+198390914,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+198456386,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.522,False,"ApJ 989,177 Table 4 (article HTML)",,
+198537188,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+198614726,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+199572361,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+199687979,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+199713570,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+200519617,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0416666666666667,False,J/AJ/163/226/table2,82.92099,9.22604
+202148345,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.937984496124031,False,J/A+A/639/A81/table2 x tablea1,101.63506,8.58716
+202148345,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,101.63506,8.58716
+202351745,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+202352600,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+202354658,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+202442617,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,0.161,False,"ApJ 989,177 Table 5 (article HTML)",,
+202444159,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+202466623,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,3.405,False,"ApJ 989,177 Table 6 (MRT)",,
+202491630,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+203452834,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,217.66859,-22.4609
+206362352,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,356.81665,-50.22646
+206362352,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,356.81665,-50.22646
+206547467,rot / const? / SPB?,ROT,NOISY|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,333.28927,-21.406
+206547467,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,4.291845493562231,False,J/MNRAS/485/3457/table1,333.28927,-21.406
+206547467,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,333.28927,-21.406
+206792542,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6578947368421053,False,J/AJ/163/226/table2,96.708679,10.932118
+206840215,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,96.845243,8.41192
+207020262,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.3333333333333333,False,J/AJ/163/226/table2,97.500775,8.295943
+207043038,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9009009009009008,False,J/AJ/163/226/table2,97.78982,11.25139
+207176480,SPB? / SLF? / Be,BE,BE|PULS|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,47.10865,-59.37373
+207176480,BE,BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,47.10865,-59.37373
+207176480,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,47.10865,-59.37373
+207235278,EV / rot,ELL,ELL|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,49.60301,-55.82253
+207235278,ELL,ELL,ELL,2019MNRAS.485.3457B (Balona+ 2019),visual,1.7921146953405016,False,J/MNRAS/485/3457/table1,49.60301,-55.82253
+207235278,Binary,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,49.60301,-55.82253
+207440585,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+207580161,Be=S; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,206.78069,-57.6749
+207633164,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.35714285714285715,False,J/AJ/163/226/table2,206.99793,-57.69508
+207881543,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6097560975609756,False,J/AJ/163/226/table2,207.60875,-59.74802
+208495676,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4504504504504504,False,J/AJ/163/226/table2,244.9813,-58.16719
+208580496,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5235602094240838,False,J/AJ/163/226/table2,244.80932,-54.96164
+209829040,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7407407407407407,False,J/AJ/163/226/table2,210.96528,-59.46311
+210506327,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,212.1876,-59.71707
+211750828,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4716981132075471,False,J/AJ/163/226/table2,255.11954,-49.25415
+212551379,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5988023952095809,False,J/AJ/163/226/table2,256.18347,-51.40822
+212755033,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5235602094240838,False,J/AJ/163/226/table2,256.52963,-48.41867
+212806475,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6756756756756757,False,J/AJ/163/226/table2,256.56283,-52.48225
+213153401,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,257.13155,-49.46774
+215511795,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6535947712418301,False,J/AJ/163/226/table2,242.23062,-51.96199
+215983126,Be=S; signals=S/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,242.69756,-49.0221
+216158265,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,258.43235,-44.72917
+216649528,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4504504504504504,False,J/AJ/163/226/table2,259.07328,-42.33906
+216662610,SLF+SPB,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.6108735491753207,False,J/A+A/639/A81/table2 x tablea1,259.10972,-42.66781
+216662610,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,259.10972,-42.66781
+216775415,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.625,False,J/AJ/163/226/table2,259.37782,-47.73961
+216875138,Be=Y; signals=I+/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,259.49877,-42.0606
+217134952,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,259.85259,-44.22299
+217597679,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6024096385542169,False,J/AJ/163/226/table2,260.80651,-42.8292
+217667184,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5376344086021505,False,J/AJ/163/226/table2,260.817,-47.4681972222
+218139464,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2048192771084338,False,J/AJ/163/226/table2,261.9784,-47.02622
+218854809,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7246376811594204,False,J/AJ/163/226/table2,263.48499,-45.62723
+219492314,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+219509849,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+219773853,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+220114410,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6802721088435374,False,J/AJ/163/226/table2,98.793411,6.571684
+220197273,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.60790273556231,False,J/A+A/639/A81/table2 x tablea1,,
+220322383,SLF+beta Cep,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.07972256547215689,False,J/A+A/639/A81/table2 x tablea1,100.244416667,9.89575555556
+220322383,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,100.244416667,9.89575555556
+220322383,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,100.244416667,9.89575555556
+220323146,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.949,False,"ApJ 989,177 Table 2 (article HTML)",,
+220430912,EB + puls,ECL,ECL|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,73.11768,-55.69706
+220430912,EA(EA),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,73.11768,-55.69706
+220573709,sdB candidate (Bin/Syst),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.906,False,"ApJ 989,177 Table 6 (MRT)",,
+220728104,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.49751243781094534,False,J/AJ/163/226/table2,246.00532,-55.45371
+221040358,Be=Y; signals=S/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,246.97571,-59.84876
+221092292,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,247.05122,-54.60889
+221155177,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,247.11273,-56.39764
+223994987,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6993006993006994,False,J/AJ/163/226/table2,246.44251,-45.54286
+224244458,rot + mini-outburst?,BE,BE|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,353.24275,-37.8182666667
+224244458,SXARI+FLARE,ROT,OTHER|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.9157088122605364,False,J/MNRAS/485/3457/table1,353.24275,-37.8182666667
+224244458,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,353.24275,-37.8182666667
+224244458,Rotation ($b$),ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.9311,False,arXiv:2202.01022 Table 2,353.24275,-37.8182666667
+224607716,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,0.494,False,"ApJ 989,177 Table 5 (article HTML)",,
+224802716,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,246.77941,-43.38802
+225735711,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,247.20785,-44.8126
+229013861,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,329.66009,-32.35546
+229013861,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.3640661938534278,False,J/MNRAS/485/3457/table1,329.66009,-32.35546
+229013861,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,329.66009,-32.35546
+229355590,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6097560975609756,False,J/AJ/163/226/table2,98.43091,8.03615
+229356387,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9259259259259258,False,J/AJ/163/226/table2,98.38432,8.335562
+229452839,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.342,False,"ApJ 989,177 Table 2 (article HTML)",,
+229479255,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+229486109,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+229593795,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+229664008,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+229670516,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,3.699,False,"ApJ 989,177 Table 2 (article HTML)",,
+229751806,sdB candidate (Bin+R (sdB+dM/BD)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.327,False,"ApJ 989,177 Table 6 (MRT)",,
+229793060,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.061,False,"ApJ 989,177 Table 2 (article HTML)",,
+229966103,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.993,False,"ApJ 989,177 Table 4 (article HTML)",,
+230004050,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+230376298,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+230981971,rot / SPB? / Be,BE,BE|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,24.42852,-57.23675
+230981971,BE(BE),BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,24.42852,-57.23675
+230981971,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,24.42852,-57.23675
+231122278,rot / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,69.55501,-68.81166
+231122278,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,69.55501,-68.81166
+231122278,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,4.549,False,arXiv:2202.01022 Table 2,69.55501,-68.81166
+231154751,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.5246226558926665,False,J/A+A/639/A81/table2 x tablea1,,
+231942365,Be=Y; signals=S/I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,93.98565,-44.61962
+232521983,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+232615474,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+232633722,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,1.635,False,"ApJ 989,177 Table 6 (MRT)",,
+232643392,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.012,False,"ApJ 989,177 Table 2 (article HTML)",,
+233056547,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233073319,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233094446,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233121908,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.544,False,"ApJ 989,177 Table 4 (article HTML)",,
+233130512,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233170098,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233211303,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233387809,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.744,False,"ApJ 989,177 Table 4 (article HTML)",,
+233497379,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233535488,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233539736,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,0.316,False,"ApJ 989,177 Table 5 (article HTML)",,
+233563508,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.819672131147541,False,J/AJ/163/226/table2,250.56854,-47.01566
+233571681,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233613741,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.693,False,"ApJ 989,177 Table 4 (article HTML)",,
+233635622,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+233969306,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9523809523809523,False,J/AJ/163/226/table2,100.624113,0.899506
+234009943,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.8244023083264632,False,J/A+A/639/A81/table2 x tablea1,100.66895,1.71618
+234009943,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,100.66895,1.71618
+234052684,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,29.41176470588235,False,J/A+A/639/A81/table2 x tablea1,100.91102,3.93253
+234052684,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,100.91102,3.93253
+234230792,Be=Y; signals=S/I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7299270072992701,False,J/AJ/163/226/table2,101.98861,0.77611
+234422456,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7194244604316548,False,J/AJ/163/226/table2,250.78103,-46.50655
+234648113,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.3986013986013988,False,J/A+A/639/A81/table2 x tablea1,251.03004,-46.14162
+234648113,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,251.03004,-46.14162
+234752189,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.684931506849315,False,J/AJ/163/226/table2,251.07296,-44.77174
+234752466,Be=Y; signals=S/I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,250.92613,-45.46263
+234806470,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9174311926605504,False,J/AJ/163/226/table2,97.57348,2.84792
+234813367,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,97.63724,5.867
+234834992,PQ,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.4847309743092583,False,J/A+A/639/A81/table2 x tablea1,97.83692,4.8344
+234834992,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,97.83692,4.8344
+234835218,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,97.87399,4.91364
+234840662,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.7761989342806397,False,J/A+A/639/A81/table2 x tablea1,97.98134,4.94286
+234840662,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,97.98134,4.94286
+234853418,Be=Y; signals=I+/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4115226337448559,False,J/AJ/163/226/table2,98.068329,1.174704
+234881667,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.524861878453039,False,J/A+A/639/A81/table2 x tablea1,98.03878,4.82353
+234881667,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,98.03878,4.82353
+234887704,Be=Y; signals=S/I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,98.17395,4.894
+234929785,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1627906976744187,False,J/AJ/163/226/table2,98.24691,5.80036
+234933368,Be=Y; signals=L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.3157894736842106,False,J/AJ/163/226/table2,98.40623,4.81306
+234933597,Be=Y; signals=S/I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,98.4767,4.66238
+234933888,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,6.882312456985547,False,J/A+A/639/A81/table2 x tablea1,,
+234947719,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.1614401858304297,False,J/A+A/639/A81/table2 x tablea1,98.59821,2.53415
+234947719,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,98.59821,2.53415
+235376820,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,103.55762,6.68797
+235488755,Be=Y; signals=S/I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,104.2583,9.2704
+235540713,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4424778761061947,False,J/AJ/163/226/table2,104.48332,6.54913
+235716106,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+235716442,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+236770588,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+236773991,Pulsation (Pul+Rot (P=1.065d)),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.175,False,"ApJ 989,177 Table 4 (article HTML)",,
+236785664,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,0.753,False,"ApJ 989,177 Table 2 (article HTML)",,
+236872887,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,5.063,False,"ApJ 989,177 Table 2 (article HTML)",,
+236972980,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+237059039,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7692307692307692,False,J/AJ/163/226/table2,251.87641,-45.46048
+237197184,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+237532447,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,102.91916,0.326773
+237651093,Be=Y; signals=I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4629629629629629,False,J/AJ/163/226/table2,103.59231,0.18187
+237668110,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4273504273504274,False,J/AJ/163/226/table2,103.80686,5.434
+237840594,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5649717514124294,False,J/AJ/163/226/table2,104.805959,4.454986
+238194921,rot / SPB,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,56.63978,-76.71593
+238194921,SPB+ROT,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.375515818431912,False,J/MNRAS/485/3457/table1,56.63978,-76.71593
+238194921,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,56.63978,-76.71593
+238314043,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,0.231,False,"ApJ 989,177 Table 2 (article HTML)",,
+238381092,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.608,False,"ApJ 989,177 Table 2 (article HTML)",,
+238489837,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,3.552,False,"ApJ 989,177 Table 2 (article HTML)",,
+238719326,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+238791674,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,123.58527,-50.16291
+239122172,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+240109525,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+240826471,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+241065253,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+243276811,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+243366614,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+243520386,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+246189955,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,252.60578,-46.15531
+246796068,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6622516556291391,False,J/AJ/163/226/table2,253.27751,-47.58162
+246953610,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.5125628140703515,False,J/A+A/639/A81/table2 x tablea1,253.36924,-42.1214
+246953610,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,253.36924,-42.1214
+247267245,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.3640661938534278,False,J/A+A/639/A81/table2 x tablea1,253.76387,-42.09083
+247267245,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,253.76387,-42.09083
+247589847,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,86.405048,13.189185
+247699160,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,254.06043,-46.84943
+248949857,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+250213274,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,222.67267,-52.2646
+252991559,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+252997535,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+253110498,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0416666666666667,False,J/AJ/163/226/table2,194.50345,-59.08432
+253177102,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7692307692307692,False,J/AJ/163/226/table2,195.09958,-59.68544
+253212775,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,195.39503,-56.09191
+253304151,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7299270072992701,False,J/AJ/163/226/table2,195.86166,-59.20697
+253380837,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,196.38728,-56.85178
+254340855,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5025125628140703,False,J/AJ/163/226/table2,234.94014,-42.76745
+256662953,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+256994805,Be=S; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,False,J/AJ/163/226/table2,102.26519,1.00206
+257024892,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+257065501,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7142857142857143,False,J/AJ/163/226/table2,102.284385,0.089448
+258109545,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,3.232,False,"ApJ 989,177 Table 6 (MRT)",,
+258306961,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6329113924050632,False,J/AJ/163/226/table2,241.00906,-47.47611
+258461221,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.273,False,"ApJ 989,177 Table 2 (article HTML)",,
+258700451,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+258704817,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8,False,J/AJ/163/226/table2,222.185625,-66.5935611111
+258826647,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.344,False,"ApJ 989,177 Table 6 (MRT)",,
+258844836,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+258924365,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+258954765,Pulsation (IGW?),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,2.923,False,"ApJ 989,177 Table 4 (article HTML)",,
+259171045,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+259449942,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.075268817204301,False,J/AJ/163/226/table2,114.016208333,-14.4927722222
+259862349,instr,AMBIGUOUS,AMBIGUOUS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,39.89734,-68.26695
+259862349,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.487562189054726,False,J/MNRAS/485/3457/table1,39.89734,-68.26695
+259862349,Ambiguous variability/Rotation,AMBIGUOUS,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,39.89734,-68.26695
+260128701,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,92.4077,-59.52211
+260128701,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,92.4077,-59.52211
+260131665,EB + {Beta} Cep,ECL,ECL|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,92.57462,-54.96864
+260131665,EB(EB/D:),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,92.57462,-54.96864
+260368525,SPB?,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,95.2412,-58.35207
+260368525,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.8375209380234506,False,J/MNRAS/485/3457/table1,95.2412,-58.35207
+260368525,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,95.2412,-58.35207
+260540898,rot?,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,97.19051,-55.91716
+260540898,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.779359430604982,False,J/MNRAS/485/3457/table1,97.19051,-55.91716
+260540898,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,97.19051,-55.91716
+260640910,SPB/Be,BE,BE|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,97.9929583333,-58.7538361111
+260640910,BE,BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,97.9929583333,-58.7538361111
+260640910,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4366812227074236,False,J/AJ/163/226/table2,97.9929583333,-58.7538361111
+260820871,rot / binary?,ROT,OTHER|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,348.05459,-70.1132
+260820871,EP,OTHER,OTHER,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,348.05459,-70.1132
+260820871,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,348.05459,-70.1132
+261131970,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+261134863,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+261205462,SPB / rot,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,87.56994,-79.36136
+261205462,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,87.56994,-79.36136
+261205462,Ambiguous variability/SPB?/Rotation?,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,87.56994,-79.36136
+261992444,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6711409395973155,False,J/AJ/163/226/table2,193.78521,-59.01875
+261993378,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3076923076923077,False,J/AJ/163/226/table2,193.66325,-59.1467
+262815962,rot / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,348.23321,-54.18669
+262815962,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.710027100271003,False,J/MNRAS/485/3457/table1,348.23321,-54.18669
+262815962,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,2.733,False,arXiv:2202.01022 Table 2,348.23321,-54.18669
+263805130,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,96.00072,8.30068
+264075158,Pulsation (IGW),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,3.439,False,"ApJ 989,177 Table 4 (article HTML)",,
+264180023,Pulsation (IGW),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,2.229,False,"ApJ 989,177 Table 4 (article HTML)",,
+264305622,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+264459943,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7299270072992701,False,J/AJ/163/226/table2,81.1867916667,1.84644444444
+264468331,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+264631173,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.35714285714285715,False,J/AJ/163/226/table2,82.201915,2.164707
+265080539,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.226,False,"ApJ 989,177 Table 4 (article HTML)",,
+265555524,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0101010101010102,False,J/AJ/163/226/table2,94.74357,4.19135
+266347283,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+266656195,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5263157894736842,False,J/AJ/163/226/table2,119.26666,2.95083
+268351249,Be=Y; signals=I/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,176.77855,-59.05629
+268605693,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+268971806,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.289,False,"ApJ 989,177 Table 2 (article HTML)",,
+269087549,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,105.72825,-4.23923333333
+269118344,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.855,False,"ApJ 989,177 Table 2 (article HTML)",,
+269598007,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+269696438,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,1.446,False,"ApJ 989,177 Table 5 (article HTML)",,
+269870654,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.42016806722689076,False,J/AJ/163/226/table2,148.7523,-63.54136
+270070443,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,312.32339,-25.78124
+270070443,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.531645569620253,False,J/MNRAS/485/3457/table1,312.32339,-25.78124
+270070443,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,2.535,False,arXiv:2202.01022 Table 2,312.32339,-25.78124
+270219259,instr / {Beta} Cep + outburst,BE,AMBIGUOUS|BE|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,330.20927,-28.45374
+270219259,BE+MAIA,BE,BE|PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,330.20927,-28.45374
+270491267,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.193,False,"ApJ 989,177 Table 6 (MRT)",,
+270557257,instr ({nu}_inst_~2.8d^-1^),AMBIGUOUS,AMBIGUOUS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,99.90896,-78.44044
+270557257,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.40404040404040403,False,J/MNRAS/485/3457/table1,99.90896,-78.44044
+270557257,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,99.90896,-78.44044
+270622440,EB (contamination!),ECL,ECL,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,358.81954,-31.88427
+270622440,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,358.81954,-31.88427
+270622446,EB,ECL,ECL,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,358.81911,-31.92148
+270622446,EA(EA/DM),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,358.81911,-31.92148
+270934336,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,132.08694,-46.9105
+271164763,sdB candidate (EB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.122,False,"ApJ 989,177 Table 6 (MRT)",,
+271190727,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1904761904761905,False,J/AJ/163/226/table2,132.35312,-47.48866
+271379300,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7692307692307692,False,J/AJ/163/226/table2,125.30587,-26.33314
+271503441,SPB? / outburst?,BE,BE|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,7.88612,-62.95822
+271503441,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.32722513089005234,False,J/MNRAS/485/3457/table1,7.88612,-62.95822
+271503441,Ambiguous variability/SPB?,AMBIGUOUS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,7.88612,-62.95822
+271614171,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6289308176100629,False,J/AJ/163/226/table2,233.29704,-60.90935
+271971626,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,113.84023,-74.27495
+271971626,ROT+MAIA,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,4.651162790697675,False,J/MNRAS/485/3457/table1,113.84023,-74.27495
+271971626,Ambiguous variability/Rotation?/EB?,AMBIGUOUS,ECL|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,113.84023,-74.27495
+273875093,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+274192238,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+274331770,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+274385041,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+274623605,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+274907223,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5319148936170213,False,J/AJ/163/226/table2,149.53475,-59.67188
+275038687,Pulsation (IGW),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,3.637,False,"ApJ 989,177 Table 4 (article HTML)",,
+275420565,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.668,False,"ApJ 989,177 Table 4 (article HTML)",,
+275504377,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+275691308,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+275927504,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6493506493506493,False,J/AJ/163/226/table2,240.78858,-48.72269
+276549422,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.215,False,"ApJ 989,177 Table 2 (article HTML)",,
+276653683,Pulsation (SPB (IGW)),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,3.595,False,"ApJ 989,177 Table 4 (article HTML)",,
+276864600,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,83.57692,-67.30381
+276864600,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,83.57692,-67.30381
+277013493,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.984,False,"ApJ 989,177 Table 6 (MRT)",,
+277022505,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,83.76501,-69.75056
+277022505,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,83.76501,-69.75056
+277022967,rot / SPB?/ SLF?/ Be,BE,BE|PULS|ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,83.8193,-69.67734
+277022967,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,83.8193,-69.67734
+277022967,Ambiguous variability/Rotation/IGW?,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,83.8193,-69.67734
+277099925,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,83.98653,-67.4596
+277099925,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,83.98653,-67.4596
+277103567,rot / EV?,ELL,ELL|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.22908,-66.56029
+277103567,ROT(BE),BE,BE|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.6684491978609626,False,J/MNRAS/485/3457/table1,84.22908,-66.56029
+277103567,Ambiguous variability/Pulsation+Rot,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,84.22908,-66.56029
+277172980,SLF? / Be,BE,BE|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.10772,-69.38216
+277172980,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,84.10772,-69.38216
+277173650,SLF / instr?,SLF,AMBIGUOUS|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.19661,-69.4978
+277173650,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,84.19661,-69.4978
+277298891,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.50529,-69.37057
+277298891,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,84.50529,-69.37057
+277502552,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+277982164,rot / SPB,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,104.14364,-79.42019
+277982164,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.7898894154818326,False,J/MNRAS/485/3457/table1,104.14364,-79.42019
+277982164,Ambiguous variability/Rotation+Pulsation,AMBIGUOUS,PULS|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,104.14364,-79.42019
+278313134,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,235.07132,-58.06383
+278358300,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.279,False,"ApJ 989,177 Table 4 (article HTML)",,
+278683664,const??,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,99.16749,-58.40888
+278683664,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.5878894767783657,False,J/MNRAS/485/3457/table1,99.16749,-58.40888
+278683664,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,99.16749,-58.40888
+278865766,const??,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,100.71139,-56.01607
+278865766,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,100.71139,-56.01607
+278865766,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,100.71139,-56.01607
+278867172,const??,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,100.96246,-54.18205
+278867172,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,100.96246,-54.18205
+278867172,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,100.96246,-54.18205
+279430029,rot / Be,BE,BE|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,105.0433,-56.907
+279430029,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.5605381165919282,False,J/MNRAS/485/3457/table1,105.0433,-56.907
+279430029,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5649717514124294,False,J/AJ/163/226/table2,105.0433,-56.907
+279430029,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,0.56085,False,arXiv:2202.01022 Table 2,105.0433,-56.907
+279511712,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,105.81291,-59.17811
+279511712,ELL(LPB),ELL,ELL,2019MNRAS.485.3457B (Balona+ 2019),visual,1.6528925619834711,False,J/MNRAS/485/3457/table1,105.81291,-59.17811
+279511712,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.65167,False,arXiv:2202.01022 Table 2,105.81291,-59.17811
+279826483,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+279957111,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,81.96943,-68.98569
+279957111,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,81.96943,-68.98569
+279957111,Ambiguous variability/Pulsation,AMBIGUOUS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,81.96943,-68.98569
+280051467,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,45.56437,-71.90246
+280051467,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,4.366812227074235,False,J/MNRAS/485/3457/table1,45.56437,-71.90246
+280051467,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,4.372,False,arXiv:2202.01022 Table 2,45.56437,-71.90246
+280643259,Be=Y; signals=S/I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0869565217391304,False,J/AJ/163/226/table2,101.288672,-1.255713
+280684074,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,342.59506,-80.12384
+280684074,SPB+ROT(LPB),ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.7761989342806397,False,J/MNRAS/485/3457/table1,342.59506,-80.12384
+280684074,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,342.59506,-80.12384
+280835427,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6896551724137931,False,J/AJ/163/226/table2,144.46204,-53.68035
+281047621,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9345794392523364,False,J/AJ/163/226/table2,84.7964583333,4.12146666667
+281148636,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.44642063139173,False,J/A+A/639/A81/table2 x tablea1,98.81596,0.89022
+281148636,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,98.81596,0.89022
+281643356,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9433962264150942,False,J/AJ/163/226/table2,170.58218,-61.07346
+281703963,hybrid SPB/{delta} Sct,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,10.83838,-57.46306
+281703963,MAIA,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,10.83838,-57.46306
+281717549,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.591715976331361,False,J/AJ/163/226/table2,102.481356,-5.513127
+281741629,rot / Be,BE,BE|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,12.25548,-56.09704
+281741629,BE(BE),BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,12.25548,-56.09704
+281741629,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9615384615384615,False,J/AJ/163/226/table2,12.25548,-56.09704
+281741629,SPB?,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,12.25548,-56.09704
+282207882,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7407407407407407,False,J/AJ/163/226/table2,102.959297,-5.619767
+282306169,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,103.043183,-0.29556
+282808223,Be=S; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,103.67521,-1.75651
+282899554,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0638297872340425,False,J/AJ/163/226/table2,103.745091,-3.700377
+283206453,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.5873015873015872,False,J/AJ/163/226/table2,104.079519,-3.80706
+283793973,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,False,J/A+A/639/A81/table2 x tablea1,63.88357,8.89236
+283793973,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,63.88357,8.89236
+283818445,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+283870336,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+284230347,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,108.66021,2.90191
+284562929,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+284563819,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.341,False,"ApJ 989,177 Table 4 (article HTML)",,
+284735369,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+284759068,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,1.012,False,"ApJ 989,177 Table 6 (MRT)",,
+285010437,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+285187855,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,233.77022,-56.98395
+285194955,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+285699059,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6329113924050632,False,J/AJ/163/226/table2,130.50158,-47.66497
+285916305,Be=Y; signals=S/I/L/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,119.75305,-48.37631
+286159211,Be=Y; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,123.93098,-48.3442
+286916209,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+287141559,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+287193769,Pulsation (SPB?),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.849,False,"ApJ 989,177 Table 4 (article HTML)",,
+288316744,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+288639535,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+289536555,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+289877581,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,233.971875,-44.9583888889
+290523979,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4566210045662101,False,J/AJ/163/226/table2,173.81319,-61.69988
+290525745,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4566210045662101,False,J/AJ/163/226/table2,173.84197,-61.53636
+290682353,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,174.03904,-61.69487
+290682406,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8849557522123894,False,J/AJ/163/226/table2,174.02284,-61.70167
+291385725,Be=Y; signals=S/I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,94.3942,11.19092
+292362364,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.7543859649122808,False,J/AJ/163/226/table2,106.980564,1.719594
+292550464,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,218.46943,-56.74563
+292674898,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6666666666666666,False,J/AJ/163/226/table2,218.40323,-58.82082
+293268667,SPB/ rot?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,98.56016,-63.91811
+293268667,SPB+ROT,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.2949852507374631,False,J/MNRAS/485/3457/table1,98.56016,-63.91811
+293268667,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,98.56016,-63.91811
+293271581,EB(NB),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,98.90026,-62.64008
+293290586,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,222.00311,-65.73955
+293973218,rot / SPB,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,106.81781,-59.71642
+293973218,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,106.81781,-59.71642
+293973218,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,106.81781,-59.71642
+294114621,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.819672131147541,False,J/A+A/639/A81/table2 x tablea1,92.23259,15.70505
+294114621,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,92.23259,15.70505
+294553294,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8333333333333334,False,J/AJ/163/226/table2,222.70942,-60.2862
+294747615,rot / SLF?,ROT,ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,70.76652,-70.93103
+294747615,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,5.208333333333333,False,J/MNRAS/485/3457/table1,70.76652,-70.93103
+294747615,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,5.1918,False,arXiv:2202.01022 Table 2,70.76652,-70.93103
+294852531,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,140.35362,-51.16647
+294872353,SLF?,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,71.76855,-67.11476
+294872353,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,71.76855,-67.11476
+295099096,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.819672131147541,False,J/AJ/163/226/table2,140.49343,-51.17649
+295581098,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8474576271186441,False,J/AJ/163/226/table2,140.98252,-51.96226
+296969980,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.47393364928909953,False,J/AJ/163/226/table2,224.183291667,-62.7810166667
+298093039,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+298109741,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+298542142,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+298601073,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+298663903,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+299022962,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6993006993006994,False,J/AJ/163/226/table2,143.47983,-53.63508
+300010961,rot / {Beta} Cep?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,106.94569,-67.93686
+300010961,ROT+MAIA,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.4641288433382136,False,J/MNRAS/485/3457/table1,106.94569,-67.93686
+300010961,$$ Cep+Oscillation?,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,106.94569,-67.93686
+300325379,rot?,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,110.70542,-66.53885
+300325379,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.544069640914037,False,J/MNRAS/485/3457/table1,110.70542,-66.53885
+300325379,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,110.70542,-66.53885
+300329728,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,110.96647,-70.77259
+300329728,ELL/ROT,ELL,ELL|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.4330900243309004,False,J/MNRAS/485/3457/table1,110.96647,-70.77259
+300329728,Ambiguous variability/$$ Cep?/EB?,AMBIGUOUS,ECL,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,110.96647,-70.77259
+300524274,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,245.05516,-64.49798
+300744369,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,116.50272,-69.49798
+300744369,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.044932079414838,False,J/MNRAS/485/3457/table1,116.50272,-69.49798
+300744369,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.04428,False,arXiv:2202.01022 Table 2,116.50272,-69.49798
+300865934,instr / outburst?,BE,AMBIGUOUS|BE,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,117.4208,-66.19597
+300865934,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,117.4208,-66.19597
+300865934,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,117.4208,-66.19597
+301435200,Be=Y; signals=I/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,178.50235,-58.52116
+302348015,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4464285714285714,False,J/AJ/163/226/table2,81.824131,13.149162
+302962039,Be=Y; signals=S/I/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,136.409916667,-70.5385
+305090822,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,261.65908,-63.81499
+305255878,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.377,False,"ApJ 989,177 Table 4 (article HTML)",,
+305629042,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2195121951219512,False,J/AJ/163/226/table2,178.75238,-60.31018
+305850608,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+305896243,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1111111111111112,False,J/AJ/163/226/table2,178.84027,-63.70355
+306419817,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.7241379310344829,False,J/AJ/163/226/table2,179.39569,-61.54971
+306491594,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.092050209205021,False,J/A+A/639/A81/table2 x tablea1,166.88674,-59.96353
+306491594,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,166.88674,-59.96353
+306672432,const? / rot?,ROT,NOISY|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,120.59293,-67.79489
+306672432,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.9174311926605504,False,J/MNRAS/485/3457/table1,120.59293,-67.79489
+306672432,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,120.59293,-67.79489
+306824672,rot? / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,121.64756,-68.61739
+306824672,SPB?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,121.64756,-68.61739
+306824672,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,121.64756,-68.61739
+306829961,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,121.98248,-68.61706
+306829961,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,121.98248,-68.61706
+307100246,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5319148936170213,False,J/AJ/163/226/table2,179.66067,-60.65501
+307225534,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.282051282051282,False,J/AJ/163/226/table2,208.4885,-47.1281638889
+307291308,instr / rot?,ROT,AMBIGUOUS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,125.0022,-71.50538
+307291308,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.5839793281653747,False,J/MNRAS/485/3457/table1,125.0022,-71.50538
+307291308,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.29641,False,arXiv:2202.01022 Table 2,125.0022,-71.50538
+307291318,instr / rot?,ROT,AMBIGUOUS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,124.95402,-71.51491
+307291318,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,124.95402,-71.51491
+307291318,Ambiguous variability/Rotation+Transity?,AMBIGUOUS,ECL|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,124.95402,-71.51491
+307993483,{Beta} Cep? / SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,129.08624,-70.67666
+307993483,SPB+ROT?,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.27048958615093316,False,J/MNRAS/485/3457/table1,129.08624,-70.67666
+307993483,Ambiguous variability+Flares,AMBIGUOUS,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,129.08624,-70.67666
+308395911,SPB,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,120.08319,-63.56746
+308395911,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,120.08319,-63.56746
+308454245,{delta} Sct,PULS,PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,120.95821,-64.62917
+308454245,MAIA,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,120.95821,-64.62917
+308454245,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,120.95821,-64.62917
+308456810,rot?,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,120.78139,-62.13281
+308456810,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,3.9840637450199203,False,J/MNRAS/485/3457/table1,120.78139,-62.13281
+308456810,Noisy/Ambiguous variability,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,120.78139,-62.13281
+308537791,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,120.92351,-60.90756
+308537791,ROT+MAIA,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.8975332068311195,False,J/MNRAS/485/3457/table1,120.92351,-60.90756
+308537791,Pulsation/Oscillation,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,120.92351,-60.90756
+308748912,SLF? / outburst? / instr,BE,AMBIGUOUS|BE|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,122.1027,-63.80077
+308748912,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,122.1027,-63.80077
+308748912,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,122.1027,-63.80077
+308748912,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,122.1027,-63.80077
+308760236,Be=Y; signals=L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1764705882352942,False,J/AJ/163/226/table2,184.15326,-64.51648
+308951795,Be=S; signals=S/I/L/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,167.83056,-59.92046
+309184049,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6289308176100629,False,J/AJ/163/226/table2,184.55679,-61.49191
+309591474,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+309702035,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,79.71561,-65.68956
+309702035,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,79.71561,-65.68956
+310645192,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8,False,J/AJ/163/226/table2,129.21952,-63.62764
+311334494,Be=Y; signals=,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,185.58085,-63.6598
+311432346,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.543,False,"ApJ 989,177 Table 4 (article HTML)",,
+311521201,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+311898870,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.356,False,"ApJ 989,177 Table 6 (MRT)",,
+312931751,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4608294930875576,False,J/AJ/163/226/table2,201.89771,-62.11859
+313007038,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+313074666,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,201.85446,-62.64899
+313303167,sdB candidate (Undetermined),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.399,False,"ApJ 989,177 Table 6 (MRT)",,
+313934087,SPB / rot,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,0.58304,-29.72044
+313934087,SPB,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,0.58304,-29.72044
+313934087,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.7442874585731727,False,J/A+A/639/A81/table2 x tablea1,0.58304,-29.72044
+313934087,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,0.58304,-29.72044
+313934087,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.75222,False,arXiv:2202.01022 Table 2,0.58304,-29.72044
+313955481,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9615384615384615,False,J/AJ/163/226/table2,202.39291,-61.19337
+313986452,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+314416691,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6451612903225806,False,J/AJ/163/226/table2,244.66243,-53.31917
+314576961,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.524,False,"ApJ 989,177 Table 2 (article HTML)",,
+314868712,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0526315789473684,False,J/AJ/163/226/table2,244.6641,-49.41389
+315036866,Be=Y; signals=I+/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.282051282051282,False,J/AJ/163/226/table2,202.81455,-61.7326
+315207705,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3436426116838488,False,J/AJ/163/226/table2,244.76109,-49.40636
+315679257,Be=S; signals=S/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,244.92781,-52.77194
+315830698,Be=Y; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,171.30736,-61.27688
+316681593,sdB candidate (Bin(sdB+F7V)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,1.306,False,"ApJ 989,177 Table 6 (MRT)",,
+316792722,Be=S; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.639344262295082,False,J/AJ/163/226/table2,171.98698,-62.80518
+317795621,Be=Y; signals=S/I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.075268817204301,False,J/AJ/163/226/table2,172.77881,-62.94694
+318252726,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+318357716,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+319152335,Be=Y; signals=S/I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5434782608695652,False,J/AJ/163/226/table2,110.17912,-8.42103
+319730932,Be=Y; signals=I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,99.624626,0.709756
+319854805,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,99.60376,4.88096
+319936861,cont.,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.0467915837956663,False,J/A+A/639/A81/table2 x tablea1,,
+320039694,sdB candidate (Bin (sdB+MS/WD)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,1.638,False,"ApJ 989,177 Table 6 (MRT)",,
+320228013,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,174.74155,-63.47751
+321335373,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+321818578,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.184,False,"ApJ 989,177 Table 4 (article HTML)",,
+322060937,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+322104948,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,175.77723,-60.73459
+322233181,Be=S; signals=S/I/L/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,175.65095,-59.97818
+322312832,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.362,False,"ApJ 989,177 Table 4 (article HTML)",,
+322312868,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.971,False,"ApJ 989,177 Table 2 (article HTML)",,
+323325708,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8333333333333334,False,J/AJ/163/226/table2,176.31835,-61.92989
+323348984,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.33112582781456956,False,J/AJ/163/226/table2,84.472725,0.968581
+323612875,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,176.66098,-64.16585
+323613746,Be=Y; signals=F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5555555555555556,False,J/AJ/163/226/table2,176.61827,-64.0629
+324268119,Be=Y; signals=S/I/H/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6666666666666666,False,J/AJ/163/226/table2,177.00011,-62.20694
+324940394,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,248.80856,-61.8945
+325170579,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5681818181818182,False,J/AJ/163/226/table2,177.421083333,-63.7884777778
+325237845,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8,False,J/AJ/163/226/table2,177.37477,-64.6225
+325273334,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5405405405405405,False,J/AJ/163/226/table2,209.49073,-59.88467
+326022066,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4807692307692307,False,J/AJ/163/226/table2,270.29715,-40.33552
+327856894,rot? / outburst?/ instr?,BE,AMBIGUOUS|BE|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,1.17212,-71.43689
+327856894,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,1.17212,-71.43689
+327856894,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,1.17212,-71.43689
+327913813,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7633587786259541,False,J/AJ/163/226/table2,210.78152,-63.83678
+328161938,beta Cep,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.16113490536547007,False,J/A+A/639/A81/table2 x tablea1,,
+329059929,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,211.35494,-62.58844
+329060936,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0638297872340425,False,J/AJ/163/226/table2,211.34181,-62.50741
+329074395,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,3.775,False,"ApJ 989,177 Table 2 (article HTML)",,
+330281456,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.103934357248054,False,J/A+A/639/A81/table2 x tablea1,211.85682,-60.4706
+330281456,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,211.85682,-60.4706
+330435560,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,211.98611,-61.50894
+331553315,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+332210657,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+332856560,hybrid,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.08482555624358507,False,J/A+A/639/A81/table2 x tablea1,,
+332913301,hybrid,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.9048136083966704,False,J/A+A/639/A81/table2 x tablea1,84.65822,-6.57396
+332913301,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,84.65822,-6.57396
+333419799,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.166,False,"ApJ 989,177 Table 6 (MRT)",,
+333670665,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,182.02175,-50.6612694444
+334776134,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7518796992481203,False,J/AJ/163/226/table2,157.749333333,-13.5884694444
+334901449,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+335036191,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.599,False,"ApJ 989,177 Table 4 (article HTML)",,
+335682563,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+336343562,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5464480874316939,False,J/AJ/163/226/table2,195.77225,-71.4757305556
+337364158,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+337793038,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.858736059479554,False,J/A+A/639/A81/table2 x tablea1,252.89051,-41.23054
+337793038,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,252.89051,-41.23054
+337886863,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,2.754,False,"ApJ 989,177 Table 5 (article HTML)",,
+338532011,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.639344262295082,False,J/AJ/163/226/table2,189.65087,-61.25358
+338640317,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,8.928571428571429,False,J/A+A/639/A81/table2 x tablea1,253.19739,-41.78583
+338640317,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,253.19739,-41.78583
+338738989,Be=Y; signals=I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,253.2499,-41.40759
+339565205,cont.,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.424778761061947,False,J/A+A/639/A81/table2 x tablea1,,
+339567904,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.1978021978021975,False,J/A+A/639/A81/table2 x tablea1,253.5485,-41.84925
+339567904,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,253.5485,-41.84925
+339568114,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.291005291005291,False,J/A+A/639/A81/table2 x tablea1,253.6082,-41.83216
+339568114,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,253.6082,-41.83216
+339570292,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,6.305170239596469,False,J/A+A/639/A81/table2 x tablea1,253.54799,-41.64194
+339570292,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,253.54799,-41.64194
+340633517,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.49751243781094534,False,J/AJ/163/226/table2,116.50009,-56.1935
+340878553,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,238.44099,-61.66396
+341040849,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7194244604316548,False,J/AJ/163/226/table2,118.09283,-59.49313
+341258182,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.247191011235955,False,J/A+A/639/A81/table2 x tablea1,,
+341816971,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+342201547,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4716981132075471,False,J/AJ/163/226/table2,123.08721,-55.35285
+342257745,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,254.34979,-40.36107
+343376491,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6666666666666666,False,J/AJ/163/226/table2,240.93523,-60.49847
+344341901,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,251.83666,-57.03503
+346597868,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+347225198,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1627906976744187,False,J/AJ/163/226/table2,253.85421,-50.63656
+347665026,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4629629629629629,False,J/AJ/163/226/table2,254.03685,-50.67476
+349043273,beta Cep,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.16469038208168643,False,J/A+A/639/A81/table2 x tablea1,114.17098,-19.70234
+349043273,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,114.17098,-19.70234
+349829477,const?,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,113.67648,-61.0828
+349829477,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,113.67648,-61.0828
+349829477,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,113.67648,-61.0828
+349907707,EB + puls,ECL,ECL|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,114.10522,-61.87385
+349907707,EA(EA),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,114.10522,-61.87385
+350146577,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,115.904,-63.39919
+350146577,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.838235294117647,False,J/MNRAS/485/3457/table1,115.904,-63.39919
+350146577,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,1.837527,False,arXiv:2202.01022 Table 2,115.904,-63.39919
+350472809,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7633587786259541,False,J/AJ/163/226/table2,246.25599,-65.04065
+350823719,SPB? / rot,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,89.74623,-58.26882
+350823719,EB,ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,89.74623,-58.26882
+350823719,Rotation ($c$),ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,4.1963,False,arXiv:2202.01022 Table 2,89.74623,-58.26882
+352556540,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.454,False,"ApJ 989,177 Table 4 (article HTML)",,
+352762746,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,3.038,False,"ApJ 989,177 Table 5 (article HTML)",,
+353895732,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+354671857,SPB? / rot,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,34.12744,-51.51217
+354671857,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.343878954607978,False,J/MNRAS/485/3457/table1,34.12744,-51.51217
+354671857,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,0.343705,False,arXiv:2202.01022 Table 2,34.12744,-51.51217
+355141264,const?,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,329.46321,-47.54685
+355141264,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,329.46321,-47.54685
+355141264,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,329.46321,-47.54685
+355477670,const?,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,351.78795,-50.15724
+355477670,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,3.676470588235294,False,J/MNRAS/485/3457/table1,351.78795,-50.15724
+355477670,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,351.78795,-50.15724
+355553423,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7194244604316548,False,J/AJ/163/226/table2,137.67508,-53.0458
+355653322,rot? / outburst? / instr?,BE,AMBIGUOUS|BE|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,359.979083333,-65.5771333333
+355653322,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.7898894154818326,False,J/MNRAS/485/3457/table1,359.979083333,-65.5771333333
+355653322,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,359.979083333,-65.5771333333
+355653322,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,0.79318,False,arXiv:2202.01022 Table 2,359.979083333,-65.5771333333
+356107943,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+356341059,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+356521959,Be=Y; signals=S/I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7874015748031495,False,J/AJ/163/226/table2,134.34703,-63.49693
+356674547,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+357032981,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+358232450,EB,ECL,ECL,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,17.09617,-55.24576
+358232450,EA(EA/DM),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,17.09617,-55.24576
+358466708,rot / SPB,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.22784,-60.59847
+358466708,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.6020469596628537,False,J/MNRAS/485/3457/table1,119.22784,-60.59847
+358466708,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,119.22784,-60.59847
+358467049,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.18794,-60.81508
+358467049,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,3.773584905660377,False,J/MNRAS/485/3457/table1,119.18794,-60.81508
+358467049,SPB,PULS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,119.18794,-60.81508
+358467049,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,3.741,False,"ApJ 989,177 Table 2 (article HTML)",119.18794,-60.81508
+358467087,SPB / EV? / rot? /SLF?/ instr?,ELL,AMBIGUOUS|ELL|PULS|ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.19665,-60.84085
+358467087,SPB?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,119.19665,-60.84085
+358467087,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,119.19665,-60.84085
+358467471,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,119.06572,-61.09949
+358818468,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5376344086021505,False,J/AJ/163/226/table2,139.23161,-63.77517
+359055762,sdB candidate (sdOB),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,2.673,False,"ApJ 989,177 Table 6 (MRT)",,
+362105045,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+363236260,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.8518518518518516,False,J/AJ/163/226/table2,146.02988,-53.74532
+363748801,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.641025641025641,False,J/AJ/163/226/table2,250.346291667,-68.2961222222
+364323837,rot? / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,88.00096,-62.51775
+364323837,SPB?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,88.00096,-62.51775
+364323837,Ambiguous variability/Pulsation,AMBIGUOUS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,88.00096,-62.51775
+364398190,rot? / SLF?,ROT,ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.62806,-60.72906
+364398190,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.3157894736842106,False,J/MNRAS/485/3457/table1,119.62806,-60.72906
+364398190,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,119.62806,-60.72906
+364398342,rot? / SPB? / Be,BE,BE|PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.710625,-60.8244611111
+364398342,BE(GCAS),BE,BE,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,119.710625,-60.8244611111
+364398342,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8064516129032259,False,J/AJ/163/226/table2,119.710625,-60.8244611111
+364398342,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,119.710625,-60.8244611111
+364421326,rot?,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.57302,-63.13157
+364421326,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.5060728744939271,False,J/MNRAS/485/3457/table1,119.57302,-63.13157
+364421326,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,119.57302,-63.13157
+365213081,sdB candidate (Bin (sdB+dM)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.086,False,"ApJ 989,177 Table 6 (MRT)",,
+365572007,SLF+rot?,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.621876131836291,False,J/A+A/639/A81/table2 x tablea1,81.28276,6.3497
+365572007,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,81.28276,6.3497
+367003034,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+367779738,"sdB candidate (Bin, g, b)",OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.037,False,"ApJ 989,177 Table 6 (MRT)",,
+368827573,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+369312341,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6802721088435374,False,J/AJ/163/226/table2,191.85926,-62.54382
+369397090,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,358.15039,-30.1692
+369397090,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,358.15039,-30.1692
+369457005,rot / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,311.58362,-39.19927
+369457005,SPB?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,311.58362,-39.19927
+369457005,Ambiguous variability/SPB or SPB+Rot,AMBIGUOUS,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,311.58362,-39.19927
+370038084,const?,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,60.60598,-70.27213
+370038084,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,60.60598,-70.27213
+370038084,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,60.60598,-70.27213
+372913233,const? / outburst? / instr?,BE,AMBIGUOUS|BE|NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.43841,-60.92646
+372913233,-,,,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,119.43841,-60.92646
+372913233,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,119.43841,-60.92646
+372913367,Be=Y; signals=I+/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5181347150259068,False,J/AJ/163/226/table2,119.44136,-60.82632
+372913582,const? / outburst? / instr?,BE,AMBIGUOUS|BE|NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.4549,-60.68364
+372913582,SPB?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,119.4549,-60.68364
+372913582,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,119.4549,-60.68364
+372913684,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.51213,-60.61479
+372913684,SXARI(EA:),ECL,ECL|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,1.4598540145985401,False,J/MNRAS/485/3457/table1,119.51213,-60.61479
+372913684,Ambiguous variability/Rotation+EB,AMBIGUOUS,ECL|ROT,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,119.51213,-60.61479
+372913684,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.456,False,"ApJ 989,177 Table 2 (article HTML)",119.51213,-60.61479
+373843852,SPB? / rot?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,81.56341,-67.49997
+373843852,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,81.56341,-67.49997
+373843852,Ambiguous variability/IGW,AMBIGUOUS,PULS,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,81.56341,-67.49997
+374690639,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,150.64821,-60.14764
+374753420,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.7857142857142856,False,J/AJ/163/226/table2,150.89216,-61.88396
+375232307,Be=Y; signals=I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,283.054291667,-62.1875916667
+376077639,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,262.847,-56.9209638889
+376480349,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9090909090909091,False,J/AJ/163/226/table2,180.64836,-59.33703
+376869778,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+377053047,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+377099704,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.479,False,"ApJ 989,177 Table 4 (article HTML)",,
+377159029,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+377309425,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+378812108,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8771929824561404,False,J/AJ/163/226/table2,180.59749,-61.45145
+378996846,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1904761904761905,False,J/AJ/163/226/table2,180.88591,-61.09825
+379203908,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+380117288,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,181.53208,-61.2569
+381257866,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,182.50471,-64.00095
+381641106,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,182.82723,-62.49544
+381747495,Be=S; signals=S/L/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,182.6254,-64.1009
+382396569,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.5625,False,J/AJ/163/226/table2,183.17746,-63.59989
+382750740,Be=Y; signals=I/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.819672131147541,False,J/AJ/163/226/table2,183.53186,-60.60234
+382795601,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.38167938931297707,False,J/AJ/163/226/table2,242.54396,-40.12881
+383162375,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4608294930875576,False,J/AJ/163/226/table2,258.25165,-42.63346
+383285551,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6024096385542169,False,J/AJ/163/226/table2,134.3142,-58.58599
+383287960,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5291005291005292,False,J/AJ/163/226/table2,134.196359,-59.520023
+383542260,Be=Y; signals=S/I/L/H/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5128205128205129,False,J/AJ/163/226/table2,216.31626,-61.31988
+383763886,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.282051282051282,False,J/AJ/163/226/table2,221.72959,-45.23313
+384471407,Be=Y; signals=I/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,136.26569,-58.76766
+384992041,sdB candidate (Bin+R (sdB+dM)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.257,False,"ApJ 989,177 Table 6 (MRT)",,
+385626507,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2195121951219512,False,J/AJ/163/226/table2,138.46401,-55.53969
+385873047,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9803921568627451,False,J/AJ/163/226/table2,111.167458333,-16.2014722222
+386024312,Be=Y; signals=I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4273504273504274,False,J/AJ/163/226/table2,139.07371,-59.23418
+388935529,hybrid,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.69139904023625,False,J/A+A/639/A81/table2 x tablea1,84.14872,-6.06475
+388935529,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,84.14872,-6.06475
+388940683,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+389217256,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4329004329004329,False,J/AJ/163/226/table2,217.43586,-64.15993
+389576843,Be=Y; signals=I+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4424778761061947,False,J/AJ/163/226/table2,277.52718,-52.20454
+389921913,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,87.83658,-70.28592
+389921913,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,87.83658,-70.28592
+390071999,Be=Y; signals=S/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.49504950495049505,False,J/AJ/163/226/table2,183.50734,-59.39687
+391810734,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,82.6577,-68.41089
+391810734,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.6577,-68.41089
+391887875,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,82.69906,-71.06731
+391887875,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.69906,-71.06731
+392569763,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,1.429,False,"ApJ 989,177 Table 2 (article HTML)",,
+393790402,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+393852409,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,2.415,False,"ApJ 989,177 Table 2 (article HTML)",,
+394020645,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,1.113,False,"ApJ 989,177 Table 6 (MRT)",,
+394060863,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9433962264150942,False,J/AJ/163/226/table2,218.62192,-64.20207
+394728064,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,160.464666667,-79.7832861111
+395429445,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1235955056179776,False,J/AJ/163/226/table2,218.88884,-61.00832
+398912586,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+398940155,sdB candidate (MSRot),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.479,False,"ApJ 989,177 Table 6 (MRT)",,
+399669624,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,72.653,8.90018055556
+399990331,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,219.89688,-61.98544
+400136687,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,133.74085,-50.86399
+401635731,Be=Y; signals=I/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.42372881355932207,False,J/AJ/163/226/table2,220.02282,-59.93134
+402894425,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.139,False,"ApJ 989,177 Table 4 (article HTML)",,
+404768847,SPB? / SLF?,PULS,PULS|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.67807,-69.09517
+404768847,ACYG?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,84.67807,-69.09517
+404768956,SLF? / SPB? / instr?,PULS,AMBIGUOUS|PULS|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.69044,-69.10624
+404768956,ACYG?,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,84.69044,-69.10624
+404796860,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,84.67706,-69.38587
+404796860,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,84.67706,-69.38587
+404852071,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,85.20335,-69.28089
+404852071,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,85.20335,-69.28089
+404933493,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,85.33497,-69.08535
+404933493,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,85.33497,-69.08535
+404967301,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,85.36531,-69.80104
+404967301,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,85.36531,-69.80104
+405387285,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.49751243781094534,False,J/AJ/163/226/table2,184.2488,-56.40671
+405520863,Be=S; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,190.485708333,-59.6858194444
+405577964,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.641025641025641,False,J/AJ/163/226/table2,191.86374,-57.97248
+406050497,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.1847133757961785,False,J/A+A/639/A81/table2 x tablea1,193.98806,-56.8358
+406050497,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,193.98806,-56.8358
+406341244,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8130081300813008,False,J/AJ/163/226/table2,197.87294,-55.35682
+406931389,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+407615454,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+408382023,Be=Y; signals=I+/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6451612903225806,False,J/AJ/163/226/table2,145.320875,-23.5915138889
+408757239,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,213.41585,-54.62566
+409233684,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+409358619,Be=Y; signals=H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.38759689922480617,False,J/AJ/163/226/table2,213.738083333,-57.086125
+409791884,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2195121951219512,False,J/AJ/163/226/table2,126.25166,-12.76477
+410447919,rot/SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,117.96203,-62.9088
+410447919,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,4.566210045662101,False,J/MNRAS/485/3457/table1,117.96203,-62.9088
+410447919,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,4.2331,False,arXiv:2202.01022 Table 2,117.96203,-62.9088
+410451677,rot,ROT,ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,119.99086,-60.7468
+410451677,SXARI,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,2.0491803278688523,False,J/MNRAS/485/3457/table1,119.99086,-60.7468
+410451677,Rotation,ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,2.05517,False,arXiv:2202.01022 Table 2,119.99086,-60.7468
+410599289,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7194244604316548,False,J/AJ/163/226/table2,243.91678,-52.37027
+411643280,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5617977528089888,False,J/AJ/163/226/table2,218.82185,-56.7711
+412353405,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+412359545,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.628,False,"ApJ 989,177 Table 4 (article HTML)",,
+415820931,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+416542110,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+417620454,sdB candidate,OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.272,False,"ApJ 989,177 Table 6 (MRT)",,
+418011185,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+419065817,rot / SPB?,ROT,PULS|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,4.17643,-20.21006
+419065817,ROT,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.6784260515603799,False,J/MNRAS/485/3457/table1,4.17643,-20.21006
+419585280,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8849557522123894,False,J/AJ/163/226/table2,191.15436,-59.1601
+420003853,Be=Y; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,202.8177,-53.09655
+420114700,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+421335341,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+422331664,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+423026102,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+424383364,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+424720852,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+424884512,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5813953488372093,False,J/AJ/163/226/table2,237.38835,-60.1509
+424903953,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+425057879,instr? / binary? / rot?,ROT,AMBIGUOUS|OTHER|ROT,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,82.81514,-71.06942
+425057879,EB/ELL?,ECL,ECL|ELL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.81514,-71.06942
+425057879,Ambiguous variability,OTHER,OTHER,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 4,82.81514,-71.06942
+425064757,EA(EA/D),ECL,ECL,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.91816,-69.88393
+425081475,SLF / rot? / Be,BE,BE|ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,82.96784,-68.54413
+425081475,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.96784,-68.54413
+425083410,rot / SPB? / SLF?,ROT,PULS|ROT|SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,82.9342,-67.63372
+425083410,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.9342,-67.63372
+425084841,SLF,SLF,SLF,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,82.96496,-67.03951
+425084841,ACYG,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,82.96496,-67.03951
+425215861,Be=Y; signals=S/I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7194244604316548,False,J/AJ/163/226/table2,77.2865833333,-8.75408055556
+426588729,EB,ECL,ECL,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.4691358024691357,False,J/A+A/639/A81/table2 x tablea1,,
+426683285,Be=Y; signals=I/L/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7407407407407407,False,J/AJ/163/226/table2,240.97705,-56.55427
+427312571,Binary (eclipsing/ellipsoidal),ECL,ECL,2025ApJ...989..177C (Campelo+ 2025),visual,6.037,False,"ApJ 989,177 Table 5 (article HTML)",,
+427373476,cont.,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.3444816053511706,False,J/A+A/639/A81/table2 x tablea1,,
+427373484,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.9976057462090983,False,J/A+A/639/A81/table2 x tablea1,83.76117,-6.00203
+427373484,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,83.76117,-6.00203
+427393058,Rotation,ROT,ROT,2025ApJ...989..177C (Campelo+ 2025),visual,0.855,False,"ApJ 989,177 Table 2 (article HTML)",,
+427393350,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+427393354,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.2019230769230769,False,J/A+A/639/A81/table2 x tablea1,,
+427393920,rot,ROT,ROT,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.0960105217010083,False,J/A+A/639/A81/table2 x tablea1,83.88069,-5.26738
+427393920,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,83.88069,-5.26738
+427393920,Pulsation (IGW?),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.095,False,"ApJ 989,177 Table 4 (article HTML)",83.88069,-5.26738
+427394772,cont.,AMBIGUOUS,AMBIGUOUS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.257328990228013,False,J/A+A/639/A81/table2 x tablea1,,
+427394772,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+427395049,SLF?,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.617977528089888,False,J/A+A/639/A81/table2 x tablea1,83.8454166667,-5.41606111111
+427395049,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,83.8454166667,-5.41606111111
+427395058,SLF?,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.975124378109452,False,J/A+A/639/A81/table2 x tablea1,83.86,-5.41689
+427395058,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,83.86,-5.41689
+427395300,Ambiguous variability,AMBIGUOUS,AMBIGUOUS,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 7 (article HTML)",,
+427395774,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.9801980198019802,False,J/A+A/639/A81/table2 x tablea1,,
+427396133,Be=Y; signals=I+/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,83.975354,-5.628421
+427400331,Be=S; signals=L/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9523809523809523,False,J/AJ/163/226/table2,83.98129,-0.77756
+427451176,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,21.73913043478261,False,J/A+A/639/A81/table2 x tablea1,84.05339,-1.20192
+427451176,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,84.05339,-1.20192
+427451587,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3225806451612903,False,J/AJ/163/226/table2,84.07428,-1.63536
+429143022,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8333333333333334,False,J/AJ/163/226/table2,174.52127,-45.13892
+429412649,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.959,False,"ApJ 989,177 Table 4 (article HTML)",,
+430248409,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.46511627906976744,False,J/AJ/163/226/table2,241.99909,-55.13044
+430625455,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.6377551020408163,False,J/A+A/639/A81/table2 x tablea1,131.29309,-46.03868
+430625455,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,131.29309,-46.03868
+430960919,sdB candidate (Bin+R (sdB+dM/BD)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.301,False,"ApJ 989,177 Table 6 (MRT)",,
+433738620,rot?,ROT,ROT,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,0.8082767539605561,False,J/A+A/639/A81/table2 x tablea1,190.55293,-60.65242
+433738620,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,190.55293,-60.65242
+433936219,Be=Y; signals=S/I/L/H/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6578947368421053,False,J/AJ/163/226/table2,190.709458333,-63.058625
+434244626,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9900990099009901,False,J/AJ/163/226/table2,191.05769,-62.49004
+434384707,SLF?,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.215434083601286,False,J/A+A/639/A81/table2 x tablea1,93.7853,13.8511
+434384707,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,93.7853,13.8511
+434998753,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9090909090909091,False,J/AJ/163/226/table2,192.36457,-60.69915
+435866273,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+436103278,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.878048780487805,False,J/A+A/639/A81/table2 x tablea1,83.7845,9.93415
+436103278,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,83.7845,9.93415
+436378066,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4081632653061224,False,J/AJ/163/226/table2,193.59749,-60.6987
+436802660,Be=Y; signals=S/I+/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5555555555555556,False,J/AJ/163/226/table2,140.72814,-55.73666
+437371531,Be=Y; signals=S/L/F/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2987012987012987,False,J/AJ/163/226/table2,141.16445,-58.68902
+437746793,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+438103655,Be=Y; signals=S/I/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,95.85284,15.10181
+438306275,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.4843205574912894,False,J/A+A/639/A81/table2 x tablea1,96.81572,14.88923
+438306275,Be=Y; signals=S/I/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,96.81572,14.88923
+438877747,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1494252873563218,False,J/AJ/163/226/table2,195.39541,-60.67138
+439164152,Be=Y; signals=S/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,195.69857,-63.83571
+439331111,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7246376811594204,False,J/AJ/163/226/table2,143.42659,-57.16336
+439397894,Be=Y; signals=S/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6993006993006994,False,J/AJ/163/226/table2,0.934958333333,-17.3359916667
+439430953,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.2195121951219512,False,J/AJ/163/226/table2,143.37774,-58.38625
+440399815,Be=S; signals=S/L,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,196.49344,-62.23705
+441182258,instr / SPB/outburst?,BE,AMBIGUOUS|BE|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,333.57813,-27.76691
+441182258,SPB+ROT?,ROT,PULS|ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,0.7849293563579278,False,J/MNRAS/485/3457/table1,333.57813,-27.76691
+441196602,const?,NOISY,NOISY,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,335.40804,-28.77267
+441196602,ROT?,ROT,ROT,2019MNRAS.485.3457B (Balona+ 2019),visual,6.944444444444445,False,J/MNRAS/485/3457/table1,335.40804,-28.77267
+441196602,Noisy,NOISY,NOISY,2022ApJ...924....2B (Barraza+ 2022),visual,,False,arXiv:2202.01022 Table 3,335.40804,-28.77267
+441687165,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+441713413,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+441715327,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+441725813,sdB candidate (Pul (p-mode)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.066,False,"ApJ 989,177 Table 6 (MRT)",,
+441752709,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.684931506849315,False,J/AJ/163/226/table2,145.67788,-58.10546
+442240473,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,145.9806,-55.05106
+442759685,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0638297872340425,False,J/AJ/163/226/table2,146.39749,-55.74373
+442871031,rot,ROT,ROT,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.2621481761958855,False,J/A+A/639/A81/table2 x tablea1,79.89385,-13.17679
+442871031,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,79.89385,-13.17679
+443126408,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0101010101010102,False,J/AJ/163/226/table2,95.353,-11.7732388889
+443175014,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.4347826086956522,False,J/AJ/163/226/table2,146.8917,-58.18798
+443317662,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.36363636363636365,False,J/AJ/163/226/table2,96.52646,-9.39739
+443616529,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,169.165416667,-3.65160555556
+443848410,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+444061855,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+444676711,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.4084507042253522,False,J/AJ/163/226/table2,147.56121,-58.04588
+445831245,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+447970564,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.1235955056179776,False,J/AJ/163/226/table2,136.02722,-45.67676
+449459169,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.9615384615384615,False,J/AJ/163/226/table2,200.1478,-63.41202
+450276053,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,168.468,-58.60846
+450609787,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.48780487804878053,False,J/AJ/163/226/table2,186.71814,-60.75387
+450826315,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0989010989010988,False,J/AJ/163/226/table2,187.15458,-61.85387
+451280762,Be=S; signals=S/I/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.49504950495049505,False,J/AJ/163/226/table2,170.97069,-59.30476
+451445219,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.4492753623188408,False,J/AJ/163/226/table2,171.50573,-59.35289
+451875177,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5847953216374269,False,J/AJ/163/226/table2,172.78546,-57.24755
+452163402,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,173.69025,-54.2640916667
+453366788,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+454081779,Be=Y; signals=I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6097560975609756,False,J/AJ/163/226/table2,176.73399,-41.29279
+454778372,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.8064516129032259,False,J/AJ/163/226/table2,227.26381,-61.88756
+455389730,Be=Y; signals=I/L/H/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.3333333333333333,False,J/AJ/163/226/table2,223.34214,-45.85578
+455463415,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,229.152875,-60.9039944444
+455675248,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.6,False,J/A+A/639/A81/table2 x tablea1,229.70476,-60.49633
+455675248,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,229.70476,-60.49633
+455755305,sdB candidate (Bin (sdB+WD)),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.077,False,"ApJ 989,177 Table 6 (MRT)",,
+455755305,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+455809360,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,230.03879,-62.25223
+456446715,Be=Y; signals=I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,231.62413,-64.21274
+457546452,Be=U (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,217.63522,-52.25559
+458452988,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+458785169,sdB candidate (Bin+R),OTHER,OTHER,2025ApJ...989..177C (Campelo+ 2025),visual,0.107,False,"ApJ 989,177 Table 6 (MRT)",,
+459532732,SLF,SLF,SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.380952380952381,False,J/A+A/639/A81/table2 x tablea1,162.96979,-58.97646
+459532732,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,162.96979,-58.97646
+460090329,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+460703129,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.5384615384615383,False,J/AJ/163/226/table2,191.47487,-60.55149
+460976315,Be=Y; signals=I,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,232.19602,-60.70801
+461658287,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+463103957,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7633587786259541,False,J/AJ/163/226/table2,152.943583333,-58.0605444444
+464028809,Be=Y; signals=I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.2222222222222223,False,J/AJ/163/226/table2,155.22875,-56.0433166667
+464295672,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.721170395869191,False,J/A+A/639/A81/table2 x tablea1,155.93523,-57.64209
+464295672,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,155.93523,-57.64209
+464839773,SPB,PULS,PULS,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.1976047904191618,False,J/A+A/639/A81/table2 x tablea1,82.00613,1.29825
+464839773,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,82.00613,1.29825
+464839773,Pulsation (SPB),PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,1.199,False,"ApJ 989,177 Table 4 (article HTML)",82.00613,1.29825
+465012898,SLF+rot,ROT,ROT|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.902757619738752,False,J/A+A/639/A81/table2 x tablea1,162.15738,-60.22375
+465012898,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,162.15738,-60.22375
+466353921,Be=Y; signals=S/I/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,165.79036,-61.76875
+466527712,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.641025641025641,False,J/AJ/163/226/table2,166.25032,-61.3936
+466628058,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.641025641025641,False,J/AJ/163/226/table2,166.36789,-61.84527
+466715331,Be=S; signals=S/I/L/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,166.80678,-62.04959
+466880435,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.3333333333333333,False,J/AJ/163/226/table2,167.32821,-60.71188
+467027607,Be=Y; signals=S/I/L/H/V/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5464480874316939,False,J/AJ/163/226/table2,167.33261,-61.1015
+467059272,Be=Y; signals=L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5291005291005292,False,J/AJ/163/226/table2,167.50967,-60.09515
+467065657,SLF+SPB?,PULS,PULS|SLF,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0202020202020203,False,J/A+A/639/A81/table2 x tablea1,167.67525,-60.38446
+467065657,SLF,SLF,SLF,2020A&A...640A..36B (Bowman+ 2020),visual+spectroscopy (SLF morphology fit),,True,J/A+A/640/A36/tablea2,167.67525,-60.38446
+467065657,Be=N (rejected/other); signals=,OTHER,OTHER,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,167.67525,-60.38446
+467178271,Noisy,NOISY,NOISY,2025ApJ...989..177C (Campelo+ 2025),visual,,False,"ApJ 989,177 Table 3 (MRT)",,
+467199933,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.9607843137254901,False,J/AJ/163/226/table2,167.86307,-63.20571
+467408384,Be=Y; signals=S/L/F+/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.625,False,J/AJ/163/226/table2,168.3947,-61.34521
+467409163,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.7299270072992701,False,J/AJ/163/226/table2,168.37294,-61.26416
+467456980,Be=Y; signals=L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.6134969325153374,False,J/AJ/163/226/table2,168.68488,-60.36947
+467821546,Be=Y; signals=G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5050505050505051,False,J/AJ/163/226/table2,169.43898,-61.13943
+468074636,Be=Y; signals=S/I/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,170.02312,-61.23343
+468095832,Be=Y; signals=S/I/L/H,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,170.23824,-61.91673
+468195912,Be=Y; signals=I/L/G,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,0.5847953216374269,False,J/AJ/163/226/table2,170.47679,-63.48718
+469247028,Be=Y; signals=I+,BE,BE,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,False,J/AJ/163/226/table2,148.6326,-58.60969
+469523327,Pulsation,PULS,PULS,2025ApJ...989..177C (Campelo+ 2025),visual,0.596,False,"ApJ 989,177 Table 4 (article HTML)",,
+469906369,SPB / {Beta} Cep / instrumental?,PULS,AMBIGUOUS|PULS,2019ApJ...872L...9P (Pedersen+ 2019),visual+spectroscopy,,False,J/ApJ/872/L9/table1,336.83318,-64.96636
+469906369,MAIA,PULS,PULS,2019MNRAS.485.3457B (Balona+ 2019),visual,,False,J/MNRAS/485/3457/table1,336.83318,-64.96636
+469906369,Rotation ($c$),ROT,ROT,2022ApJ...924....2B (Barraza+ 2022),visual,2.8535,False,arXiv:2202.01022 Table 2,336.83318,-64.96636

@@ -1,0 +1,117 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-03T12:01:07 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-03T12:01:07	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/A+A/640/A36/tablea1&-out.all&-out.max=unlimited	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_36400036
+#Name: J/A+A/640/A36
+#Title: OB stars TESS phot. & high-resolution spectroscopy (Bowman+, 2020)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/640/a36	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/a+a/640/a36	    IVOID of underlying data collection
+#INFO	creator=Bowman D.M.	    First author or institution
+#INFO	cites=bibcode:2020A&A...640A..36B	    Article or Data origin sources
+#INFO	journal=A&A	    Journal name
+#INFO	original_date=2020	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/640/A36	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.36400036	    Dataset identifier that can be used for citation
+#INFO	publication_date=2021-02-02	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Coosys	J2000_2000.000:	eq_FK5 J2000
+#Table	J_A_A_640_A36_tablea1:
+#Name: J/A+A/640/A36/tablea1
+#Title: Parameters of OB stars studied in this work
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	Cat	(I1)	[1/9] Category (G1)	[ucd=meta.code]
+#Column	Name	(a11)	Common name	[ucd=meta.id;meta.main]
+#Column	TIC	(I9)	TIC number	[ucd=meta.id]
+#Column	SpType	(a15)	Spectral type	[ucd=src.spType]
+#Column	logTeff	(F5.2)	Effective temperature (typical uncertainty 0.03dex)	[ucd=phys.temperature.effective]
+#Column	logLs	(F5.2)	Spectroscopic luminosity (where Ls=Teff^4^/g) (typical uncertainty 0.15dex)	[ucd=stat.fit.param]
+#Column	vsini	(I3)	Projected surface rotational velocity (1)	[ucd=phys.veloc.rotat]
+#Column	vmacro	(I3)	? Macroturbulent broadening (1)	[ucd=spect.line.broad]
+#Column	Simbad	(a6)	Simbad column added by the CDS	[ucd=meta.ref.url]
+#Column	_RA	(F9.5)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+recno	Cat	Name	TIC	SpType	logTeff	logLs	vsini	vmacro	Simbad	_RA	_DE
+ 	 	 	 	 	[K]	[Sun]	km/s	km/s	 	deg	deg
+--------	-	-----------	---------	---------------	-----	-----	---	---	------	---------	---------
+       1	1	HD 96715   	306491594	O4 V((f))z     	 4.66	 4.10	 59	 86	Simbad	166.88674	-59.96353
+       2	1	HD 46223   	234881667	O4 V((f))      	 4.62	 4.16	 60	 91	Simbad	098.03878	+04.82353
+       3	1	HD 155913  	216662610	O4.5 Vn((f))   	 4.63	 3.88	278	   	Simbad	259.10972	-42.66781
+       4	1	HD 46150   	234840662	O5 V((f))      	 4.61	 4.03	 71	 94	Simbad	097.98134	+04.94286
+       5	1	HD 90273   	464295672	ON7 V          	 4.59	 3.95	 55	 55	Simbad	155.93523	-57.64209
+       6	1	HD 110360  	433738620	ON7 V          	 4.59	 3.60	 96	 86	Simbad	190.55293	-60.65242
+       7	1	HD 47839   	220322383	O7 V           	 4.58	 3.70	 43	 65	Simbad	100.24441	+09.89576
+       8	1	HD 53975   	148506724	O7.5 Vz        	 4.56	 3.74	181	   	Simbad	106.64986	-12.39395
+       9	1	HD 41997   	294114621	O7.5 Vn((f))   	 4.55	 3.85	262	   	Simbad	092.23259	+15.70505
+      10	1	HD 46573   	234947719	O7 V((f))z     	 4.56	 3.93	 77	 81	Simbad	098.59821	+02.53415
+      11	1	HD 48279   	234009943	O8 V           	 4.55	 3.76	131	 74	Simbad	100.66895	+01.71618
+      12	1	HD 46056   	234834992	O8 Vn          	 4.55	 3.58	370	   	Simbad	097.83692	+04.83440
+      13	1	HD 38666   	100589904	O9.5 V         	 4.53	 3.59	111	 56	Simbad	086.49956	-32.30643
+      14	2	HD 74920   	430625455	O7.5 IVn((f))  	 4.54	 3.90	291	   	Simbad	131.29309	-46.03868
+      15	2	HD 135591  	455675248	O8 IV((f))     	 4.54	 3.99	 60	 60	Simbad	229.70476	-60.49633
+      16	2	HD 326331  	339568114	O8 IVn((f))    	 4.54	 3.82	332	   	Simbad	253.60820	-41.83216
+      17	2	HD 37041   	427395049	O9.5 IVp       	 4.54	 3.28	134	   	Simbad	083.84543	-05.41606
+      18	2	HD 123056  	330281456	O9.5 IV(n)     	 4.50	 3.70	193	   	Simbad	211.85682	-60.47060
+      19	3	HD 97253   	467065657	O5 III(f)      	 4.59	 4.16	 70	105	Simbad	167.67520	-60.38448
+      20	3	HD 93843   	465012898	O5 III(fc)     	 4.57	 4.15	 58	120	Simbad	162.15738	-60.22375
+      21	3	HD 156738  	195288472	O6.5 III(f)    	 4.58	 3.87	 65	103	Simbad	260.21941	-36.07238
+      22	3	HD 36861   	436103278	O8 III((f))    	 4.55	 4.06	 53	 75	Simbad	083.78450	+09.93415
+      23	3	HD 150574  	234648113	ON9 III(n)     	 4.52	 3.87	252	   	Simbad	251.03004	-46.14162
+      24	3	HD 152247  	339570292	O9.2 III       	 4.51	 3.94	 82	 96	Simbad	253.54799	-41.64194
+      25	3	HD 55879   	178489528	O9.7 III       	 4.49	 3.85	 26	 60	Simbad	108.61772	-10.31625
+      26	3	HD 154643  	 43284243	O9.7 III       	 4.49	 3.85	101	 78	Simbad	257.05826	-35.00435
+      27	4	CPD-47 2963	 30653985	O5 Ifc         	 4.57	 4.16	 67	110	Simbad	134.47757	-47.73769
+      28	4	HD 156154  	152659955	O7.5 Ib(f)     	 4.53	 4.22	 62	102	Simbad	259.36254	-35.53667
+      29	4	HD 112244  	406050497	O8.5 Iab(f)p   	 4.50	 4.15	124	 80	Simbad	193.98806	-56.83580
+      30	4	HD 151804  	337793038	O8 Iaf         	 4.45	 4.33	 72	 73	Simbad	252.89051	-41.23054
+      31	4	HD 303492  	459532732	O8.5 Iaf       	 4.45	 4.29	 87	 55	Simbad	162.96979	-58.97646
+      32	4	HD 57061   	106347931	O9 II          	 4.51	 4.01	 57	 93	Simbad	109.67703	-24.95437
+      33	4	HD 152249  	339567904	OC9 Iab        	 4.49	 4.15	 71	 70	Simbad	253.54850	-41.84925
+      34	4	HD 152424  	247267245	OC9.2 Ia       	 4.48	 4.14	 59	 66	Simbad	253.76387	-42.09083
+      35	4	HD 154368  	 41792209	O9.5 Iab       	 4.48	 4.28	 65	 78	Simbad	256.61820	-35.45104
+      36	4	HD 152003  	338640317	O9.7 Iab Nwk   	 4.48	 4.12	 65	 83	Simbad	253.19739	-41.78583
+      37	4	HD 152147  	246953610	O9.7 Ib Nwk    	 4.48	 4.04	 91	 64	Simbad	253.36924	-42.12140
+      38	5	HD 36960   	427373484	B0.5 V         	 4.46	 3.31	 23	 37	Simbad	083.76117	-06.00203
+      39	5	HD 37042   	427395058	B0.7 V         	 4.47	 3.06	 33	 13	Simbad	083.86000	-05.41689
+      40	5	HD 43112   	434384707	B1 V           	 4.41	 2.95	  7	 12	Simbad	093.78530	+13.85110
+      41	5	HD 35912   	464839773	B2 V           	 4.26	 2.44	 11	 21	Simbad	082.00613	+01.29825
+      42	5	HD 48977   	202148345	B2.5 V         	 4.25	 2.61	 26	  8	Simbad	101.63506	+08.58716
+      43	6	HD 34816   	442871031	B0.5 IV        	 4.46	 3.22	 25	   	Simbad	079.89385	-13.17679
+      44	6	HD 46328   	 47763235	B0.5 IV        	 4.40	 3.28	  7	 20	Simbad	097.96403	-23.41842
+      45	6	HD 50707   	 78897024	B1 IV          	 4.38	 3.31	 29	 46	Simbad	103.38711	-20.22425
+      46	6	HD 37481   	332913301	B1.5 IV        	 4.34	 2.78	 74	 21	Simbad	084.65822	-06.57396
+      47	6	HD 37209   	388935529	B2 IV          	 4.38	 2.76	 50	 15	Simbad	084.14872	-06.06475
+      48	6	HD 26912   	283793973	B3 IV          	 4.20	 2.61	 53	 30	Simbad	063.88357	+08.89236
+      49	6	HD 37711   	 59215060	B3 IV          	 4.21	 2.61	 68	 51	Simbad	085.32382	+16.53415
+      50	6	HD 57539   	 10176636	B3 IV          	 4.13	 2.54	162	 13	Simbad	110.39430	-05.89719
+      51	6	HD 41753   	151464886	B3 IV          	 4.23	 2.61	 25	 40	Simbad	091.89302	+14.76847
+      52	6	HD 224990  	313934087	B5 IV          	 4.13	 2.33	 20	 40	Simbad	000.58304	-29.72044
+      53	7	HD 48434   	234052684	B0 III         	 4.48	 3.93	 48	 82	Simbad	100.91102	+03.93253
+      54	7	HD 61068   	349043273	B2 III         	 4.39	 3.08	 12	 23	Simbad	114.17098	-19.70234
+      55	7	HD 35468   	365572007	B2 III         	 4.29	 2.99	 53	 27	Simbad	081.28276	+06.34970
+      56	8	HD 44743   	 34590771	B1 II-III      	 4.37	 3.20	 24	 40	Simbad	095.67494	-17.95592
+      57	8	HD 54764   	 95513457	B1 II          	 4.30	 3.97	123	 87	Simbad	107.38901	-16.23451
+      58	8	HD 52089   	 63198307	B2 II          	 4.34	 3.60	 26	 50	Simbad	104.65645	-28.97209
+      59	8	HD 51309   	146908355	B3 II          	 4.20	 3.64	 27	 43	Simbad	104.03427	-17.05424
+      60	8	HD 46769   	281148636	B5 II          	 4.11	 3.16	 70	 23	Simbad	098.81596	+00.89022
+      61	8	HD 27563   	 37777866	B7 II          	 4.16	 2.61	 34	 26	Simbad	065.17848	-07.59250
+      62	8	HD 53244   	148109427	B8 II          	 4.14	 2.74	 36	 21	Simbad	105.93955	-15.63329
+      63	8	HD 37128   	427451176	B0 Ia          	 4.47	 4.05	 55	 85	Simbad	084.05339	-01.20192
+      64	8	HD 38771   	 66651575	B0.5 Ia        	 4.47	 4.06	 53	 83	Simbad	086.93912	-09.66960
+      65	8	HD 53138   	 80466973	B3 Iab         	 4.23	 4.13	 37	 56	Simbad	105.75613	-23.83329
+      66	8	HD 39985   	102281507	B9 Ib          	 4.11	 2.34	 26	 28	Simbad	089.11681	+09.50939
+      67	9	HD 37061   	427393920	O9.5 V         	 4.49	 3.07	210	   	Simbad	083.88069	-05.26738
+      68	9	HD 37742   	 11360636	O9.2 Ib var Nwk	 4.47	 4.15	122	 97	Simbad	085.18970	-01.94257
+      69	9	HD 57682   	187458882	O9.2 IV        	 4.54	 3.62	 12	 38	Simbad	110.50856	-08.97938
+      70	9	HD 54879   	177860391	O9.7 V         	 4.52	 3.16	  7	 10	Simbad	107.53395	-11.80273
+

@@ -1,0 +1,266 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2026-09-03T11:59:53 [V7.6]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	service_protocol=ASU	  IVOID of the protocol through which the data was retrieved
+#INFO	request_date=2026-09-03T11:59:53	  Query execution date
+#INFO	request=https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/MNRAS/485/3457&-out.all&-out.max=unlimited	  Full request URL
+#INFO	contact=cds-question@unistra.fr	  Email or URL to contact publisher
+#INFO	server_software=VizieR/7.6	  Software version
+#INFO	publisher=CDS	  Data centre that produced the VOTable
+
+#RESOURCE=yCat_74853457
+#Name: J/MNRAS/485/3457
+#Title: Rotational modulation in TESS B stars (Balona+, 2019)
+#INFO	ivoid=ivo://cds.vizier/j/mnras/485/3457	    IVOID of underlying data collection
+#INFO	data_ivoid=ivo://cds.vizier/j/mnras/485/3457	    IVOID of underlying data collection
+#INFO	creator=Balona L.A.	    First author or institution
+#INFO	cites=bibcode:2019MNRAS.485.3457B	    Article or Data origin sources
+#INFO	journal=MNRA	    Journal name
+#INFO	original_date=2019	    Year of the article publication
+#INFO	reference_url=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/MNRAS/485/3457	    Dataset landing page
+#INFO	citation=doi:10.26093/cds/vizier.74853457	    Dataset identifier that can be used for citation
+#INFO	publication_date=2024-08-19	    Date of first publication in the data centre
+#INFO	rights_uri=https://cds.unistra.fr/vizier-org/licences_vizier.html	    Licence URI
+#Table	J_MNRAS_485_3457_table1:
+#Name: J/MNRAS/485/3457/table1
+#Title: List of B stars observed by TESS
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	Name	(I9)	TIC star name (NNNNNNNNN)	[ucd=meta.id;meta.main]
+#Column	OName	(a15)	Other name	[ucd=meta.id]
+#Column	VarType	(a14)	Assigned variability type (GCVS type in parenthesis from Samus et al. 2017ARep...61...80S, Cat. B/gcvs)	[ucd=meta.note;src.var]
+#Column	Vmag	(F6.3)	Apparent V magnitude	[ucd=phot.mag;em.opt.V]
+#Column	nurot	(F6.3)	? Presumed rotational frequency (in cycles/d)	[ucd=em.freq;src.var]
+#Column	Arot	(I5)	? Amplitude of the periodogram peak	[ucd=src.var.amplitude]
+#Column	S/N	(I3)	? Signal to noise ratio of the periodogram peak	[ucd=meta.note]
+#Column	NH	(I1)	? Number of visible harmonics	[ucd=meta.number]
+#Column	ve	(I3)	? Derived equatorial rotational velocity (G1)	[ucd=phys.veloc.rotat]
+#Column	vsini	(I3)	? Projected rotational velocity from the literature	[ucd=phys.veloc.rotat]
+#Column	Teff	(I5)	? Adopted effective temperature	[ucd=phys.temperature.effective]
+#Column	r_Teff	(I2)	? Reference for Teff (G2)	[ucd=meta.ref;pos.frame]
+#Column	logLstar	(F5.2)	? Stellar luminosity obtained from the Gaia parallax (Gaia Collaboration 2018A&A...616A...1G, Cat. I/345)	[ucd=phys.luminosity]
+#Column	SpType	(a20)	Spectral type ((Be) indicates classical Be star)	[ucd=src.spType]
+#Column	SimbadName	(a19)	Simbad column added by the CDS	[ucd=meta.id]
+#Column	_RA	(F9.5)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+recno	Name	OName	VarType	Vmag	nurot	Arot	S/N	NH	ve	vsini	Teff	r_Teff	logLstar	SpType	SimbadName	_RA	_DE
+ 	 	 	 	mag	d-1	ppm	 	 	km/s	km/s	K	 	[Lsun]	 	 	deg	deg
+--------	---------	---------------	--------------	------	------	-----	---	-	---	---	-----	--	-----	--------------------	-------------------	---------	---------
+       1	 12359289	HD 225119      	SXARI         	 8.180	 0.325	 4157	 95	1	 65	   	15330	 1	 2.90	kB8hB7HeB9.5IIISi   	HD 225119          	000.90458	-28.41714
+       2	 29990592	HD 268623      	ACYG          	11.635	      	     	   	 	   	   	20665	 2	     	B1.5Ia(LMC)         	HD 268623          	073.07956	-66.73148
+       3	 30110048	HD 268653      	ACYG          	10.760	      	     	   	 	   	   	17185	 2	     	B2.5Ia(LMC)         	HD 268653          	073.37514	-66.92450
+       4	 30268695	HD 268809      	ACYG          	11.964	      	     	   	 	   	   	22845	 2	     	B0.5Ia(LMC)         	HD 268809          	074.04357	-69.26064
+       5	 30275662	Sk-66 27       	ACYG          	11.779	      	     	   	 	   	   	17765	 2	     	B2.5/3Ia(LMC)       	Sk-66 27           	074.09789	-66.49780
+       6	 30312676	HD 268726      	ACYG          	11.265	      	     	   	 	   	   	19075	 2	     	B2Iaq(LMC)          	HD 268726          	074.28677	-66.39033
+       7	 30317301	HD 268798      	EB            	11.490	      	     	   	 	   	   	28000	 1	     	B0.5, B2Ia(LMC)     	HD 268798          	074.28357	-68.42008
+       8	 30933383	Sk-68 39       	ACYG          	12.039	      	     	   	 	   	   	22580	 1	     	B2.5Ia(LMC)         	Sk-68 39           	076.20907	-68.13121
+       9	 31105740	TYC 9161-925-1 	ACYG          	12.010	      	     	   	 	   	   	24970	 2	     	B0.5Iae(LMC)        	TYC 9161-925-1     	076.36298	-68.16740
+      10	 31181554	HD 269050      	ACYG          	11.540	      	     	   	 	   	   	25000	 1	     	B0Ia(e?)(LMC)       	HD 269050          	076.83509	-68.53571
+      11	 31674330	GJ 127.1       	-             	11.394	      	     	   	 	   	  0	16860	 3	-2.75	DA3.0               	GJ 127.1           	047.62925	-68.60094
+      12	 31867144	HD 22252       	SPB           	 5.806	      	     	   	 	   	223	12157	 4	 2.72	B8IV                	HD 22252           	052.71545	-66.48971
+      13	 33945685	HD 223118      	ROT           	 8.250	 2.835	   72	 25	0	273	   	10500	 5	 1.60	B9V                 	HD 223118          	356.71589	-24.29362
+      14	 38602305	HD 27657       	ROT           	 5.870	 0.336	  920	143	3	 42	   	12448	 7	 2.13	B9III/IV; A2-A7m    	HD 27657           	064.41780	-63.25541
+      15	 40343782	HD 269101      	ACYG?         	12.030	      	     	   	 	   	   	21370	 1	     	B3Iab;(LMC)         	HD 269101          	077.43831	-68.76941
+      16	 41331819	HD 43107       	ROT           	 5.044	 0.714	  324	 91	0	106	 98	10886	 4	 2.04	B9.5III, B8V        	HD 43107           	092.18442	-68.84341
+      17	 47296054	HD 214748      	SPB+ROT       	 4.180	 0.836	   63	 51	3	202	180	13520	 1	 2.84	B8IVe(Be)           	HD 214748          	340.16395	-27.04362
+      18	 49687057	HD 220787      	-             	 8.290	      	     	   	 	   	 26	17379	 6	 3.54	B3III               	HD 220787          	351.68955	-11.03260
+      19	 53992511	HD 209522      	BE(BE)        	 5.952	      	     	   	 	   	280	22570	 1	 3.51	B4IVe(Be)           	HD 209522          	331.15319	-26.82236
+      20	 55295028	HD 33599       	BE            	 8.970	      	     	   	 	   	200	22570	 1	 4.44	B3p shell:(Be)      	HD 33599           	076.80395	-61.80508
+      21	 66497441	HD 222847      	ELL           	 5.235	      	     	   	 	   	307	12000	 8	 2.24	B8.5Vnn             	HD 222847          	356.05033	-18.27695
+      22	 69925250	V* HN Aqr      	BCEP+SPB(BCEP)	11.470	      	     	   	 	   	 45	22909	 8	 4.31	B0/1                	V* HN Aqr          	339.40952	-18.66424
+      23	 89545031	HD 223640      	SXARI(ACV)    	 5.180	 0.266	 9000	 95	1	 36	 27	12462	 9	 2.20	B9SiSrCr*           	HD 223640          	357.83891	-18.90916
+      24	 92136299	HD 222661      	ROT+FLARE?    	 4.483	 2.251	  217	 82	1	225	120	11108	 8	 1.73	B9.5IV              	HD 222661          	355.68061	-14.54491
+      25	115177591	HD 201108      	ROT           	 6.900	 1.736	 2442	 89	0	345	   	10158	10	 2.17	B8IV/V              	HD 201108          	317.17202	-37.24270
+      26	118327563	CD-38 222      	ROT+FLARE?    	10.260	 4.372	  733	 60	1	 54	 48	26300	11	 1.42	sdB                 	CD-38 222          	010.74294	-38.12703
+      27	139468902	HD 213155      	ROT           	 6.924	 2.199	  288	 87	1	264	   	 9628	 6	 1.64	B9.5V               	HD 213155          	337.56560	-42.29107
+      28	141281495	HD 37854       	ROT           	 8.100	 0.334	  205	 89	0	 48	   	10500	 5	 1.96	B9/9.5V             	HD 37854           	083.24848	-75.23678
+      29	147283842	HD 205805      	-             	10.180	      	     	   	 	   	   	25000	11	 1.67	sdB4                	HD 205805          	324.79423	-46.09765
+      30	149039372	HD 34543       	SPB?          	 8.370	      	     	   	 	   	   	11583	 6	 2.12	B8V                 	HD 34543           	078.35474	-65.23611
+      31	149971754	HD 41297       	SPB           	10.000	      	     	   	 	   	   	13520	 7	 2.57	B8IV                	HD 41297           	090.01184	-61.82800
+      32	150357404	HD 45796       	SPB+ROT?      	 6.248	 0.640	10333	 77	0	114	 17	13775	 6	 2.61	B6V                 	HD 45796           	096.23249	-63.82814
+      33	150442264	HD 46792       	EB(EB:)       	 6.140	      	     	   	 	   	   	16605	 6	 3.42	B3(V)k              	HD 46792           	097.79433	-61.87954
+      34	152283270	HD 208433      	EA+ROT?       	 7.440	 0.434	   80	 26	0	 69	   	10500	 5	 2.04	B9.5V               	HD 208433          	329.23144	-35.35983
+      35	167045028	HD 45527       	EB?           	 9.910	 0.329	 5811	135	1	 62	   	11000	 1	 2.27	B9IV                	HD 45527           	095.51900	-69.27323
+      36	167415960	HD 48467       	-             	 8.270	      	     	   	 	   	   	10613	 7	 2.19	B8/9V               	HD 48467           	099.28993	-70.91771
+      37	167523976	HD 49193       	SPB           	 8.940	      	     	   	 	   	   	24380	 1	 4.06	B2V                 	HD 49193           	100.60144	-65.74263
+      38	169285097	CD-35 15910    	sdBhybrid     	11.000	      	     	   	 	   	   	28390	11	 1.50	sdB He1             	CD-35 15910        	356.09170	-34.45011
+      39	176935619	HD 49306       	ROT           	 6.700	 2.748	   29	 26	0	326	   	10082	 7	 1.71	B9.5/A0V            	HD 49306           	100.60644	-67.84310
+      40	176955379	HD 49531       	ROT           	 8.910	 2.994	 1181	109	1	414	   	11900	 5	 2.13	B8/9Vn              	HD 49531           	100.77769	-69.29778
+      41	177075997	HD 51557       	ROT?          	 5.393	 0.352	   49	 44	0	 89	124	12325	 6	 2.72	B7III               	HD 51557           	102.86244	-70.96341
+      42	179308923	HD 269382      	ACYG+EB?      	10.815	      	     	   	 	   	   	27600	 1	     	O9.5Ib(LMC)         	HD 269382          	079.82403	-69.65395
+      43	179574710	HD 271213      	ACYG          	12.310	      	     	   	 	   	   	23790	 1	     	B1Iak(LMC)          	HD 271213          	080.36637	-71.93865
+      44	179637387	[OM95]LH47-373A	ACYG?         	11.970	      	     	   	 	   	   	20300	12	     	B1Ib(LMC)           	[OM95]LH47-373A    	080.57186	-67.94916
+      45	179639066	HD 269440      	ACYG          	11.378	      	     	   	 	   	   	22240	 2	     	B1.5Ia(LMC)         	HD 269440          	080.75276	-67.18946
+      46	181043970	HD 5148        	EA(EA/SD)     	10.640	      	     	   	 	   	   	11000	 5	 1.41	B9/A2IV:            	HD 5148            	012.94416	-71.99803
+      47	182909257	HD 6783        	SXARI         	 7.940	 0.319	 2837	 92	3	 36	 30	12941	 6	 2.11	B8Si                	HD 6783            	016.38045	-77.58465
+      48	197641601	HD 207971      	ROT?          	 3.010	 0.201	  135	 36	0	 68	 55	11984	 6	 2.92	B8IV-Vs             	HD 207971          	328.48219	-37.36486
+      49	206362352	HD 223145      	SPB           	 5.161	      	     	   	 	   	240	17163	 4	 3.03	B2.5V               	HD 223145          	356.81665	-50.22646
+      50	206547467	HD 210780      	ROT           	 8.340	 0.233	   75	 25	1	 16	   	12500	 7	 1.61	B9.5/A0V            	HD 210780          	333.28927	-21.40600
+      51	207176480	HD 19818       	BE            	 9.060	      	     	   	 	   	   	11710	 5	 1.59	B9/A0Vne:(Be)       	HD 19818           	047.10869	-59.37372
+      52	207235278	HD 20784       	ELL           	 8.280	 0.558	 4530	 95	1	187	   	 9175	 7	 2.45	B9.5V               	HD 20784           	049.60301	-55.82253
+      53	220430912	HD 31407       	EA(EA)        	 7.690	      	     	   	 	   	   	19648	 7	 3.76	B2/3V               	HD 31407           	073.11768	-55.69706
+      54	224244458	HD 221507      	SXARI+FLARE   	 4.370	 0.522	  141	 80	2	 57	 21	12380	 6	 2.00	B9.5IVpHg:Mn:Eu:    	HD 221507          	353.24275	-37.81828
+      55	229013861	HD 208674      	ROT?          	 7.920	 0.423	   80	 23	0	 35	   	14555	 7	 2.04	B9.5V               	HD 208674          	329.66009	-32.35546
+      56	230981971	HD 10144       	BE(BE)        	 0.460	      	     	   	 	   	225	20760	 1	     	B4V(e)(Be)          	HD 10144           	024.42852	-57.23675
+      57	231122278	HD 29994       	SPB           	 8.110	      	     	   	 	   	   	11900	 5	 2.08	B8/9V               	HD 29994           	069.55501	-68.81166
+      58	238194921	HD 24579       	SPB+ROT       	 8.060	 0.727	   74	 37	0	114	   	15330	 1	 2.68	B7III               	HD 24579           	056.63978	-76.71593
+      59	259862349	HD 16978       	ROT?          	 4.106	 0.402	   51	 31	0	 53	 96	10003	 6	 1.79	B9V                 	HD 16978           	039.89734	-68.26695
+      60	260128701	HD 42918       	SPB           	 7.950	      	     	   	 	   	   	16289	 7	 3.00	B4V                 	HD 42918           	092.40770	-59.52211
+      61	260131665	HD 42933       	EB(EB/D:)     	 4.810	      	     	   	 	   	170	25981	 6	 4.58	B0.5:III?np +B0.5/3:	HD 42933           	092.57462	-54.96864
+      62	260368525	HD 44937       	ROT?          	 8.190	 1.194	   31	 16	1	241	   	10500	 5	 2.24	B9.5V               	HD 44937           	095.24120	-58.35207
+      63	260540898	HD 46212       	ROT?          	 8.260	 0.562	   30	 11	1	117	   	12400	 5	 2.56	B8IV                	HD 46212           	097.19051	-55.91716
+      64	260640910	HD 46860       	BE            	 5.707	      	     	   	 	   	200	13520	 1	 2.70	B8III(Be)           	HD 46860           	097.99296	-58.75384
+      65	260820871	HD 218801      	EP            	 8.990	      	     	   	 	   	   	10500	 5	 1.92	B9.5Vn:             	HD 218801          	348.05459	-70.11320
+      66	261205462	HD 40953       	SPB           	 5.451	      	     	   	 	   	 23	11243	 4	 1.93	B9V                 	HD 40953           	087.56994	-79.36136
+      67	262815962	HD 218976      	ROT           	 8.120	 0.369	  207	 58	1	 40	   	 9846	 6	 1.60	B9.5/A0V            	HD 218976          	348.23321	-54.18669
+      68	270070443	HD 198174      	SXARI         	 5.854	 0.395	 2529	 99	0	 64	 72	13217	13	 2.46	B7IIIp              	HD 198174          	312.32339	-25.78124
+      69	270219259	HD 209014      	BE+MAIA       	 5.620	      	     	   	 	   	350	13520	 1	 2.96	B8III shell(Be)     	HD 209014          	330.20927	-28.45374
+      70	270557257	HD 49835       	ROT?          	 8.560	 2.475	   42	 13	0	253	   	10500	 5	 1.65	B9.5V               	HD 49835           	099.90896	-78.44044
+      71	270622440	HD 224112      	-             	 6.828	      	     	   	 	   	 35	     	  	 2.32	Blend with 270622446	HD 224112          	358.81954	-31.88427
+      72	270622446	HD 224113      	EA(EA/DM)     	 6.087	      	     	   	 	   	135	13665	 4	 2.70	B7(V) +B9(V)        	HD 224113          	358.81911	-31.92148
+      73	271503441	HD 2884        	ROT           	 4.335	 3.056	  234	 51	1	282	140	11576	14	 1.73	B8/A0               	HD 2884            	007.88612	-62.95822
+      74	271971626	HD 62153       	ROT+MAIA      	 7.020	 0.215	  289	 88	0	 38	   	11783	 4	 2.33	B9IV                	HD 62153           	113.84023	-74.27495
+      75	276864600	HD 269777      	ACYG          	11.060	      	     	   	 	   	   	21370	 1	     	B3Ia(LMC)           	HD 269777          	083.57692	-67.30381
+      76	277022505	HD 269786      	ACYG          	11.180	      	     	   	 	   	   	28000	 1	     	B1I(LMC)            	HD 269786          	083.76501	-69.75056
+      77	277022967	HD 37836       	ACYG          	10.660	      	     	   	 	   	   	28000	 1	     	B0e(q)I(LMC)        	HD 37836           	083.81930	-69.67734
+      78	277099925	HD 269845      	ACYG          	11.790	      	     	   	 	   	   	22580	 1	     	B2.5Ia(LMC)         	HD 269845          	083.98653	-67.45960
+      79	277103567	HD 37935       	ROT(BE)       	 6.281	 1.496	  209	 74	3	361	209	 9940	 6	 2.30	B9.5V(Be)           	HD 37935           	084.22908	-66.56029
+      80	277172980	HD 37974       	ACYG          	10.959	      	     	   	 	   	   	28000	 1	     	B0.5e(LMC)          	HD 37974           	084.10772	-69.38216
+      81	277173650	HD 269859      	ACYG          	10.730	      	     	   	 	   	   	23790	 1	     	B1.5Ia(LMC)         	HD 269859          	084.19661	-69.49780
+      82	277298891	Sk-69 237      	ACYG          	12.080	      	     	   	 	   	   	24625	 2	     	B1Ia(LMC)           	Sk-69 237          	084.50529	-69.37057
+      83	277982164	HD 54239       	ROT           	 5.459	 1.266	  122	 66	1	248	209	 9938	 4	 2.12	B9.5/A0III/IV       	HD 54239           	104.14364	-79.42019
+      84	278683664	HD 47770       	ROT?          	 8.490	 1.701	   32	 13	0	268	   	 9012	 7	 1.76	B9.5V               	HD 47770           	099.16749	-58.40888
+      85	278865766	HD 48971       	-             	 8.280	      	     	   	 	   	   	 9743	 7	 1.93	B9V                 	HD 48971           	100.71139	-56.01607
+      86	278867172	HD 49111       	-             	 8.490	      	     	   	 	   	   	14273	 7	 2.11	B9.5V               	HD 49111           	100.96246	-54.18205
+      87	279430029	HD 53048       	ROT           	 7.920	 1.784	   64	 33	1	554	   	18950	 1	 3.64	B5/7Vn(e:)(Be)      	HD 53048           	105.04330	-56.90700
+      88	279511712	HD 53921       	ELL(LPB)      	 5.600	 0.605	 4590	141	1	141	   	13800	 4	 2.84	B9III+B8V           	HD 53921           	105.81291	-59.17811
+      89	279957111	HD 269582      	-             	12.597	      	     	   	 	   	   	30200	 1	     	Ofpe/WN9(LMC)       	HD 269582          	081.96943	-68.98569
+      90	280051467	HD 19400       	SXARI         	 5.497	 0.229	  570	135	0	 36	 64	14117	 6	 2.56	B8III/IV Hewk       	HD 19400           	045.56437	-71.90246
+      91	280684074	HD 215573      	SPB+ROT(LPB)  	 5.313	 0.563	10068	 77	0	104	 13	13960	15	 2.66	B6V                 	HD 215573          	342.59506	-80.12384
+      92	281703963	HD 4150        	MAIA          	 4.365	      	     	   	 	   	105	 9822	14	 2.06	A0IV/B9Vp((SiFe))   	HD 4150            	010.83849	-57.46306
+      93	281741629	CD-56 152      	BE(BE)        	10.180	      	     	   	 	   	180	19000	16	 4.59	sdB?/Be?            	CD-56 152          	012.25544	-56.09704
+      94	293268667	HD 47478       	SPB+ROT       	 8.500	 3.390	  386	 75	1	455	   	10765	 7	 1.93	B9V                 	HD 47478           	098.56016	-63.91811
+      95	293271581	Hen 3-15       	EB(NB)        	12.502	      	     	   	 	   	   	     	  	 0.67	Bem RR Pic(Nova)    	Hen 3-15           	098.90026	-62.64008
+      96	293973218	HD 54967       	SPB           	 6.470	      	     	   	 	   	 34	22570	 1	 3.47	B3III               	HD 54967           	106.81781	-59.71642
+      97	294747615	HD 30612       	SXARI         	 5.515	 0.192	  670	130	0	 30	 30	13661	 6	 2.50	B8II/IIIp:Si:       	HD 30612           	070.76652	-70.93103
+      98	294872353	HD 270754      	ACYG          	11.260	      	     	   	 	   	   	19910	 2	     	B1.5Ia:(LMC)        	HD 270754          	071.76855	-67.11476
+      99	300010961	HD 55478       	ROT+MAIA      	 8.060	 0.683	  723	117	3	122	   	11144	 7	 2.24	B8III               	HD 55478           	106.94569	-67.93686
+     100	300325379	HD 58916       	ROT           	 8.010	 1.838	   42	 20	0	268	   	11710	 1	 2.15	B9Vn                	HD 58916           	110.70542	-66.53885
+     101	300329728	HD 59426       	ELL/ROT       	 8.420	 0.411	 5216	140	1	 51	   	11710	 1	 2.02	B9V                 	HD 59426           	110.96647	-70.77259
+     102	300744369	HD 63928       	ROT           	 8.700	 0.957	  475	115	1	102	   	11710	 1	 1.88	B9V                 	HD 63928           	116.50272	-69.49798
+     103	300865934	HD 64484       	-             	 5.774	      	     	   	 	   	   	10707	 4	 2.14	B9V                 	HD 64484           	117.42080	-66.19597
+     104	306672432	HD 67252       	ROT?          	 8.530	 1.090	   31	 13	1	119	   	13520	 1	 2.15	B8/9V               	HD 67252           	120.59293	-67.79489
+     105	306824672	HD 68221       	SPB?          	 8.650	      	     	   	 	   	   	11710	 5	 2.32	B9V                 	HD 68221           	121.64756	-68.61739
+     106	306829961	HD 68520       	SPB           	 4.400	      	     	   	 	   	 10	14090	17	 3.44	B5III               	HD 68520           	121.98248	-68.61706
+     107	307291308	HD 71066       	SXARI         	 5.617	 0.387	  300	 42	1	 62	  2	11821	 6	 2.25	B9pMnHg             	HD 71066           	125.00220	-71.50538
+     108	307291318	HD 71046       	-             	 5.329	      	     	   	 	   	 69	12102	 6	 2.37	B9III/IV            	HD 71046           	124.95402	-71.51491
+     109	307993483	HD 73990       	SPB+ROT?      	 6.870	 3.697	   48	 27	0	   	   	10221	 7	 2.02	B7/8V               	HD 73990           	129.08624	-70.67666
+     110	308395911	HD 66591       	SPB           	 4.797	      	     	   	 	   	 43	16983	 6	 2.96	B3IV                	HD 66591           	120.08319	-63.56746
+     111	308454245	HD 67420       	MAIA          	 8.250	      	     	   	 	   	   	11710	 1	 2.15	B9V                 	HD 67420           	120.95821	-64.62917
+     112	308456810	HD 67170       	ROT           	 8.110	 0.251	   54	 23	1	 38	   	13520	 1	 2.43	B8III/IV            	HD 67170           	120.78139	-62.13281
+     113	308537791	HD 67277       	ROT+MAIA      	 8.260	 0.527	  746	 81	1	 78	   	13520	 1	 2.41	B8III               	HD 67277           	120.92351	-60.90756
+     114	308748912	HD 68423       	-             	 6.313	      	     	   	 	   	   	15330	 1	 2.86	B7IVek(Be)          	HD 68423           	122.10267	-63.80082
+     115	309702035	HD 271163      	ACYG          	 9.984	      	     	   	 	   	   	21370	 1	     	B3Ia(LMC)           	HD 271163          	079.71561	-65.68956
+     116	313934087	HD 224990      	SPB           	 5.023	      	     	   	 	   	 15	16100	17	 3.08	B4III               	HD 224990          	000.58303	-29.72044
+     117	327856894	HD 225253      	-             	 5.581	      	     	   	 	   	   	13123	 6	 2.64	B8IV/V              	HD 225253          	001.17212	-71.43689
+     118	349829477	HD 61267       	-             	 8.330	      	     	   	 	   	   	10000	 1	 1.72	B9/A0IV             	HD 61267           	113.67648	-61.08280
+     119	349907707	HD 61644       	EA(EA)        	 8.410	      	     	   	 	   	   	18000	 1	 2.76	B5/6IV              	HD 61644           	114.10522	-61.87385
+     120	350146577	HD 63204       	SXARI         	 8.310	 0.544	48570	139	1	 78	   	10505	10	 1.95	B9Si                	HD 63204           	115.90400	-63.39919
+     121	350823719	HD 41037       	EB            	 9.460	      	     	   	 	   	215	22570	 1	 3.70	B3V                 	HD 41037           	089.74623	-58.26882
+     122	354671857	HD 14228       	ROT?          	 3.570	 2.908	  256	 98	0	375	200	12687	 6	 2.18	B8IV-V              	HD 14228           	034.12744	-51.51217
+     123	355141264	HD 208495      	-             	 8.860	      	     	   	 	   	   	 9945	 7	 1.58	B9.5V               	HD 208495          	329.46321	-47.54685
+     124	355477670	HD 220802      	ROT?          	 6.210	 0.272	   21	 23	0	 37	123	11206	 4	 2.03	B9V                 	HD 220802          	351.78795	-50.15724
+     125	355653322	HD 224686      	ROT           	 4.470	 1.266	  117	 38	1	274	275	11710	 1	 2.49	B9IIIn(Be)          	HD 224686          	359.97907	-65.57713
+     126	358232450	HD 6882        	EA(EA/DM)     	 3.967	      	     	   	 	   	111	13471	 6	 2.41	B6V +B9V            	HD 6882            	017.09617	-55.24576
+     127	358466708	CD-60 1931     	ROT           	 8.090	 1.661	 3405	 83	1	280	223	12814	18	 2.43	B8III               	CD-60 1931         	119.22784	-60.59847
+     128	358467049	CPD-60 944     	SXARI         	 8.756	 0.265	13161	 97	0	 30	   	12600	18	 2.07	B8pSi               	CPD-60 944         	119.18794	-60.81508
+     129	358467087	CD-60 1929     	SPB?          	 8.520	      	     	   	 	   	 43	12543	18	 2.26	B8.5IV              	CD-60 1929         	119.19665	-60.84085
+     130	364323837	HD 40031       	SPB?          	 9.270	      	     	   	 	   	 65	14000	16	 3.08	sdB, B6III          	HD 40031           	088.00096	-62.51775
+     131	364398190	CD-60 1978     	ROT           	 8.750	 0.760	  129	 28	0	101	 68	12337	18	 2.16	B8.5IV-V            	CD-60 1978         	119.62806	-60.72906
+     132	364398342	HD 66194       	BE(GCAS)      	 5.810	      	     	   	 	   	200	20632	18	 3.76	B2IVn(e)p(Si)(Be)   	HD 66194           	119.71063	-60.82446
+     133	364421326	HD 66109       	ROT?          	 8.190	 1.976	   31	 11	0	385	   	11710	 1	 2.40	B9.5V               	HD 66109           	119.57302	-63.13157
+     134	369397090	CD-30 19716    	-             	12.860	      	     	   	 	   	   	39811	19	 1.43	sdB                 	CD-30 19716        	358.15039	-30.16920
+     135	369457005	HD 197630      	SPB?          	 5.474	      	     	   	 	   	   	11511	 6	 1.99	B8/9V               	HD 197630          	311.58362	-39.19927
+     136	370038084	HD 26109       	-             	 8.580	      	     	   	 	   	   	11710	 1	 1.62	B9.5/A0V            	HD 26109           	060.60598	-70.27213
+     137	372913233	HD 65950       	-             	 6.870	      	     	   	 	   	 26	12842	18	 2.88	B8.5IIIpMnHg        	HD 65950           	119.43841	-60.92646
+     138	372913582	CD-60 1954     	SPB?          	 8.590	      	     	   	 	   	188	10579	18	 2.13	B9.5V               	CD-60 1954         	119.45490	-60.68364
+     139	372913684	HD 65987       	SXARI(EA:)    	 7.590	 0.685	 5892	 93	2	163	 13	12600	18	 2.70	B9.5IVpSi           	HD 65987           	119.51213	-60.61479
+     140	373843852	HD 269525      	ACYG          	12.780	      	     	   	 	   	   	28000	 1	     	B0:(LMC)            	HD 269525          	081.56341	-67.49997
+     141	389921913	HD 270196      	ACYG          	11.600	      	     	   	 	   	   	22875	 2	     	B1.5Ia(LMC)         	HD 270196          	087.83658	-70.28592
+     142	391810734	HD 269655      	ACYG          	12.200	      	     	   	 	   	   	28800	20	     	B0Ia(LMC)           	HD 269655          	082.65770	-68.41089
+     143	391887875	HD 269660      	ACYG          	11.190	      	     	   	 	   	   	23790	 1	     	B1.5Ia(LMC)         	HD 269660          	082.69906	-71.06731
+     144	404768847	VFTS 533       	ACYG?         	11.820	      	     	   	 	   	 57	19275	 2	     	B1.5Ia+qp(LMC)      	VFTS 533           	084.67807	-69.09517
+     145	404768956	NGC 2070 Mel 12	ACYG?         	11.996	      	     	   	 	   	   	28510	20	     	B0/0.5Ia(LMC)       	Cl* NGC 2070 MEL 12	084.69044	-69.10624
+     146	404796860	HD 269920      	ACYG          	11.650	      	     	   	 	   	   	18950	 1	     	B5Ia(LMC)           	HD 269920          	084.67706	-69.38587
+     147	404852071	Sk-69 265      	ACYG          	11.880	      	     	   	 	   	   	21370	 1	     	B3Ia(LMC)           	Sk-69 265          	085.20335	-69.28089
+     148	404933493	HD 269997      	ACYG          	11.200	      	     	   	 	   	   	22580	 1	     	B2.5Ia(LMC)         	HD 269997          	085.33497	-69.08535
+     149	404967301	HD 269992      	ACYG          	11.220	      	     	   	 	   	   	18020	 2	     	B2.5:Ia:(LMC)       	HD 269992          	085.36531	-69.80104
+     150	410447919	HD 64811       	ROT?          	 8.450	 0.219	  317	 58	0	133	   	20760	 1	 4.38	B4III               	HD 64811           	117.96203	-62.90880
+     151	410451677	HD 66409       	SXARI         	 8.410	 0.488	 1292	 98	0	 67	 34	12987	18	 2.28	B8.5IV(HgMn)?       	HD 66409           	119.99086	-60.74680
+     152	419065817	HD 1256        	ROT           	 6.488	 1.474	  138	 52	3	186	166	14280	 6	 2.37	B6III/IV            	HD 1256            	004.17643	-20.21006
+     153	425057879	HD 269676      	EB/ELL?       	11.550	      	     	   	 	   	120	41000	 1	     	O6+O9(LMC)          	HD 269676          	082.81514	-71.06942
+     154	425064757	HD 269696      	EA(EA/D)      	11.138	      	     	   	 	   	   	42000	19	     	sdO(LMC)            	HD 269696          	082.91816	-69.88393
+     155	425081475	HD 269700      	ACYG          	10.540	      	     	   	 	   	   	23790	 1	     	B1.5Iaeq(LMC)       	HD 269700          	082.96784	-68.54413
+     156	425083410	HD 269698      	ACYG          	12.220	      	     	   	 	   	   	40400	 1	     	O4If(LMC)           	HD 269698          	082.93420	-67.63372
+     157	425084841	TYC 8891-3638-1	ACYG          	12.180	      	     	   	 	   	 62	23660	 2	     	B1Ia(LMC)           	TYC 8891-3638-1    	082.96496	-67.03951
+     158	441182258	HD 210934      	SPB+ROT?      	 5.430	 1.274	   66	 26	0	235	 56	12526	 6	 2.47	B8III               	HD 210934          	333.57813	-27.76691
+     159	441196602	HD 211993      	ROT?          	 8.200	 0.144	   49	 15	0	 20	   	10750	 6	 1.96	B8/9V               	HD 211993          	335.40804	-28.77267
+     160	469906369	HD 212581      	MAIA          	 4.495	      	     	   	 	   	200	11271	 8	 2.18	B9.5IVn             	HD 212581          	336.83318	-64.96636
+
+#Table	J_MNRAS_485_3457_table3:
+#Name: J/MNRAS/485/3457/table3
+#Title: Additional rotational variables identified from the light curves of the Kepler and K2 missions
+#Column	recno	(I8)	Record number assigned by the VizieR team. Should Not be used for identification.	[ucd=meta.record]
+#Column	Name	(A14)	Star name from KIC/EPIC	[ucd=meta.id;meta.main]
+#Column	OName	(a12)	Other name	[ucd=meta.id]
+#Column	VarType	(a11)	Assigned variability type (GCVS type in parenthesis from Samus et al. 2017ARep...61...80S, Cat. B/gcvs)	[ucd=meta.note;src.var]
+#Column	Vmag	(F6.3)	Apparent V magnitude	[ucd=phot.mag;em.opt.V]
+#Column	nurot	(F6.3)	Presumed rotational frequency (in cycles/d)	[ucd=em.freq;src.var]
+#Column	Arot	(I5)	Amplitude of the periodogram peak	[ucd=src.var.amplitude]
+#Column	S/N	(I2)	Signal to noise ratio of the periodogram peak	[ucd=meta.note]
+#Column	NH	(I1)	Number of visible harmonics	[ucd=meta.number]
+#Column	ve	(I3)	Derived equatorial rotational velocity (G1)	[ucd=phys.veloc.rotat]
+#Column	vsini	(I3)	Projected rotational velocity from the literature	[ucd=phys.veloc.rotat]
+#Column	Teff	(I5)	Adopted effective temperature	[ucd=phys.temperature.effective]
+#Column	r_Teff	(I2)	Reference for Teff (G2)	[ucd=meta.ref;pos.frame]
+#Column	logLstar	(F5.2)	Stellar luminosity obtained from the Gaia parallax (Gaia Collaboration 2018A&A...616A...1G, Cat. I/345)	[ucd=phys.luminosity]
+#Column	SpType	(a22)	Spectral type ((Be) indicates classical Be star)	[ucd=src.spType]
+#Column	SimbadName	(a12)	Simbad column added by the CDS	[ucd=meta.id]
+#Column	_RA	(F9.5)	Right Ascension (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.ra;meta.main]
+#Column	_DE	(F9.5)	Declination (J2000) from SIMBAD (not part of the original data)	[ucd=pos.eq.dec;meta.main]
+recno	Name	OName	VarType	Vmag	nurot	Arot	S/N	NH	ve	vsini	Teff	r_Teff	logLstar	SpType	SimbadName	_RA	_DE
+ 	 	 	 	mag	d-1	ppm	 	 	km/s	km/s	K	 	[Lsun]	 	 	deg	deg
+--------	--------------	------------	-----------	------	------	-----	--	-	---	---	-----	--	-----	----------------------	------------	---------	---------
+       1	EPIC 210788932	HD 23016    	ROT        	 5.690	 1.802	 2743	39	0	351	260	11463	 6	 2.36	B8Ve?(Be)             	HD 23016    	055.57895	+19.70025
+       2	EPIC 211116936	HD 23324    	SPB+ROT    	 5.640	 1.543	  161	19	1	252	206	12218	 6	 2.32	B8:IV/V               	HD 23324    	056.29058	+24.83926
+       3	EPIC 211028385	HD 23753    	ROT        	 5.450	 1.808	   57	18	1	308	292	11899	 6	 2.31	B8IV/V                	HD 23753    	057.08674	+23.42125
+       4	EPIC 211054599	HD 23964    	SXARI(UV)  	 6.740	 0.633	  470	26	1	 77	 21	10190	 6	 1.75	B9.5VspSiSrCr         	HD 23964    	057.49190	+23.84869
+       5	EPIC 210964459	HD 26571    	SXARI(ACV:)	 6.120	 0.063	 8910	40	0	 22	 22	11430	 6	 2.85	B9IIIp:(Si)           	HD 26571    	063.21354	+22.41347
+       6	EPIC 202061205	HD 253049   	ROT        	 9.620	 0.294	 1714	23	1	 90	184	22570	 1	 3.93	B3III                 	HD 253049   	092.92883	+20.12680
+       7	EPIC 211311439	HD 74521    	SXARI(ACV) 	 5.660	 0.144	 3938	10	0	 29	 18	10615	 6	 2.26	B9pSiCr               	HD 74521    	131.18765	+10.08167
+       8	EPIC 201232619	HD 97991    	ROT        	 7.410	 0.496	  128	17	1	323	137	 9956	 6	 3.16	B2/3V                 	HD 97991    	169.04880	-03.47197
+       9	EPIC 204760247	HD 142883   	ROT        	 5.841	 1.103	 2562	18	0	254	 19	 9648	 6	 2.21	B3V                   	HD 142883   	239.41860	-20.98308
+      10	EPIC 204134887	HD 142884   	SXARI(ACV) 	 6.777	 1.245	 5815	35	2	200	138	 9979	 6	 1.95	kB8hB4HeB9V Si4200    	HD 142884   	239.45334	-23.52730
+      11	EPIC 204348206	HD 143600   	ROT(RS:)   	 7.330	 3.922	  205	33	3	452	265	 9087	 6	 1.50	B9Vann                	HD 143600   	240.55648	-22.68756
+      12	EPIC 204095429	HD 144844   	SXARI      	 5.880	 0.116	 1002	36	1	 25	 98	 9362	 6	 2.11	B9MnPGa               	HD 144844   	242.18217	-23.68541
+      13	EPIC 204964091	HD 147010   	SXARI(ACV) 	 7.400	 0.255	12814	42	1	 25	 25	 9092	 6	 1.38	B9SiCrSr*             	HD 147010   	245.02289	-20.05640
+      14	EPIC 205417334	HD 148860   	ROT        	 8.040	 0.920	  152	21	1	177	257	 9566	 6	 2.03	B9.5V                 	HD 148860   	247.91128	-17.71340
+      15	KIC 8351193   	HD 177152   	ROT        	 7.570	 1.757	    2	10	1	168	180	10500	21	 1.59	A0VkB8mB7 {lambda} Boo	HD 177152   	285.34075	+44.38652
+      16	EPIC 217692814	HD 177015   	ROT        	 7.800	 1.139	   50	13	1	448	202	10567	22	 2.83	B5V(e)(Be)            	HD 177015   	285.88803	-20.12859
+      17	KIC 8087269   	ILF1 +43 30 	ROT        	11.710	 1.610	 1608	93	3	268	271	14500	23	 2.63	B5                    	KIC 8087269 	287.79064	+43.99921
+      18	KIC 9278405   	ILF1 +45 284	SPB/ROT    	10.160	 1.805	    4	10	1	194	110	11710	 1	 1.79	B9                    	ILF1 +45 284	290.81451	+45.70355
+      19	KIC 4056136   	BD+38 3580  	ROT        	 9.550	 2.370	   10	39	1	351	227	10500	21	 1.97	B9IV-Vnn              	BD+38 3580  	291.28487	+39.14002
+      20	KIC 9468611   	            	ROT        	13.144	 2.193	   18	15	1	290	263	11710	 1	 1.98	B9IV                  	KIC 9468611 	293.33876	+46.09438
+      21	KIC 6128830   	BD+41 3394  	SXARI      	 9.190	 0.206	 1526	98	1	 56	 15	12600	23	 2.82	B6pHgMn               	BD+41 3394  	293.45702	+41.47923
+      22	KIC 7974841   	HD 187139   	ROT        	 8.160	 0.255	   68	23	2	 22	 33	10650	24	 1.55	B8V                   	HD 187139   	296.65235	+43.76338
+      23	KIC 5477601   	            	ROT        	12.793	 0.192	  374	29	1	 25	 88	11710	 1	 2.12	B9V                   	KIC 5477601 	298.92575	+40.67956
+      24	KIC 5130305   	HD 226700   	ROT        	10.210	 2.151	   11	15	2	330	155	10670	23	 2.03	B9                    	HD 226700   	299.14290	+40.24813
+      25	KIC 8324268   	HD 189160   	SXARI(ACV:)	 7.900	 0.498	11890	21	2	 72	 31	11710	 1	 2.09	B9pSiCr               	HD 189160   	299.20898	+44.27112
+      26	KIC 8389948   	HD 189159   	ROT        	 9.140	 0.994	   12	20	2	158	142	10240	23	 1.99	B9.5IV-V              	HD 189159   	299.23055	+44.34186
+      27	KIC 5479821   	HD 226795   	ROT        	 9.890	 0.588	13586	25	2	119	 85	14810	23	 2.84	B8                    	HD 226795   	299.35321	+40.63569
+      28	EPIC 206326769	HD 211838   	SXARI      	 5.346	 0.893	  105	27	1	314	 66	13520	 1	 3.16	B8IIIp:(MnHg?)        	HD 211838   	335.04965	-07.82110
+      29	EPIC 206097719	HD 213781   	SXARI      	 9.000	 0.181	  456	24	0	 62	 34	15330	 1	 3.36	B7Si                  	HD 213781   	338.51910	-12.15822
+

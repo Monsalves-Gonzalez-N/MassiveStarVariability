@@ -11,6 +11,13 @@ activo, ver VALIDACION_Y_COMPARACION_MODELOS.md):
   - sigma_brf    σ entre pasadas de la prob BRF de la clase ganadora.
   - instability  fracción de pasadas cuya clase BRF difiere de la ganadora.
 
+El estimador central es la MEDIA entre pasadas, no la mediana. Las medianas
+por clase no suman 1 (mínimo observado 0.435 sobre 857 picos), así que no
+forman una distribución, y σ es la dispersión alrededor de la media: la
+mediana MC de la clase ganadora está apilada contra 1 y `mediana + σ` excede
+1 en el 89% de los picos. El intervalo se reporta como percentiles p16/p84,
+que sí respetan la asimetría (semiancho inferior 0.085 contra 0.003 arriba).
+
 Gate: peaks con sigma_top > SIGMA_MAX se relabelan a 'Rndm' (o se descartan)
 antes de la cascada Path-2.
 
@@ -185,6 +192,50 @@ def group_probs(pp, class_groups=None):
     return stacked, names
 
 
+def vote_fractions(per_pass):
+    """Fracción de pasadas en que cada clase es el argmax -> (N, n_clases).
+
+    Complementa a la media: la media puntúa cuán alto se instala una clase,
+    el voto cuán seguido gana. Las dos se separan cuando una clase ocupa un
+    nivel medio-alto muy parejo sin dominar ninguna pasada, que es el caso de
+    ELL bajo el BRF (media 0.673 contra voto 0.715, frente a Pulsating con
+    media 0.546 y voto 0.850).
+    """
+    per_pass = np.asarray(per_pass)
+    n_classes = per_pass.shape[-1]
+    winners = np.where(np.isnan(per_pass), -np.inf, per_pass).argmax(axis=-1)
+    return np.stack([(winners == index).mean(axis=0)
+                     for index in range(n_classes)], axis=-1)
+
+
+def apply_vote_stability_gate(scores, votes, names, gated_class="ELL",
+                              vote_min=0.5):
+    """Le quita el label a `gated_class` cuando no gana la mayoría de pasadas.
+
+    El pico cede al subcampeón, no a 'Rndm': la evidencia dice que ELL no es
+    la clase, no que el pico sea ruido (de hecho la mayoría termina en Rndm
+    por sí sola, pero unos pocos van a E o Pulsating).
+
+    Es un gate y no un reescalado del score porque penalizar solo a ELL
+    multiplicando su probabilidad la dejaría medida en otra escala que el
+    resto de las clases, y el argmax entre escalas distintas no significa
+    nada. Como umbral, la mayoría simple es el único punto que no hay que
+    calibrar: `vote_min=0.5` es "ELL gana más de la mitad de las pasadas".
+
+    Justificación física: el BRF aporta `amplitud` y `per`, las dos fuera del
+    rango de entrenamiento, y en ese régimen aterriza en una constante que no
+    es neutra (ELL 0.51 contra Pulsating 0.23) — un corrimiento fijo hacia
+    ELL. Sacando el BRF la inestabilidad de ELL cae de 0.265 a 0.143.
+    """
+    if gated_class not in names:
+        return np.asarray(scores).argmax(axis=1)
+    scores = np.array(scores, dtype=float, copy=True)
+    index = names.index(gated_class)
+    unstable = np.asarray(votes)[:, index] < vote_min
+    scores[unstable, index] = -np.inf
+    return scores.argmax(axis=1)
+
+
 def aggregate_mc(p_mc, per, amplitud, brf):
     """BRF sobre cada pasada MC de la CNN -> clase e incertidumbre por peak.
 
@@ -211,12 +262,12 @@ def aggregate_mc(p_mc, per, amplitud, brf):
         idx_v = np.where(valid)[0]
         nv = len(idx_v)
         pp_v = pp[:, idx_v, :]
-        pp_median = np.median(pp_v, axis=0)                    # (nv,8)
-        pred = pp_median.argmax(1)                             # clase ganadora por mediana
+        pp_mean = pp_v.mean(axis=0)                            # (nv,8)
+        pred = pp_mean.argmax(1)                               # clase ganadora por media
         cls_per_pass = pp_v.argmax(2)                          # (n_iter,nv)
 
         brf_class[idx_v] = [CLASS_NAMES[c] for c in pred]
-        brf_prob[idx_v] = pp_median[np.arange(nv), pred]
+        brf_prob[idx_v] = pp_mean[np.arange(nv), pred]
         sigma_brf[idx_v] = pp_v[:, np.arange(nv), pred].std(0)
         instability[idx_v] = (cls_per_pass != pred[None, :]).mean(0)
 
