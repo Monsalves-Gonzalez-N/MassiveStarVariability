@@ -64,6 +64,32 @@ BRF_MODEL = Path(os.environ.get("MSV_BRF", "/home/nicolas/nico/git/balanced_rand
 # --- Clasificación ----------------------------------------------------------
 CLASS_NAMES = ["ELL", "M", "CEP", "DST", "E", "LPV", "RR", "Rndm"]
 PERIODIC = ["ELL", "M", "CEP", "DST", "E", "RR"]
+# Agrupamiento para este trabajo: las pulsantes del training de OGLE se
+# reportan juntas. Separar Mira / Cefeida / RR Lyrae / Delta Scuti no aporta en
+# estrellas masivas de TESS y la CNN reparte probabilidad entre ellas.
+PULSATING = ["M", "CEP", "RR", "DST"]
+# Solo se usa con `step_cnn.py --mc-dropout`; el default del pipeline es el
+# ensemble de los 7 checkpoints de MODELS (7 pasadas determinísticas). Con
+# dropout la distribución por pico es BIMODAL, así que la mediana de 20 pasadas
+# es un sorteo y subir a 200 no la angosta, solo la mide mejor (la σ mediana
+# sube de 0.121 a 0.137). OJO: con el ensemble, `sigma` e `instability` miden
+# desacuerdo entre modelos, no dispersión MC, y SIGMA_MAX quedó sin recalibrar.
+MC_ITER = 20                 # pasadas de la CNN con dropout ACTIVO. Cada una
+                             # entra al BRF como input distinto, y la clase
+                             # sale de la mediana de las 20 con su desviación.
+CLASS_GROUPS = {name: ("Pulsating" if name in PULSATING else name)
+                for name in CLASS_NAMES}
+# Normalización del hist2d de entrada a la CNN. Ver el docstring de features.py.
+# Decisión 2026-09-03: `log`, aunque los pesos se entrenaron con `min_max`.
+# El criterio NO es cuántos picos salvan de Rndm sino que la clase quede atada
+# al período con que se dobló. En una eclipsante, doblar a P/2 apila primario y
+# secundario y sigue pareciendo un eclipse: `min_max` dice E en los dos (0.883
+# en P/2 contra 0.996 en P, factor 1.13) y `log` separa por factor 60 (0.016
+# contra 0.958). Con `min_max` el catálogo tendría clases correctas con
+# períodos a la mitad; con `log` una clase periódica implica que ESE período es
+# el bueno. El precio es que `log` es más conservadora (más Rndm) y su llamada
+# positiva tiene más dispersión entre pasadas MC.
+HIST_NORM = os.environ.get("MSV_HIST_NORM", "log")
 MODELS = ["Number_CEP", "Number_DST", "Number_ELL", "Number_M",
           "batchBalanced_Number_DST", "batchBalanced_Number_ELL", "batchBalanced_Number_M"]
 DEFAULT_MODEL = "Number_DST"
@@ -80,15 +106,106 @@ MIN_PEAK_SEP_DAYS = None     # ventana temporal FIJA entre peaks del ACF [d].
                              # (ACF_RAYLEIGH_K). La fija de 0.5 d suprimía el
                              # fundamental de estrellas con per < 0.5 d y
                              # reportaba el armónico 2x.
-ACF_RAYLEIGH_K = 3.0         # ventana adaptativa: k * P^2 / T (T = baseline);
-                             # dos picos más cercanos que eso no son
-                             # distinguibles físicamente (límite de Rayleigh)
-ACF_PROMINENCE_FRAC = 0.20   # prominencia mínima (frac. del max) contra wiggles
-                             # de ruido del ACF. Validado 2026-07-26 con ventana
-                             # Rayleigh: 24 FP_PAIRS → 0 espurios; 67 pares
-                             # label=1 → recovery 77.6% top-3 (la fija 0.5d +
-                             # prom 0.05 daba 68.7%); el recovery no cambia en
-                             # todo el barrido de prominencia 0.05→0.20
+ACF_RAYLEIGH_K = 1.0         # separación mínima k/T entre picos, en
+                             # FRECUENCIA (T = baseline): dos picos más
+                             # cercanos que el límite de Rayleigh no son
+                             # distinguibles físicamente. Se aplica en
+                             # frecuencia, no en período: como radio de
+                             # exclusión en período (k*P^2/T) crece con P^2 y
+                             # a lags largos supera el rango completo,
+                             # borrando el fundamental y dejando su armónico.
+                             # k=1 es el criterio literal (Δf > 1/T). El k=3
+                             # heredado de la versión en período partía las
+                             # series armónicas: la separación entre armónicos
+                             # consecutivos es f0/(n(n+1)), así que desde n=3
+                             # caían dentro del radio de exclusión y cuáles
+                             # sobrevivían dependía del orden del greedy.
+# Plegado de armónicos. La serie se colapsa a su fundamental SOLO cuando es
+# inequívoca; ante cualquier duda se emiten todos los picos como candidatos
+# independientes y decide la red sobre los phase-folded (barato: un fold por
+# candidato). Un armónico presentado de más lo descarta la red; un fundamental
+# borrado por un plegado dudoso no lo recupera nadie.
+HARMONIC_TOL = 0.05          # tolerancia RELATIVA para EMPAREJAR un pico con
+                             # n*P0: |P - n*P0| <= tol*P
+HARMONIC_MAX_ORDER = None    # orden máximo n al buscar la serie. None = se
+                             # deriva del rango de lags (max(per)/P0), que es
+                             # el único tope físico: cuántos armónicos caben.
+                             # Un tope fijo (estaba en 12) deja sin etiqueta a
+                             # los armónicos altos de períodos cortos, y como
+                             # la exención del NMS depende de la etiqueta, el
+                             # NMS los arrasaba: TIC 316187504 s56 tiene 21
+                             # armónicos de 0.637 d y se marcaban 14.
+                             # Un candidato demasiado corto no se cuela por
+                             # esto: lo filtra la racha contigua desde 1x.
+HARMONIC_MIN_RUN = 3         # armónicos consecutivos (1x,2x,3x...) exigidos
+                             # para declarar la serie. Con 2 se armaban series
+                             # sobre ACF ruidosos donde el pico más corto ni
+                             # siquiera entraba (TIC 313513149 s65, 269424199)
+HARMONIC_FIT_TOL = 0.02      # residuo relativo MEDIANO máximo de la serie.
+                             # Emparejar al 5% y colapsar al 5% no es lo mismo:
+                             # una serie real ajusta muy por dentro de la
+                             # tolerancia de matcheo, una casual queda al borde
+# statsmodels.acf trabaja sobre el ÍNDICE de la muestra, así que `lag_days =
+# lag * cadencia` solo vale si la cadencia es uniforme. Con cadencias faltantes
+# el índice k abarca más tiempo real que k*cadencia y TODO el peine sale
+# comprimido: en TIC 12675729 s82 (3 gaps > 0.1 d, 2.6% de cadencias perdidas)
+# el período salía -3.3% corto, suficiente para difuminar el fold. Rellenar a
+# grilla uniforme lo deja en -0.05%.
+ACF_FILL_GAPS = os.environ.get("MSV_ACF_FILL_GAPS", "noiselevel")
+ACF_BARTLETT_CONFINT = False # False → banda de ruido blanco CONSTANTE
+                             # z/sqrt(N). True → Bartlett 1946 extendido,
+                             # Var(r_k) ~ (1/N)(1 + 2*sum_{j<k} r_j^2): esa
+                             # suma es acumulativa, así que una señal real
+                             # infla la banda a lags mayores y termina
+                             # escondiéndose a sí misma (y a sus armónicos).
+                             # El test extendido responde "¿queda correlación
+                             # RESIDUAL más allá del lag k?" (validar un MA(q));
+                             # la pregunta aquí es "¿hay alguna periodicidad?",
+                             # cuya hipótesis nula es ruido blanco.
+ACF_PROMINENCE_K_FAP = 2.0   # prominencia mínima como múltiplo de fap[lag].
+                             # La banda de Bartlett ya es una escala de RUIDO
+                             # por lag; exigir prominencia >= k*fap[lag] mide
+                             # el pico contra el ruido y no contra la señal.
+ACF_TRIALS_CORRECTION = True # corregir la banda por look-elsewhere. FAP_ALPHA
+                             # es 3σ PARA UN LAG; sobre los ~6000 lags de un
+                             # sector eso son ~16 excursiones esperadas por puro
+                             # azar en cada estrella. Con la corrección se usa
+                             # alpha/n_lags -> banda de 4.6-5.05σ. Bonferroni es
+                             # conservador porque los lags adyacentes están
+                             # correlacionados, pero el número efectivo de
+                             # trials solo cambia z en ~0.1σ.
+ACF_WIDTH_FRAC = 0.05        # ancho mínimo del pico como fracción de SU
+                             # período, en muestras: f*P/cadencia. Va como
+                             # array a `width` de find_peaks, igual que la
+                             # banda va a `height`.
+                             # Es el criterio que faltaba: en ruido blanco
+                             # denso la prominencia no discrimina (un pico a
+                             # +3.4σ tiene el valle vecino en -3σ, así que su
+                             # prominencia es ~6σ automáticamente, justo el
+                             # umbral 2*fap), y altura y prominencia dejan de
+                             # ser independientes. Lo que separa señal de ruido
+                             # es la coherencia: un pico real del ACF dura
+                             # ~0.27*P (168 muestras en TIC 12675729 s82) y un
+                             # spike de ruido 1-2 muestras (TIC 273664200 s75).
+ACF_WIDTH_MAX_SAMPLES = 20   # techo del ancho exigido, en muestras. El ancho
+                             # de un pico del ACF lo fija el período
+                             # FUNDAMENTAL (~0.27*P0) y es el mismo en todos
+                             # sus armónicos, pero f*P/cadencia crece con n:
+                             # en TIC 384805438 s58 exigía 283 muestras al 9x
+                             # contra las ~305 reales, y al 10x habría empezado
+                             # a rechazar armónicos legítimos. El corte solo
+                             # necesita matar spikes de 1-2 muestras, así que
+                             # acotarlo no le quita poder.
+ACF_PROMINENCE_FRAC = None   # legacy: prominencia como fracción de max(power).
+                             # Se normalizaba por la SEÑAL, así que una estrella
+                             # sin señal (max(ACF) pequeño) obtenía un umbral
+                             # más permisivo y llenaba de picos el ruido.
+                             # Si se pasa, reemplaza a ACF_PROMINENCE_K_FAP.
+                             # Validado 2026-07-26 con 0.20 + ventana Rayleigh:
+                             # 24 FP_PAIRS → 0 espurios; 67 pares label=1 →
+                             # recovery 77.6% top-3 (la fija 0.5d + prom 0.05
+                             # daba 68.7%); el recovery no cambiaba en todo el
+                             # barrido de prominencia 0.05→0.20
 
 # Falsos positivos conocidos del corte Number_DST (la misma lista de
 # FP_OGLE.pdf): se usan para revisar la limpieza de rampas/telemetría.

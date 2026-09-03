@@ -2,11 +2,11 @@
 """Pipeline LS + ACF -> peaks parquet (con hist2d + amplitude por peak).
 
 Por cada par (TIC, sector) del parquet de curvas de luz:
-  1. clean_lightcurve()  — rampas de telemetría + sigma-clip en gaps/bordes
+  1. clean_lightcurve()  — sigma-clip en gaps/bordes
   2. ls_periodogram + acf_periodogram
   3. select_peaks_ls / select_peaks_acf  — find_peaks sobre power crudo,
      ventana temporal mínima (--min-peak-sep-days) en vez de smoothing
-  4. phase_fold_hist2d_log + amplitude -> filas del parquet de salida
+  4. phase_fold_hist2d + amplitude -> filas del parquet de salida
 
 Uso (env base, sin TF):
   python scripts/run_peaks.py --lc lightcurves_all_OGLE.parquet \
@@ -22,7 +22,7 @@ import pyarrow.parquet as pq
 
 from msv import config
 from msv.cleaning import clean_lightcurve
-from msv.features import HIST_SIZE, amplitude_of, phase_fold_hist2d_log
+from msv.features import HIST_SIZE, amplitude_of, phase_fold_hist2d
 from msv.peaks import select_peaks
 from msv.periodograms import acf_periodogram, ls_periodogram
 
@@ -50,6 +50,7 @@ def process_pair(tic, sector, lc_path, args_dict):
             if len(t) < 20:
                 return None
 
+        grids = {}
         parts = []
         if "ls" in args_dict["sources"]:
             df_ls = ls_periodogram(t, f, e, oversample=args_dict["oversample"])
@@ -62,6 +63,10 @@ def process_pair(tic, sector, lc_path, args_dict):
                 pk["power_effective"] = pk["power"].to_numpy() - win[pos]
                 pk["source"] = "LS"
                 parts.append(pk)
+            if args_dict["keep_grids"]:
+                grid = df_ls[["per", "power", "window"]].copy()
+                grid["fap"] = df_ls.attrs["fap_level"]
+                grids["ls"] = grid.assign(TIC=int(tic), sector=int(sector))
 
         if "acf" in args_dict["sources"]:
             df_acf = acf_periodogram(t, f, e, fill_gaps=args_dict["fill_gaps"])
@@ -72,18 +77,22 @@ def process_pair(tic, sector, lc_path, args_dict):
                 pk["power_effective"] = pk["power"]
                 pk["source"] = "ACF"
                 parts.append(pk)
+            if args_dict["keep_grids"]:
+                grids["acf"] = df_acf[["per", "power", "fap"]].assign(
+                    TIC=int(tic), sector=int(sector))
 
         if not parts:
-            return None
+            return ("GRID", grids) if grids else None
         res = pd.concat(parts, ignore_index=True)
 
         amplitude = amplitude_of(f)
-        res["hist2d"] = [phase_fold_hist2d_log(t, f, float(p)).ravel()
+        res["hist2d"] = [phase_fold_hist2d(t, f, float(p)).ravel()
                          for p in res["per"].to_numpy()]
         res["amplitude"] = amplitude
         res["TIC"] = int(tic)
         res["sector"] = int(sector)
-        return res[PEAK_COLS]
+        res = res[PEAK_COLS]
+        return ("PEAKS", res, grids) if args_dict["keep_grids"] else res
     except Exception as ex:
         return ("ERR", int(tic), int(sector), repr(ex))
 
@@ -119,12 +128,18 @@ def main():
     ap.add_argument("--sources", nargs="+", default=["ls", "acf"], choices=["ls", "acf"])
     ap.add_argument("--top-n", type=int, default=None, help="máx. picos por periodograma")
     ap.add_argument("--oversample", type=int, default=5)
-    ap.add_argument("--fill-gaps", default=False,
-                    help="relleno de gaps del ACF vía astrobase (p.ej. 'noiselevel')")
+    ap.add_argument("--fill-gaps", default=config.ACF_FILL_GAPS,
+                    help="relleno de gaps del ACF vía astrobase; imprescindible "
+                         "para que el lag del ACF sea tiempo real y no índice "
+                         f"de muestra (default {config.ACF_FILL_GAPS})")
     ap.add_argument("--no-clean", action="store_true",
-                    help="omite clean_lightcurve (rampas + sigma-clip)")
+                    help="omite clean_lightcurve (sigma-clip en gaps/bordes)")
     ap.add_argument("--no-exclude-bad", action="store_true",
                     help="NO excluir pares con flux <= 0")
+    ap.add_argument("--pgram-dir", default=None,
+                    help="además del parquet de picos, guarda las grillas "
+                         "completas como periodograms_{ls,acf}.parquet en este "
+                         "directorio (lo que consume build_peak_review_pdfs.py)")
     ap.add_argument("--ray", action="store_true", help="paralelizar con Ray")
     ap.add_argument("--num-cpus", type=int, default=8)
     args = ap.parse_args()
@@ -134,6 +149,7 @@ def main():
         min_peak_sep_days=args.min_peak_sep_days,
         top_n=args.top_n, oversample=args.oversample,
         fill_gaps=args.fill_gaps, no_clean=args.no_clean,
+        keep_grids=args.pgram_dir is not None,
     )
 
     pairs = pd.read_parquet(args.lc, columns=["TIC", "sector"]).drop_duplicates()
@@ -145,8 +161,25 @@ def main():
     print(f"Pares (TIC, sector) a procesar: {len(pairs)}")
 
     writer = None
+    grid_writers = {}
     n_ok = n_none = n_err = 0
     errors = []
+
+    if args.pgram_dir:
+        from pathlib import Path
+        grid_dir = Path(args.pgram_dir)
+        if not grid_dir.is_absolute():
+            grid_dir = config.REPO_ROOT / grid_dir
+        grid_dir.mkdir(parents=True, exist_ok=True)
+
+    def write_grids(grids):
+        for source, grid in grids.items():
+            table = pa.Table.from_pandas(grid, preserve_index=False)
+            if source not in grid_writers:
+                grid_writers[source] = pq.ParquetWriter(
+                    grid_dir / f"periodograms_{source}.parquet", table.schema,
+                    compression="snappy")
+            grid_writers[source].write_table(table)
 
     def handle(res):
         nonlocal writer, n_ok, n_none, n_err
@@ -157,6 +190,13 @@ def main():
             n_err += 1
             errors.append(res[1:])
             return
+        if isinstance(res, tuple) and res[0] == "GRID":
+            write_grids(res[1])
+            n_none += 1
+            return
+        if isinstance(res, tuple) and res[0] == "PEAKS":
+            _, res, grids = res
+            write_grids(grids)
         tbl = df_to_table(res)
         if writer is None:
             writer = pq.ParquetWriter(args.out, tbl.schema, compression="snappy")
@@ -186,6 +226,8 @@ def main():
 
     if writer is not None:
         writer.close()
+    for grid_writer in grid_writers.values():
+        grid_writer.close()
 
     print(f"\n-> {args.out}")
     print(f"   pares con picos: {n_ok} | sin picos: {n_none} | errores: {n_err}")

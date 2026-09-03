@@ -20,7 +20,8 @@ Nota: `per` aquí es SIEMPRE el período detectado (LS/ACF). La columna
 import numpy as np
 import pandas as pd
 
-from .config import BRF_MODEL, CLASS_NAMES, SIGMA_MAX, WEIGHTS_DIR
+from .config import (BRF_MODEL, CLASS_GROUPS, CLASS_NAMES, SIGMA_MAX,
+                     WEIGHTS_DIR)
 
 
 def _get_tf():
@@ -60,6 +61,26 @@ def make_model():
     return model
 
 
+def _load_tf_checkpoint(model, path):
+    """Copia los pesos de un checkpoint TF (cp.ckpt) capa por capa.
+
+    Keras 3 dejó de aceptar ese formato en `load_weights` (solo `.keras`,
+    `.weights.h5` y los `.h5` legacy), pero `tf.train.load_checkpoint` sigue
+    leyéndolo. Las variables vienen como `layer_with_weights-<i>/{kernel,bias}`
+    numeradas en el orden de las capas CON pesos, que es el mismo orden en que
+    las expone el modelo, así que el mapeo es posicional.
+    """
+    tf = _get_tf()
+    reader = tf.train.load_checkpoint(path)
+    layers = [layer for layer in model.layers if layer.weights]
+    for position, layer in enumerate(layers):
+        prefix = f"layer_with_weights-{position}/"
+        layer.set_weights([
+            reader.get_tensor(prefix + "kernel/.ATTRIBUTES/VARIABLE_VALUE"),
+            reader.get_tensor(prefix + "bias/.ATTRIBUTES/VARIABLE_VALUE"),
+        ])
+
+
 def load_cnn(name_or_path):
     """Construye la CNN y carga pesos: nombre de training (en WEIGHTS_DIR)
     o path directo a un checkpoint."""
@@ -68,7 +89,10 @@ def load_cnn(name_or_path):
     if os.sep not in path:
         path = str(WEIGHTS_DIR / path / "cp.ckpt")
     model = make_model()
-    model.load_weights(path)
+    try:
+        model.load_weights(path)
+    except (ValueError, OSError):
+        _load_tf_checkpoint(model, path)
     return model
 
 
@@ -88,6 +112,23 @@ def cnn_mc_probs(model, X, n_iter=50, batch_size=512):
     return out
 
 
+def cnn_ensemble_probs(models, X, batch_size=512):
+    """Una pasada DETERMINÍSTICA por modelo -> (n_models, N, 8).
+
+    Alternativa a MC-dropout: el desacuerdo entre entrenamientos independientes
+    (los 7 checkpoints de config.MODELS) en vez de la sensibilidad a apagar
+    neuronas. Devuelve el mismo shape que `cnn_mc_probs`, así que el resto del
+    pipeline (aggregate_mc, group_probs) no cambia.
+    """
+    N = len(X)
+    out = np.empty((len(models), N, len(CLASS_NAMES)), dtype=np.float32)
+    for k, model in enumerate(models):
+        for i0 in range(0, N, batch_size):
+            batch = X[i0:i0 + batch_size]
+            out[k, i0:i0 + len(batch)] = model(batch, training=False).numpy()
+    return out
+
+
 def cnn_mc_predict(model, X, n_iter=50, batch_size=512):
     """Media y σ de las pasadas MC: (N,8), (N,8)."""
     preds = cnn_mc_probs(model, X, n_iter=n_iter, batch_size=batch_size)
@@ -101,6 +142,87 @@ def brf_features(cnn_probs, per, amplitud, brf):
     feat["amplitud"] = np.asarray(amplitud, dtype=float)
     feat["per"] = np.asarray(per, dtype=float)
     return feat[list(brf.feature_names_in_)]
+
+
+def brf_mc_probs(p_mc, per, amplitud, brf):
+    """BRF sobre cada pasada MC -> (n_iter, N, 8), NaN donde `amp`/`per` no valen.
+
+    Separado de `aggregate_mc` porque el detalle por clase (mediana y σ de las
+    8 probabilidades, no solo la de la ganadora) es lo que se grafica.
+    """
+    p_mc = np.asarray(p_mc, dtype=np.float32)
+    n_iter, N, _ = p_mc.shape
+    per = np.asarray(per, dtype=float)
+    amp = np.asarray(amplitud, dtype=float)
+
+    valid = np.isfinite(amp) & np.isfinite(per)      # amp NaN = flujo <= 0
+    out = np.full((n_iter, N, len(CLASS_NAMES)), np.nan)
+    if not valid.any():
+        return out, valid
+
+    idx_v = np.where(valid)[0]
+    nv = len(idx_v)
+    flat = p_mc[:, idx_v, :].reshape(n_iter * nv, len(CLASS_NAMES))
+    feat = brf_features(flat, np.tile(per[idx_v], n_iter),
+                        np.tile(amp[idx_v], n_iter), brf)
+    out[:, idx_v, :] = brf.predict_proba(feat).reshape(n_iter, nv, -1)
+    return out, valid
+
+
+def group_probs(pp, class_groups=None):
+    """Suma las columnas de la SALIDA del BRF según `config.CLASS_GROUPS`.
+
+    Agrupar antes del argmax importa: una pasada con M=0.30, DST=0.25, RR=0.10
+    contra ELL=0.32 da Pulsating 0.65, y se perdería tomando el argmax primero.
+    Devuelve (probs_agrupadas, nombres_de_grupo).
+    """
+    groups = class_groups or CLASS_GROUPS
+    names = list(dict.fromkeys(groups[name] for name in CLASS_NAMES))
+    stacked = np.stack(
+        [np.asarray(pp)[..., [i for i, name in enumerate(CLASS_NAMES)
+                              if groups[name] == group]].sum(axis=-1)
+         for group in names], axis=-1)
+    return stacked, names
+
+
+def aggregate_mc(p_mc, per, amplitud, brf):
+    """BRF sobre cada pasada MC de la CNN -> clase e incertidumbre por peak.
+
+    `p_mc` es (n_iter, N, 8), la salida cruda de `cnn_mc_probs`. Separada de
+    `classify_peaks` porque la CNN y el BRF no caben en el mismo env: los
+    scripts step_cnn / step_brf se pasan justamente este array.
+    """
+    p_mc = np.asarray(p_mc, dtype=np.float32)
+    n_iter, N, _ = p_mc.shape
+    mc_mean = p_mc.mean(0)
+    mc_std = p_mc.std(0)
+    top = mc_mean.argmax(1)
+    sigma_top = mc_std[np.arange(N), top]
+    entropy = -(mc_mean * np.log(mc_mean + 1e-12)).sum(1)
+
+    pp, valid = brf_mc_probs(p_mc, per, amplitud, brf)
+
+    brf_class = np.array([None] * N, dtype=object)
+    brf_prob = np.full(N, np.nan)
+    sigma_brf = np.full(N, np.nan)
+    instability = np.full(N, np.nan)
+
+    if valid.any():
+        idx_v = np.where(valid)[0]
+        nv = len(idx_v)
+        pp_v = pp[:, idx_v, :]
+        pp_median = np.median(pp_v, axis=0)                    # (nv,8)
+        pred = pp_median.argmax(1)                             # clase ganadora por mediana
+        cls_per_pass = pp_v.argmax(2)                          # (n_iter,nv)
+
+        brf_class[idx_v] = [CLASS_NAMES[c] for c in pred]
+        brf_prob[idx_v] = pp_median[np.arange(nv), pred]
+        sigma_brf[idx_v] = pp_v[:, np.arange(nv), pred].std(0)
+        instability[idx_v] = (cls_per_pass != pred[None, :]).mean(0)
+
+    return {"brf_class": brf_class, "brf_prob": brf_prob,
+            "instability": instability, "sigma_brf": sigma_brf,
+            "entropy": entropy, "sigma_top": sigma_top}
 
 
 def classify_peaks(peaks_df, model, brf, X=None, amp=None, n_iter=30,
@@ -130,48 +252,14 @@ def classify_peaks(peaks_df, model, brf, X=None, amp=None, n_iter=30,
         amp = peaks_df["amplitude"].to_numpy(dtype=float)
     per = peaks_df["per"].to_numpy(dtype=float)
 
-    # --- CNN: pasadas MC ----------------------------------------------------
     p_mc = cnn_mc_probs(model, X, n_iter=n_iter, batch_size=batch_size)  # (n_iter,N,8)
-    mc_mean = p_mc.mean(0)
-    mc_std = p_mc.std(0)
-    top = mc_mean.argmax(1)
-    sigma_top = mc_std[np.arange(N), top]
-    entropy = -(mc_mean * np.log(mc_mean + 1e-12)).sum(1)
-
-    # --- BRF sobre cada pasada MC (un solo batch plano) ----------------------
-    valid = np.isfinite(amp) & np.isfinite(per)      # amp NaN = flujo <= 0
-    brf_class = np.array([None] * N, dtype=object)
-    brf_prob = np.full(N, np.nan)
-    sigma_brf = np.full(N, np.nan)
-    instability = np.full(N, np.nan)
-
-    if valid.any():
-        idx_v = np.where(valid)[0]
-        nv = len(idx_v)
-        flat = p_mc[:, idx_v, :].reshape(n_iter * nv, len(CLASS_NAMES))
-        feat = brf_features(flat,
-                            np.tile(per[idx_v], n_iter),
-                            np.tile(amp[idx_v], n_iter), brf)
-        pp = brf.predict_proba(feat).reshape(n_iter, nv, -1)   # (n_iter,nv,8)
-
-        pp_median = np.median(pp, axis=0)                      # (nv,8)
-        pred = pp_median.argmax(1)                             # clase ganadora por mediana
-        cls_per_pass = pp.argmax(2)                            # (n_iter,nv)
-
-        brf_class[idx_v] = [CLASS_NAMES[c] for c in pred]
-        brf_prob[idx_v] = pp_median[np.arange(nv), pred]
-        sigma_brf[idx_v] = pp[:, np.arange(nv), pred].std(0)
-        instability[idx_v] = (cls_per_pass != pred[None, :]).mean(0)
+    metrics = aggregate_mc(p_mc, per, amp, brf)
 
     out = peaks_df[["TIC", "sector", "source", "per", "power",
                     "prominence", "width"]].copy()
     out["amplitude"] = amp
-    out["brf_class"] = brf_class
-    out["brf_prob"] = brf_prob
-    out["instability"] = instability
-    out["sigma_brf"] = sigma_brf
-    out["entropy"] = entropy
-    out["sigma_top"] = sigma_top
+    for column, values in metrics.items():
+        out[column] = values
     return out
 
 

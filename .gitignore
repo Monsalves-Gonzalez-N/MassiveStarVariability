@@ -15,6 +15,11 @@ xmatch_tic_result.fits
 !test_data/*.parquet
 *.fits
 
+# Catálogos externos/derivados pesados: se regeneran con
+# scripts/build_gaia_3d_catalog.py y la descarga de CDS.
+catalogs/cds_A155/
+catalogs/0_MassiveG12_3D.csv
+
 # Backups & caches
 *.bak
 __pycache__/
@@ -23,3 +28,4 @@ __pycache__/
 .ipynb_checkpoints/
 .claude/
 .DS_Store
+.3_HowToUse_CNN_BRF.ipynb.summary.md

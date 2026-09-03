@@ -18,6 +18,9 @@ CLASS_COLORS = {
     "ELL": "#4477AA", "M": "#EE6677", "CEP": "#228833", "DST": "#CCBB44",
     "E": "#66CCEE", "LPV": "#AA3377", "RR": "#BBBBBB", "Rndm": "#555555",
 }
+# Las pulsantes se reportan juntas (config.PULSATING): un color propio para el
+# grupo, el resto hereda el de su clase.
+GROUP_COLORS = dict(CLASS_COLORS, Pulsating="#EE6677")
 
 
 def _flt(TIC, sector, source=None):
@@ -55,6 +58,33 @@ def random_pairs(n=1, path=PEAKS_PARQUET, rng=None):
     return [(int(t), int(s)) for t, s in pairs.to_numpy()[idx]]
 
 
+def plot_cleaning_curve(time, flux, ax=None, title=None, gap_days=2.0,
+                        show_gaps=True, **clean_kw):
+    """Curva cruda con los puntos que se lleva el sigma-clip marcados.
+
+    Toma arrays, no un par (TIC, sector): es la que usan los PDF de revisión,
+    que leen los FITS directamente. `plot_cleaning` es la versión por par.
+    """
+    t, f, _, keep = clean_lightcurve(time, flux, return_mask=True, **clean_kw)
+    if ax is None:
+        _, ax = plt.subplots(figsize=(12, 3))
+    if show_gaps:
+        for edge in t[:-1][np.diff(t) >= gap_days]:
+            ax.axvline(edge, color="tab:blue", ls=":", lw=0.8)
+    ax.plot(t[keep], f[keep], ".", color="k", ms=1.2, alpha=0.55,
+            label=f"{keep.sum()} conservados")
+    if (~keep).any():
+        ax.plot(t[~keep], f[~keep], "x", color="tab:red", ms=5, mew=1.2,
+                label=f"{(~keep).sum()} sigma-clip (gaps/bordes)")
+    ax.set_xlabel("Time [BTJD]", fontsize=9)
+    ax.set_ylabel("PDCSAP flux", fontsize=8)
+    if title:
+        ax.set_title(title, fontsize=9)
+    ax.legend(loc="best", fontsize=7)
+    ax.grid(alpha=0.25)
+    return ax, (t[keep], f[keep])
+
+
 def plot_cleaning(TIC, sector, lc_parquet=LC_PARQUET_MASSIVE, ax=None, **clean_kw):
     """LC cruda con los puntos descartados por clean_lightcurve marcados."""
     lc = load_lc(TIC, sector, lc_parquet)
@@ -62,29 +92,36 @@ def plot_cleaning(TIC, sector, lc_parquet=LC_PARQUET_MASSIVE, ax=None, **clean_k
     t, f, e, keep = clean_lightcurve(lc["Time"].to_numpy(), lc["flux"].to_numpy(),
                                      lc["flux_err"].to_numpy(),
                                      return_mask=True, **clean_kw)
-    if ax is None:
-        _, ax = plt.subplots(figsize=(12, 3))
-    ax.plot(t[keep], f[keep], ".", color="k", ms=2, label=f"limpia ({keep.sum()})")
-    if (~keep).any():
-        ax.plot(t[~keep], f[~keep], "x", color="tab:red", ms=4,
-                label=f"descartados ({(~keep).sum()})")
-    ax.set_xlabel("Time [BTJD]")
-    ax.set_ylabel("PDCSAP flux")
-    ax.set_title(f"TIC {int(TIC)} — sector {int(sector)}: limpieza", fontsize=11)
-    ax.legend(loc="best", fontsize=9)
-    ax.grid(alpha=0.3)
+    ax, _ = plot_cleaning_curve(lc["Time"].to_numpy(), lc["flux"].to_numpy(), ax=ax,
+                                title=f"TIC {int(TIC)} — sector {int(sector)}: limpieza",
+                                **clean_kw)
     return ax, (t[keep], f[keep], e[keep])
 
 
-def plot_phase_fold(time, flux, period, ax=None, title=None):
-    """LC plegada a `period` (dos ciclos para ver la continuidad en fase 1)."""
+def plot_phase_fold(time, flux, period, ax=None, title=None, phase_bins=None,
+                    color="k", ms=2):
+    """LC plegada a `period` (dos ciclos para ver la continuidad en fase 1).
+
+    Con `phase_bins` se superpone la mediana por bin de fase: es la que hace
+    visible la ambigüedad P vs P/2 de una eclipsante (en P se ven dos
+    profundidades distintas, en P/2 una sola).
+    """
     if ax is None:
         _, ax = plt.subplots(figsize=(6, 3))
     phase = (np.asarray(time) / period) % 1.0
     f = np.asarray(flux)
     for shift in (0.0, 1.0):
-        ax.plot(phase + shift, f, ".", color="k", ms=2, alpha=0.6)
+        ax.plot(phase + shift, f, ".", color=color, ms=ms, alpha=0.6)
+    if phase_bins:
+        edges = np.linspace(0.0, 1.0, phase_bins + 1)
+        which = np.digitize(phase, edges) - 1
+        binned = np.array([np.median(f[which == b]) if (which == b).any() else np.nan
+                           for b in range(phase_bins)])
+        centres = 0.5 * (edges[:-1] + edges[1:])
+        for shift in (0.0, 1.0):
+            ax.plot(centres + shift, binned, "-", color="tab:red", lw=1.4)
     ax.axvline(1.0, color="0.8", lw=0.8)
+    ax.set_xlim(0, 2)
     ax.set_xlabel("Phase")
     ax.set_ylabel("Flux")
     ax.set_title(title or f"P = {period:.4f} d", fontsize=10)

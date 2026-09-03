@@ -10,7 +10,10 @@ import pandas as pd
 from astropy.timeseries import LombScargle
 from statsmodels.tsa.stattools import acf as _sm_acf
 
-from .config import FAP_ALPHA
+from scipy.stats import norm
+
+from .config import (ACF_BARTLETT_CONFINT, ACF_FILL_GAPS, ACF_TRIALS_CORRECTION,
+                     FAP_ALPHA)
 
 
 def ls_periodogram(time, flux, err, step=None, oversample=5,
@@ -78,23 +81,34 @@ def ls_periodogram(time, flux, err, step=None, oversample=5,
 
 
 def acf_periodogram(time, flux, err, maxlag_days=None, fap_alpha=FAP_ALPHA,
-                    fill_gaps=False):
+                    fill_gaps=ACF_FILL_GAPS, bartlett_confint=ACF_BARTLETT_CONFINT,
+                    trials_correction=ACF_TRIALS_CORRECTION):
     """ACF periodogram: statsmodels.tsa.stattools.acf con confint de Bartlett.
 
     Pipeline:
       1. Normaliza flux a ppt: y -> (y/mean - 1) * 1e3.
-      2. Con `fill_gaps` (str de astrobase, p.ej. 'noiselevel', o False):
+      2. `fill_gaps` (default 'noiselevel', config.ACF_FILL_GAPS):
          astrobase.autocorr_magseries se usa SOLO por sus utilidades de
          binning a cadencia uniforme y relleno del gap orbital de TESS;
          descartamos su ACF y nos quedamos con la serie regularizada.
-         Sin fill_gaps la ACF corre directo sobre la serie (asume cadencia
-         ~uniforme; los gaps no se rellenan).
-      3. statsmodels acf(bartlett_confint=True): FAP dependiente del lag
-         según Bartlett 1946 extendido:
+         NO desactivarlo: statsmodels indexa por muestra, y sin la grilla
+         uniforme cada cadencia faltante comprime el peine entero (ver el
+         comentario de ACF_FILL_GAPS en config.py).
+      3. statsmodels acf(alpha=fap_alpha): FAP por lag.
+         Con `bartlett_confint=False` (default) la hipótesis nula es ruido
+         blanco y la banda es CONSTANTE, z/sqrt(N).
+         Con `bartlett_confint=True` se usa Bartlett 1946 extendido:
             Var(r_k) ~ (1/N) * [1 + 2 * sum_{j=1..k-1} r_j^2]
-         Detalle: una señal real a P infla r_P^2 -> infla el threshold a
-         lags k > P -> puede esconder sus propios armónicos.
-      4. Filtra lags a [3*cadence, maxlag_days].
+         cuya suma es acumulativa: una señal real a P infla r_P^2 -> infla
+         el threshold a lags k > P -> esconde sus propios armónicos, y con
+         amplitud suficiente se esconde a sí misma. Ese test responde
+         "¿queda correlación RESIDUAL más allá del lag k?" (validar un
+         MA(q)), no "¿hay alguna periodicidad?".
+      4. Con `trials_correction`, alpha se divide por el número de lags
+         buscados: `fap_alpha` es la significancia de UN lag, y buscar el
+         máximo sobre miles de ellos es un look-elsewhere sin corregir
+         (~16 excursiones esperadas por azar y por estrella a 3 sigma).
+      5. Filtra lags a [3*cadence, maxlag_days].
 
     Devuelve DataFrame `per, power, fap` con `per = lag * cadence` (grilla
     UNIFORME en período: esto hace bien definida la conversión de una ventana
@@ -136,11 +150,12 @@ def acf_periodogram(time, flux, err, maxlag_days=None, fap_alpha=FAP_ALPHA,
 
     n_eff = len(y_uniform)
     nlags = min(maxlags, n_eff - 1)
+    alpha_eff = fap_alpha / nlags if trials_correction else fap_alpha
     acf_vals, confint = _sm_acf(
         y_uniform,
         nlags=nlags,
-        alpha=fap_alpha,
-        bartlett_confint=True,
+        alpha=alpha_eff,
+        bartlett_confint=bartlett_confint,
         fft=True,
     )
     fap_arr = confint[:, 1] - acf_vals   # threshold por lag (half-width z*se_k)
@@ -156,7 +171,9 @@ def acf_periodogram(time, flux, err, maxlag_days=None, fap_alpha=FAP_ALPHA,
         "fap": fap_arr[keep],
     })
     df.attrs["fap_alpha"] = fap_alpha
-    df.attrs["fap_method"] = "bartlett-statsmodels"
+    df.attrs["fap_alpha_eff"] = alpha_eff
+    df.attrs["fap_method"] = ("bartlett-statsmodels" if bartlett_confint
+                              else "white-noise-statsmodels")
     df.attrs["cadence_days"] = cadence_used
     df.attrs["baseline_days"] = baseline
     df.attrs["per_min"] = 2.0 * cadence_used
@@ -166,3 +183,50 @@ def acf_periodogram(time, flux, err, maxlag_days=None, fap_alpha=FAP_ALPHA,
     df.attrs["n_search"] = int(keep.sum())
     df.attrs["fill_gaps"] = str(fill_gaps)
     return df
+
+
+def white_noise_band(per, power, fap):
+    """Recupera la banda de ruido blanco CONSTANTE de un ACF ya calculado.
+
+    Los parquets de `derived/` se generaron con `bartlett_confint=True`, que
+    guarda la banda inflada
+        fap[k] = c * sqrt(1 + 2 * sum_{j=1..k-1} r_j^2),   c = z / sqrt(N)
+    y recomputar 40M de filas para volver a ruido blanco no vale la pena.
+    Diferenciando en k, los términos acumulados se cancelan:
+        fap[k+1]^2 - fap[k]^2 = 2 * c^2 * r_k^2
+    de donde c^2 se despeja lag a lag; se toma la mediana por robustez (en la
+    práctica la dispersión es de nivel de máquina, ~1e-14). Requiere lags
+    CONTIGUOS y ordenados, que es como los escribe `acf_periodogram`.
+
+    Devuelve el escalar c, o el `fap` original si no es invertible (banda ya
+    constante, o power ~ 0 en todo el rango).
+    """
+    power = np.asarray(power, dtype=float)
+    fap = np.asarray(fap, dtype=float)
+    if fap.size < 3:
+        return fap
+
+    numerator = np.diff(fap ** 2)
+    denominator = 2.0 * power[:-1] ** 2
+    usable = (denominator > 1e-6) & np.isfinite(numerator)
+    if usable.sum() < 3:
+        return fap
+
+    c_squared = np.median(numerator[usable] / denominator[usable])
+    if not np.isfinite(c_squared) or c_squared <= 0:
+        return fap
+    return float(np.sqrt(c_squared))
+
+
+def trials_corrected_band(band, n_lags, alpha=FAP_ALPHA):
+    """Re-escala una banda de un lag a una banda global sobre `n_lags` lags.
+
+    Los parquets de `derived/` se escribieron con la significancia por lag, y
+    reprocesarlos solo para cambiar un umbral no vale la pena: como la banda
+    es z(alpha/2)/sqrt(N), pasar a alpha/n_lags es multiplicar por el cociente
+    de los z. Bonferroni sobre n_lags es conservador (los lags adyacentes están
+    correlacionados), pero el z apenas cambia con el número efectivo de trials.
+    """
+    z_single = norm.ppf(1 - alpha / 2)
+    z_global = norm.ppf(1 - alpha / (2 * n_lags))
+    return np.asarray(band) * z_global / z_single
