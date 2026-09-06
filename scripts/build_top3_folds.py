@@ -14,11 +14,15 @@ ID va en el CSV `..._panels.csv` que se escribe al lado del PDF, con el TIC,
 el sector, el período y la clase de cada panel.
 
 El orden de los candidatos lo elige `--rank`:
-  prob         la probabilidad media de su mejor clase no-Rndm (default): son
-               los candidatos que de verdad compiten por la clasificación.
+  lpv          `-log10 p_LPV` de la CNN, entre los candidatos de clase
+               periódica (default): es el único ranking medido que ordena bien.
+               Ver `docs/HANDOFF_contaminacion_ELL.md` §3 — elegir el pico por
+               `p_LPV` sube de 8/11 a 10/11 las estrellas con el período
+               correcto y corrige dos de los tres alias 2P.
+  prob         la probabilidad media de su mejor clase no-Rndm. Con mediana
+               0.996 no ordena nada; queda para comparar con lo viejo.
   prominence   la prominencia del pico en el periodograma: es el orden en que
-               los propuso la detección, útil para ver si el ranking por
-               probabilidad está reordenando cosas.
+               los propuso la detección.
 
     python scripts/build_top3_folds.py results/clasificacion_review20.csv \
         --curves results/phasefold_curves.pkl --stat median
@@ -62,7 +66,15 @@ def rank_candidates(group, names, how, how_many=None):
 
     `how_many=None` (o 0) devuelve todos los candidatos de la estrella.
     """
-    if how == "prominence":
+    if how == "lpv":
+        # Un pico que la red llama Rndm con seguridad tambien tiene p_LPV
+        # bajisimo, asi que ordenar por log_pLPV sobre TODOS los candidatos los
+        # sube a la cabeza. La clase periodica va primero, como en la seleccion
+        # del pico reportado.
+        periodic = group.clase.isin(["ELL", "Pulsating", "E"])
+        order = group.assign(_periodic=periodic).sort_values(
+            ["_periodic", "log_pLPV"], ascending=[False, False]).drop(columns="_periodic")
+    elif how == "prominence":
         order = group.sort_values("prominence", ascending=False)
     else:
         _, probabilities, _, _ = best_non_random(group, names)
@@ -89,7 +101,8 @@ def main():
                         help="pickle {(TIC, sector): (time, flux)}")
     parser.add_argument("--top", type=int, default=3,
                         help="candidatos por estrella")
-    parser.add_argument("--rank", default="prob", choices=["prob", "prominence"])
+    parser.add_argument("--rank", default="lpv",
+                        choices=["lpv", "prob", "prominence"])
     parser.add_argument("--stat", default="median", choices=list(STATS))
     parser.add_argument("--per-page", type=int, default=3,
                         help="estrellas por página")

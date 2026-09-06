@@ -8,6 +8,7 @@ pipeline completo sobre un subconjunto sin tocar el parquet grande.
     python scripts/build_lc_parquet.py --dir review_50 --out results/lc_review50.parquet
 """
 import argparse
+from pathlib import Path
 
 import pandas as pd
 
@@ -40,7 +41,14 @@ def main():
         frames.append(frame)
 
     table = pd.concat(frames, ignore_index=True)
-    out = config.RESULTS_DIR / args.out if not args.out.startswith("/") else args.out
+    # Un nombre suelto va a RESULTS_DIR; cualquier cosa con separador se toma
+    # tal cual, relativa al directorio de trabajo. Antes se prefijaba SIEMPRE
+    # con RESULTS_DIR y `--out results/golden/lc.parquet` terminaba en
+    # `results/results/golden/`.
+    out = Path(args.out)
+    if not out.is_absolute() and len(out.parts) == 1:
+        out = config.RESULTS_DIR / out
+    out.parent.mkdir(parents=True, exist_ok=True)
     table.to_parquet(out, index=False)
     print(f"-> {out}")
     print(f"   {table.groupby(['TIC', 'sector']).ngroups} pares, {len(table)} puntos, "

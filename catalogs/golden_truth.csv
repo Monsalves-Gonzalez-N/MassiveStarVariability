@@ -1,0 +1,1082 @@
+TIC,class_gold,class_raw,class_is_inferred,class_reference,ra_deg,dec_deg,period_gold,period_n,period_spread,period_references,period_methods,n_products,n_sectors,has_light_curve,period_is_group,period_usable
+1152358,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+4289780,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+4373827,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+4491131,OTHER,sdB candidate (Bin+R (sdB+dM?sdB+WD)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.223,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+4827953,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),107.24486,-1.01579,,,,,,,,False,True,False
+5051420,ROT,SLF+rot,False,2020A&A...639A..81B (Burssens+ 2020),,,1.397624039133473,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.0,4.0,True,False,True
+5528993,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),155.49749,-18.0345,0.819672131147541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+6110321,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),112.255514,-8.548311,0.3623188405797102,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+9346617,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+9375378,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+9376301,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+10176636,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),110.394308,-5.897167,0.897938179994119,2.0,1.9664285714285714,2020A&A...639A..81B (Burssens+ 2020) | 2022AJ....163..226L (Labadie-Bartz+ 2022),visual | visual+spectroscopy,,,False,True,False
+10510382,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+10536200,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),246.9534,-53.53474,0.8547008547008548,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+11286198,AMBIGUOUS,cont.,False,2020A&A...639A..81B (Burssens+ 2020),,,0.5956635692161067,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+11286209,ROT,rot,False,2020A&A...639A..81B (Burssens+ 2020),,,0.5956280898207159,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+11360636,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),85.1897,-1.94257,3.571428571428571,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+11411724,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),85.409923,-2.259013,,,,,,1.0,1.0,True,False,False
+11559798,BE,Be=Y; signals=I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),149.77637,-23.95079,0.425531914893617,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+11972111,BE,Be=Y; signals=S/I/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),146.34172,-30.20277,,,,,,3.0,3.0,True,True,False
+12149245,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+12359289,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),0.90458,-28.41714,3.070961538461538,2.0,1.0038900740368928,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+14088298,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),77.11026,-40.91243,0.3048780487804878,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+14249970,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+14498757,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),111.11521,15.51721,0.4716981132075471,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+14709809,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),111.8507,15.65966,,,,,,,,False,False,False
+16046443,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+16876025,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,2.349,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+16876165,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+16902823,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),264.307548,-45.157448,0.9523809523809524,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+17124499,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+17656164,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+18745933,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+21249978,BE,Be=S; signals=S/I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),267.57862,-47.23054,,,,,,,,False,True,False
+21343832,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+21372970,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+21599042,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+21682866,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+22123033,BE,Be=Y; signals=S/I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),148.52138,-27.99894,0.5319148936170213,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+22688271,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),268.41493,-42.89751,0.4716981132075471,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+22825907,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),248.41336,-51.26262,,,,,,,,False,False,False
+23037766,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),109.576625,-36.7339527778,0.9615384615384616,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+23091719,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),109.659125,-36.7427361111,,,,,,,,False,False,False
+23321922,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),269.05579,-46.70213,1.818181818181818,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+23708714,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+25256180,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.18017,-7.50899,0.6211180124223602,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+25883580,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),248.68146,-49.55264,0.9523809523809524,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+26175330,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),152.531416667,-8.40816666667,,,,,,,,False,False,False
+28885389,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),249.0491,-49.26318,0.8620689655172414,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+29051733,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.60944,-46.58458,0.7518796992481203,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+29122883,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.64915,-45.54896,0.4184100418410041,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,3.0,3.0,True,True,False
+29207816,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),,,2.0214271275520517,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.0,4.0,True,False,False
+29628522,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.1635,-32.3712777778,0.5780346820809249,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+29690468,BE,Be=Y; signals=S/I+/L/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),133.34172,-46.03575,1.351351351351351,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,5.0,5.0,True,True,False
+29786229,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),109.99744,-40.49491,1.4084507042253522,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+29990592,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),73.07956,-66.73148,,,,,,,,False,False,False
+30051402,BE,Be=Y; signals=H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),133.78614,-43.46656,0.3787878787878788,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+30110048,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),73.37514,-66.9245,,,,,,31.0,31.0,True,False,False
+30135331,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),,,4.25531914893617,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.0,3.0,True,False,True
+30268695,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),74.04357,-69.26064,,,,,,32.0,32.0,True,False,False
+30275662,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),74.09789,-66.4978,,,,,,,,False,False,False
+30275861,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),74.18013,-66.41739,,,,,,,,False,False,False
+30312676,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),74.28677,-66.39033,,,,,,,,False,False,False
+30312711,ECL,SLF / rot / EB?,False,2019ApJ...872L...9P (Pedersen+ 2019),74.25369,-66.407,,,,,,,,False,False,False
+30317301,ECL,EB,False,2019MNRAS.485.3457B (Balona+ 2019),74.28357,-68.42008,,,,,,33.0,33.0,True,False,False
+30444949,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),198.66953,-38.65158,0.8,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+30562668,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),134.28156,-43.25616,,,,,,4.0,4.0,True,False,False
+30653985,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),134.47757,-47.73769,1.9120458891013383,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.0,4.0,True,False,False
+30933383,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),76.20907,-68.13121,,,,,,,,False,False,False
+31062736,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),135.09277,-43.17397,0.6289308176100629,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+31071126,BE,Be=Y; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),135.05859,-46.68569,0.4329004329004329,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+31105740,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),76.36298,-68.1674,,,,,,,,False,False,False
+31181554,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),76.83509,-68.53571,,,,,,33.0,33.0,True,False,False
+31449841,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),249.54586,-48.21988,0.4424778761061947,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+31674330,NOISY,Noisy,False,2022ApJ...924....2B (Barraza+ 2022),47.62925,-68.60094,,,,,,,,False,False,False
+31867144,ROT,rot / SPB + {Beta} Cep hybrid?,False,2019ApJ...872L...9P (Pedersen+ 2019),52.71545,-66.48971,,,,,,,,False,False,False
+32667467,BE,Be=Y; signals=S,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.33591,-4.19375,,,,,,2.0,2.0,True,True,False
+33287617,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),105.84845,-2.74404,1.2987012987012987,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+33362448,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),105.90491,-2.47418,0.4081632653061224,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+33945685,ROT,ROT,False,2019MNRAS.485.3457B (Balona+ 2019),356.71589,-24.29362,0.3527336860670194,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+33993533,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),94.0320416667,-16.6180055556,0.4716981132075471,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+34512896,SLF,SLF?,False,2020A&A...639A..81B (Burssens+ 2020),,,3.2679738562091503,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+34590771,PULS,beta Cep,False,2020A&A...639A..81B (Burssens+ 2020),95.67494,-17.95592,0.2513573295797305,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+35311214,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),249.84824,-52.53593,0.4291845493562232,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+35735021,BE,Be=Y; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),249.95846,-52.12105,,,,,,,,False,True,False
+37777866,PULS,SLF+SPB,False,2020A&A...639A..81B (Burssens+ 2020),65.17848,-7.5925,3.546099290780142,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+38118168,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),136.92442,-29.00331,,,,,,,,False,True,False
+38602305,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),64.4178,-63.25541,2.972395238095238,2.0,1.0025569211717564,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+39174351,OTHER,sdB candidate (EB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.276,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+39947484,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+40343782,PULS,SLF / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),77.43831,-68.76941,,,,,,,,False,False,False
+41331819,BE,rot / outburst?,False,2019ApJ...872L...9P (Pedersen+ 2019),92.18442,-68.84341,1.400440112044818,2.0,1.0001715494241574,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,True,False
+41792209,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),256.6182,-35.45104,1.269035532994924,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+42753726,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),228.81742,-58.17288,,,,,,,,False,True,False
+42889751,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.0941,-4.46214,1.1764705882352942,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+43284243,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),257.05826,-35.00435,9.174311926605505,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+43708176,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),229.28782,-57.0289,0.4587155963302752,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+46028220,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),131.677291667,-56.769775,0.5128205128205129,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+46211527,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),230.50626,-55.23843,0.4,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+46226875,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.2251,-54.27296,0.4926108374384237,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+46705199,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),230.844333333,-59.3207805556,0.4347826086956522,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+47296054,BE,rot / SPB / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),340.163916667,-27.0436166667,1.1933242196400091,2.0,1.0047846889952154,2019MNRAS.485.3457B (Balona+ 2019) | 2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+47377536,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+47581488,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+47583864,PULS,Pulsation (IGW?),False,2025ApJ...989..177C (Campelo+ 2025),,,2.374,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+47763235,PULS,beta Cep,False,2020A&A...639A..81B (Burssens+ 2020),97.96403,-23.41842,0.2062888504663104,2.0,1.0324024676483783,2020A&A...639A..81B (Burssens+ 2020) | 2025ApJ...989..177C (Campelo+ 2025),visual | visual+spectroscopy,,,False,False,True
+48022676,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,6.449,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+48217508,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.785,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,12.0,12.0,True,False,True
+48503549,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.936,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+49687057,OTHER,instr / binary?,False,2019ApJ...872L...9P (Pedersen+ 2019),351.68955,-11.0326,,,,,,,,False,False,False
+50743458,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+50743469,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,2.862049227246709,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+50787573,PULS,Pulsation (SPB?),False,2025ApJ...989..177C (Campelo+ 2025),,,1.542,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+51033628,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),127.58529,-10.61622,0.4716981132075471,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+51288359,BE,Be=S; signals=S/I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),251.96419,-51.76774,,,,,,,,False,True,False
+52638345,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),101.118625,-31.070525,1.639344262295082,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+52665242,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),99.1472083333,-5.21114166667,0.8771929824561404,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+52686322,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),101.379958333,-30.9489805556,0.7692307692307692,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+52748770,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),99.27393,-2.17903,,,,,,,,False,True,False
+52929072,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),125.84543,-45.75304,0.7874015748031495,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+53063082,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.597291667,-31.7060583333,,,,,,,,False,False,False
+53301259,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),126.32417,-45.16262,0.5434782608695652,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+53327951,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),100.00659,-4.69874,,,,,,2.0,2.0,True,True,False
+53992511,BE,rot / SPB / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),331.153208333,-26.8223611111,0.6666666666666666,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+55295028,BE,rot / SPB / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),76.80385,-61.80512,1.162790697674419,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+55642026,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+55753808,OTHER,sdB candidate (EB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.202,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+56179720,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),71.0221666667,-8.50356666667,1.36986301369863,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+56447057,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),253.01404,-53.82939,0.5649717514124294,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+56863037,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+57189056,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+57257430,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+58105597,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,2.749,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+59215060,PULS,SPB,False,2020A&A...639A..81B (Burssens+ 2020),85.32382,16.53415,2.220741727737064,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+61678783,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),109.40164,-9.41444,1.1363636363636365,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+63198307,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),104.65645,-28.97209,4.273504273504273,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+63719894,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+65403216,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.729,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+65672662,BE,Be=Y; signals=S/I/L/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),113.99079,-3.36828,0.5181347150259068,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+65803653,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),108.563375,-26.3525083333,0.7518796992481203,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+65903024,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),108.702708333,-26.7726694444,1.6129032258064515,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+66497441,ELL,EV / rot? / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),356.05033,-18.27695,,,,,,,,False,False,False
+66651575,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),86.93912,-9.6696,16.949152542372882,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+67423472,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,0.189,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+68003064,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),115.88389,-4.68065,,,,,,,,False,True,False
+68495594,OTHER,sdB candidate (Bin),False,2025ApJ...989..177C (Campelo+ 2025),,,0.037,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+68873560,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+69025787,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+69925250,PULS,known {Beta} Cep,False,2019ApJ...872L...9P (Pedersen+ 2019),339.40952,-18.66424,,,,,,,,False,False,False
+70966650,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),236.51295,-58.95244,0.5988023952095809,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+71132174,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),67.278875,-13.0483666667,0.7246376811594204,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+71146552,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+71727949,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),91.05625,-6.70893888889,,,,,,,,False,True,False
+73039225,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),120.18388,-2.88191,0.8849557522123894,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+73759997,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),263.29733,-58.55751,,,,,,,,False,True,False
+75047606,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),138.393541667,-47.3384055556,0.6060606060606061,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+75210369,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),138.66093,-45.57603,0.5464480874316939,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+75581184,BE,Be=Y; signals=I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),139.16548,-44.4346,0.3717472118959108,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+75708438,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),237.17326,-54.86311,,,,,,,,False,True,False
+76336597,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),140.17549,-42.17851,1.1111111111111112,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+76343753,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+76556351,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),237.16108,-57.10397,1.4285714285714286,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+78897024,PULS,beta Cep,False,2020A&A...639A..81B (Burssens+ 2020),103.38711,-20.22425,0.1845427031815162,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+80466973,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),105.75613,-23.83329,7.94912559618442,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+80719034,BE,Be=Y; signals=I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),122.09117,-47.15797,0.3355704697986577,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+80899869,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),122.17309,-42.05634,0.6535947712418301,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+81584371,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),106.844125,-23.8407194444,1.2987012987012987,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+81615536,BE,Be=Y; signals=I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.4402,-46.57868,,,,,,6.0,6.0,True,True,False
+81859368,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.71353,-46.48584,0.4566210045662101,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+82286180,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+82370215,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),124.51174,-45.64217,,,,,,,,False,True,False
+84513533,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),238.59092,-55.32899,0.8928571428571428,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+85001695,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),250.17693,-41.12698,0.5025125628140703,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+85145647,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+85400193,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+85407360,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+85979436,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+86430323,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+88021496,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+88484868,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+88565376,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+89545031,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),357.83891,-18.90916,3.7567642481203007,2.0,1.0014033867342371,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+89593655,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),239.02487,-54.95264,0.6211180124223602,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+90296023,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),128.09732,-49.60138,,,,,,,,False,False,False
+90836305,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),239.28151,-57.58022,0.6535947712418301,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+91198426,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+91689592,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),88.504506,12.684274,0.4484304932735426,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+91791971,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),,,0.5927682276229994,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+92124675,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+92136299,BE,SPB+Be-type mini-outbursts / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),355.68061,-14.54491,0.444247001332741,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,True,False
+95513457,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),107.38901,-16.23451,2.0408163265306123,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+95526898,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.241,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+95767039,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+95856782,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+99091407,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+99641129,OTHER,sdB candidate (EB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.092,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+99899463,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+99954966,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+100013600,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+100589904,SLF,SLF,True,2020A&A...640A..36B (Bowman+ 2020),86.49956,-32.30643,1.1977482333213558,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+100728163,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+101167744,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+101548929,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+102281507,SLF,SLF?,False,2020A&A...639A..81B (Burssens+ 2020),89.11681,9.50939,3.4916201117318435,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+102643159,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,1.68662506324844,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+106347931,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),109.67703,-24.95437,0.640861317610869,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+106349204,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,2.1963540522732266,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+110798652,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.908,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+112679272,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),269.51872,-41.52948,0.6172839506172839,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+115177591,ROT,ROT,False,2019MNRAS.485.3457B (Balona+ 2019),317.17202,-37.2427,0.5760368663594471,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+115286784,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+116043802,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+118269334,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,3.138,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+118298029,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+118327563,ROT,ROT+FLARE?,False,2019MNRAS.485.3457B (Balona+ 2019),10.74294,-38.12703,0.2287282708142726,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+118334802,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+118842700,BE,Be=Y; signals=S/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),274.281375,-56.0233527778,,,,,,,,False,True,False
+120638388,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+121345684,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),254.73675,-46.12899,0.9090909090909092,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+121689850,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),254.98716,-43.22079,1.1494252873563218,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,3.0,3.0,True,True,False
+121905577,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),255.10518,-42.31675,1.020408163265306,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+123036723,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),113.52862,-46.64378,0.425531914893617,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+123545883,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.889196,-6.966449,,,,,,,,False,False,False
+123828144,BE,Be=Y; signals=I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),116.06479,-43.01787,,,,,,,,False,True,False
+124328133,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.25594,-6.21823,0.3875968992248061,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+124407255,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.289483,-8.541935,0.6711409395973155,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+124921846,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),95.151,-34.1441444444,1.282051282051282,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+125406140,BE,Be=Y; signals=S/I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),105.55697,-6.30245,,,,,,,,False,True,False
+125759847,BE,Be=Y; signals=I/L/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),256.72796,-44.73369,0.4115226337448559,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+126125347,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),228.08129,-53.65803,1.0869565217391304,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+126460390,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),228.25841,-50.73509,,,,,,,,False,True,False
+126586580,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,1.96078431372549,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+126899506,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),137.11441,-52.57775,0.819672131147541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+127493611,BE,Be=Y; signals=S/I/L/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),117.021541667,-25.9371694444,,,,,,,,False,True,False
+129361218,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,2.0,2.0,True,False,False
+131104893,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),117.46758,-40.91447,1.639344262295082,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+133422778,ROT,SLF+rot,False,2020A&A...639A..81B (Burssens+ 2020),,,1.76678445229682,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+134653865,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),182.227458333,-41.2316027778,1.7857142857142856,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+136975077,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+137306463,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.282,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+137504709,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+137608661,OTHER,sdB candidate (Bin+R (sdBV+dM)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.289,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+137714020,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+138187342,BE,Be=Y; signals=L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),230.83395,-50.11624,0.5263157894736842,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+138440897,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+138618727,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.332,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+139271306,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+139385056,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),111.747833333,-23.0860222222,0.1112223334445556,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,True,False
+139468902,ROT,rot / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),337.5656,-42.29107,0.45591108003638015,2.0,1.00509693,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+139472176,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),35.75218,-29.61945,1.2987012987012987,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+139723188,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+139870215,BE,Be=Y; signals=S/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),126.86731,-47.72878,0.7518796992481203,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+140001327,BE,Be=Y; signals=S/I/L/H/V/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),127.21694,-42.58748,0.6369426751592356,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+140006471,BE,Be=Y; signals=I/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),127.281541667,-44.1604138889,0.4784688995215311,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+140031673,BE,Be=S; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),126.380541667,-51.7274166667,1.2658227848101264,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+140132301,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),127.33621,-43.84224,,,,,,,,False,False,False
+140300162,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),126.96036,-50.10002,1.2345679012345678,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,5.0,5.0,True,True,False
+141037731,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),231.48024,-53.77106,0.3690036900369003,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+141281495,ROT,rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),83.24848,-75.23678,3.001305988023952,2.0,1.0048724,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+141602548,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+141620982,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+141898455,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),130.21221,-46.09592,0.5649717514124294,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+141973945,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),178.227166667,-33.9081305556,,,,,,,,False,False,False
+142491300,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+142781574,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+143543729,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),118.29953,-45.21878,,,,,,,,False,True,False
+144028101,BE,Be=Y; signals=L/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),229.633416667,-47.8752777778,,,,,,,,False,True,False
+145373620,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.14332,-50.37032,0.7042253521126761,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+145506624,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.47403,-48.06083,1.7241379310344829,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+146036695,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.373,-35.8995194444,0.9615384615384616,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+146454560,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),232.60006,-51.11001,1.3333333333333333,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+146908355,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),104.03427,-17.05424,8.992805755395684,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+147244857,BE,Be=S; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),124.90855,-31.82346,,,,,,,,False,True,False
+147283842,NOISY,Noisy+Ambiguous variability,False,2022ApJ...924....2B (Barraza+ 2022),324.79423,-46.09765,,,,,,,,False,False,False
+148109427,ROT,SLF+rot,False,2020A&A...639A..81B (Burssens+ 2020),105.93955,-15.63329,6.25,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+148506724,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),106.64986,-12.39395,5.88235294117647,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+148624156,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+148785530,OTHER,sdB candidate (Bin (sdB+dM)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.157,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+149039372,ROT,rot? / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),78.35474,-65.23611,0.32226,1.0,1.0,2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+149368979,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+149441063,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+149442831,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+149468778,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+149971754,PULS,SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),90.01184,-61.828,,,,,,,,False,False,False
+150357404,ROT,SPB+ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),96.23249,-63.82814,1.5625,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+150362541,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+150442264,ECL,EB + puls/rot,False,2019ApJ...872L...9P (Pedersen+ 2019),97.79433,-61.87954,1.490911,1.0,1.0,2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+151131426,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),232.07259,-45.13494,,,,,,,,False,False,False
+151300497,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),258.830208333,-33.5484194444,,,,,,,,False,False,False
+151464886,PULS,SPB,False,2020A&A...639A..81B (Burssens+ 2020),91.89302,14.76847,1.5151515151515151,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+152283270,ECL,instr / binary(transit),False,2019ApJ...872L...9P (Pedersen+ 2019),329.23144,-35.35983,2.3041474654377883,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+152659955,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),259.36254,-35.53667,4.219409282700422,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+153541389,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),93.42578,8.7124,0.6172839506172839,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+153976829,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+154510451,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+155573117,BE,Be=S; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.51541,-28.32386,,,,,,,,False,True,False
+156423894,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+156623726,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+156627345,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),90.89269,9.66518,1.4084507042253522,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+157982674,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+158387021,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,0.573,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+158490159,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.239,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+158734620,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),87.19155,0.72555,0.3472222222222222,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+158918567,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+159059628,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),88.36309,0.77922,0.6666666666666666,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+159502560,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.542,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+159923054,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+160401972,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),222.98999,-40.80584,0.7142857142857143,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+160553438,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.832,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+160583519,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+160603215,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+162128750,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.238,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+162576788,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+162594193,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+162616331,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.456,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+165312944,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+165547989,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,0.969,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+165650748,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,2.032,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+165797593,OTHER,sdB candidate (EB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.355,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+166703712,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),208.36758,-39.05722,0.4347826086956522,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+167045028,ECL,EB?,False,2019MNRAS.485.3457B (Balona+ 2019),95.519,-69.27323,3.03951367781155,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+167107487,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),93.89883,7.65231,1.3157894736842106,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+167110617,BE,Be=Y; signals=I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),93.917405,6.066178,,,,,,,,False,True,False
+167415960,NOISY,const?,False,2019ApJ...872L...9P (Pedersen+ 2019),99.28993,-70.91771,,,,,,,,False,False,False
+167523976,PULS,SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),100.60144,-65.74263,,,,,,34.0,34.0,True,False,False
+167746025,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+168115492,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),101.52358,-5.969696,,,,,,,,False,True,False
+168505959,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),193.67212,-52.48407,,,,,,,,False,True,False
+168627067,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),107.19998,-4.05745,0.684931506849315,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+169285097,PULS,sdBhybrid,False,2019MNRAS.485.3457B (Balona+ 2019),356.0917,-34.45011,,,,,,,,False,False,False
+171895762,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),255.44746,-58.95826,0.641025641025641,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+171896106,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),255.47534,-59.0476,,,,,,,,False,True,False
+172570604,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+173008025,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+173381049,BE,Be=Y; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),111.74772,-41.62909,,,,,,,,False,True,False
+173956099,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),113.46199,-40.92995,0.4694835680751174,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+174008063,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),113.462666667,-36.3383916667,1.1494252873563218,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+174121793,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),258.63889,-54.37012,0.819672131147541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+175402069,OTHER,sdB candidate (EB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.098,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+175523591,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),116.543916667,-37.9336694444,0.3968253968253968,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+175599737,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+176935619,ROT,ROT,False,2019MNRAS.485.3457B (Balona+ 2019),100.60644,-67.8431,0.363901018922853,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+176955379,ROT,SPB / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),100.77769,-69.29778,0.334001336005344,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+177075997,ROT,instr / rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),102.86244,-70.96341,2.8409090909090913,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+177204351,BE,Be=Y; signals=S,False,2022AJ....163..226L (Labadie-Bartz+ 2022),106.39672,-8.72889,,,,,,2.0,2.0,True,True,False
+177717406,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),,,1.4084507042253522,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,False
+177853845,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),107.54728,-9.33631,0.5464480874316939,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+177860391,SLF,SLF?,False,2020A&A...639A..81B (Burssens+ 2020),107.53395,-11.80273,0.998003992015968,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,False
+178489528,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),108.61772,-10.31625,4.504504504504505,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+178719204,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),125.33446,-1.60201,,,,,,,,False,False,False
+179308923,ECL,ACYG+EB?,False,2019MNRAS.485.3457B (Balona+ 2019),79.8239,-69.65399,,,,,,,,False,False,False
+179574710,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),80.36637,-71.93865,,,,,,,,False,False,False
+179637387,PULS,ACYG?,False,2019MNRAS.485.3457B (Balona+ 2019),80.57186,-67.94916,,,,,,,,False,False,False
+179639066,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),80.75276,-67.18946,,,,,,30.0,30.0,True,False,False
+180092491,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),188.88531,-64.22124,0.6211180124223602,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+181043970,ECL,EA(EA/SD),False,2019MNRAS.485.3457B (Balona+ 2019),12.94416,-71.99803,,,,,,,,False,False,False
+181506336,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),131.25842,-41.51618,0.5617977528089888,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+181600430,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),131.59902,-41.12536,0.7692307692307692,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+182909257,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),16.38045,-77.58465,3.136898119122257,2.0,1.001341,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+184427882,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+186484490,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.243,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+186513548,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+186979808,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),134.20101,-30.18387,1.6129032258064515,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+187458882,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),110.50855,-8.97936,3.4843205574912894,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+188633484,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+189271286,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),141.68701,-28.78774,0.6535947712418301,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+190393155,BE,Be=Y; signals=S/I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.86672,-41.85731,,,,,,,,False,True,False
+190558492,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),235.58253,-49.99804,0.9803921568627452,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+191312952,BE,Be=S; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),221.65334,-56.41896,0.3174603174603174,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+192063894,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+193600962,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+195288472,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),260.21941,-36.07238,1.1185682326621924,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.0,3.0,True,False,False
+197641601,ROT,instr / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),328.48215,-37.36487,4.981062189054726,2.0,1.0023870000000001,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+198106374,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+198240464,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,2.296,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+198279946,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,5.577,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+198386262,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.444,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+198388195,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.453,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+198390914,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+198456386,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.522,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+198537188,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+198614726,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+199572361,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+199687979,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+199713570,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+200519617,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),82.92099,9.22604,1.0416666666666667,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+202148345,PULS,SPB,False,2020A&A...639A..81B (Burssens+ 2020),101.63506,8.58716,1.937984496124031,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+202351745,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+202352600,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+202354658,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+202442617,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,0.161,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+202444159,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+202466623,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,3.405,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+202491630,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+203452834,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),217.66859,-22.4609,,,,,,,,False,False,False
+206362352,PULS,SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),356.81665,-50.22646,,,,,,,,False,False,False
+206547467,ROT,rot / const? / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),333.28927,-21.406,4.291845493562231,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+206792542,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),96.708679,10.932118,0.6578947368421053,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+206840215,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),96.845243,8.41192,,,,,,,,False,True,False
+207020262,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.500775,8.295943,1.3333333333333333,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+207043038,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.78982,11.25139,0.9009009009009008,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+207176480,BE,SPB? / SLF? / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),47.10865,-59.37373,,,,,,,,False,True,False
+207235278,ELL,EV / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),49.60301,-55.82253,1.7921146953405016,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+207440585,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+207580161,BE,Be=S; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),206.78069,-57.6749,,,,,,,,False,True,False
+207633164,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),206.99793,-57.69508,0.3571428571428571,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+207881543,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),207.60875,-59.74802,0.6097560975609756,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+208495676,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),244.9813,-58.16719,0.4504504504504504,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+208580496,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),244.80932,-54.96164,0.5235602094240838,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+209829040,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),210.96528,-59.46311,0.7407407407407407,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,1.0,1.0,True,True,False
+210506327,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),212.1876,-59.71707,,,,,,,,False,True,False
+211750828,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),255.11954,-49.25415,0.4716981132075471,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+212551379,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),256.18347,-51.40822,0.5988023952095809,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+212755033,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),256.52963,-48.41867,0.5235602094240838,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+212806475,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),256.56283,-52.48225,0.6756756756756757,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+213153401,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),257.13155,-49.46774,,,,,,,,False,False,False
+215511795,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),242.23062,-51.96199,0.6535947712418301,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+215983126,BE,Be=S; signals=S/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),242.69756,-49.0221,,,,,,,,False,True,False
+216158265,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),258.43235,-44.72917,,,,,,,,False,True,False
+216649528,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),259.07328,-42.33906,0.4504504504504504,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+216662610,PULS,SLF+SPB,False,2020A&A...639A..81B (Burssens+ 2020),259.10972,-42.66781,0.6108735491753207,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+216775415,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),259.37782,-47.73961,0.625,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+216875138,BE,Be=Y; signals=I+/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),259.49877,-42.0606,,,,,,3.0,3.0,True,True,False
+217134952,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),259.85259,-44.22299,,,,,,,,False,True,False
+217597679,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),260.80651,-42.8292,0.6024096385542169,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+217667184,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),260.817,-47.4681972222,0.5376344086021505,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+218139464,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),261.9784,-47.02622,1.2048192771084338,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+218854809,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),263.48499,-45.62723,0.7246376811594204,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+219492314,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+219509849,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+219773853,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+220114410,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.793411,6.571684,0.6802721088435374,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+220197273,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,0.60790273556231,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.0,1.0,True,False,True
+220322383,PULS,SLF+beta Cep,False,2020A&A...639A..81B (Burssens+ 2020),100.244416667,9.89575555556,0.0797225654721568,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+220323146,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.949,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+220430912,ECL,EB + puls,False,2019ApJ...872L...9P (Pedersen+ 2019),73.11768,-55.69706,,,,,,,,False,False,False
+220573709,OTHER,sdB candidate (Bin/Syst),False,2025ApJ...989..177C (Campelo+ 2025),,,0.906,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+220728104,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),246.00532,-55.45371,0.4975124378109453,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+221040358,BE,Be=Y; signals=S/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),246.97571,-59.84876,,,,,,,,False,True,False
+221092292,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),247.05122,-54.60889,,,,,,,,False,True,False
+221155177,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),247.11273,-56.39764,,,,,,,,False,True,False
+223994987,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),246.44251,-45.54286,0.6993006993006994,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+224244458,BE,rot + mini-outburst?,False,2019ApJ...872L...9P (Pedersen+ 2019),353.24275,-37.8182666667,1.9234044061302682,2.0,1.0080342,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,True,False
+224607716,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,0.494,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+224802716,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),246.77941,-43.38802,,,,,,,,False,True,False
+225735711,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),247.20785,-44.8126,,,,,,,,False,True,False
+229013861,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),329.66009,-32.35546,2.364066193853428,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+229355590,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.43091,8.03615,0.6097560975609756,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+229356387,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.38432,8.335562,0.9259259259259258,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+229452839,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.342,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+229479255,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+229486109,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+229593795,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+229664008,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+229670516,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,3.699,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+229751806,OTHER,sdB candidate (Bin+R (sdB+dM/BD)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.327,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+229793060,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.061,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+229966103,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,1.993,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+230004050,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+230376298,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+230981971,BE,rot / SPB? / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),24.42852,-57.23675,,,,,,,,False,True,False
+231122278,ROT,rot / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),69.55501,-68.81166,4.549,1.0,1.0,2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+231154751,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),,,1.5246226558926663,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,False
+231942365,BE,Be=Y; signals=S/I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),93.98565,-44.61962,,,,,,,,False,True,False
+232521983,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+232615474,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+232633722,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,1.635,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+232643392,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.012,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+233056547,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233073319,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233094446,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233121908,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.544,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+233130512,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233170098,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233211303,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233387809,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.744,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+233497379,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233535488,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233539736,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,0.316,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+233563508,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),250.56854,-47.01566,0.819672131147541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+233571681,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233613741,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.693,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+233635622,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+233969306,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),100.624113,0.899506,0.9523809523809524,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+234009943,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),100.66895,1.71618,0.8244023083264632,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+234052684,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),100.91102,3.93253,29.41176470588235,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,False
+234230792,BE,Be=Y; signals=S/I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),101.98861,0.77611,0.7299270072992701,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+234422456,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),250.78103,-46.50655,0.7194244604316548,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+234648113,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),251.03004,-46.14162,1.3986013986013988,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+234752189,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),251.07296,-44.77174,0.684931506849315,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+234752466,BE,Be=Y; signals=S/I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),250.92613,-45.46263,,,,,,2.0,2.0,True,True,False
+234806470,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.57348,2.84792,0.9174311926605504,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+234813367,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.63724,5.867,,,,,,,,False,False,False
+234834992,SLF,SLF,True,2020A&A...640A..36B (Bowman+ 2020),97.83692,4.8344,0.4847309743092583,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,False
+234835218,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),97.87399,4.91364,,,,,,,,False,False,False
+234840662,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),97.98134,4.94286,1.7761989342806397,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.0,1.0,True,False,False
+234853418,BE,Be=Y; signals=I+/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.068329,1.174704,0.4115226337448559,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+234881667,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),98.03878,4.82353,5.524861878453039,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+234887704,BE,Be=Y; signals=S/I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.17395,4.894,,,,,,,,False,True,False
+234929785,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.24691,5.80036,1.162790697674419,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+234933368,BE,Be=Y; signals=L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.40623,4.81306,1.3157894736842106,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+234933597,BE,Be=Y; signals=S/I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),98.4767,4.66238,,,,,,2.0,2.0,True,True,False
+234933888,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,6.882312456985547,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+234947719,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),98.59821,2.53415,1.1614401858304295,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+235376820,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),103.55762,6.68797,,,,,,,,False,True,False
+235488755,BE,Be=Y; signals=S/I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.2583,9.2704,,,,,,,,False,True,False
+235540713,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.48332,6.54913,0.4424778761061947,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+235716106,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+235716442,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+236770588,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+236773991,PULS,Pulsation (Pul+Rot (P=1.065d)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.175,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+236785664,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.753,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+236872887,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,5.063,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+236972980,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+237059039,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),251.87641,-45.46048,0.7692307692307692,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+237197184,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+237532447,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.91916,0.326773,,,,,,,,False,True,False
+237651093,BE,Be=Y; signals=I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),103.59231,0.18187,0.4629629629629629,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+237668110,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),103.80686,5.434,0.4273504273504274,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+237840594,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.805959,4.454986,0.5649717514124294,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+238194921,ROT,rot / SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),56.63978,-76.71593,1.375515818431912,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+238314043,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.231,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,8.0,8.0,True,False,True
+238381092,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.608,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,5.0,5.0,True,False,True
+238489837,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,3.552,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+238719326,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+238791674,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.58527,-50.16291,,,,,,,,False,False,False
+239122172,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+240109525,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+240826471,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+241065253,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+243276811,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+243366614,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+243520386,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+246189955,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),252.60578,-46.15531,,,,,,,,False,False,False
+246796068,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),253.27751,-47.58162,0.6622516556291391,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+246953610,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),253.36924,-42.1214,2.5125628140703515,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+247267245,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),253.76387,-42.09083,2.364066193853428,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+247589847,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),86.405048,13.189185,,,,,,,,False,True,False
+247699160,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),254.06043,-46.84943,,,,,,,,False,True,False
+248949857,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+250213274,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),222.67267,-52.2646,,,,,,,,False,True,False
+252991559,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+252997535,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+253110498,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),194.50345,-59.08432,1.0416666666666667,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+253177102,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),195.09958,-59.68544,0.7692307692307692,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,3.0,3.0,True,True,False
+253212775,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),195.39503,-56.09191,,,,,,,,False,False,False
+253304151,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),195.86166,-59.20697,0.7299270072992701,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+253380837,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),196.38728,-56.85178,,,,,,,,False,False,False
+254340855,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),234.94014,-42.76745,0.5025125628140703,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+256662953,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+256994805,BE,Be=S; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.26519,1.00206,2.0,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+257024892,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+257065501,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.284385,0.089448,0.7142857142857143,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+258109545,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,3.232,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+258306961,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),241.00906,-47.47611,0.6329113924050632,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+258461221,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.273,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+258700451,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+258704817,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),222.185625,-66.5935611111,0.8,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,4.0,4.0,True,True,False
+258826647,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,0.344,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+258844836,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+258924365,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+258954765,PULS,Pulsation (IGW?),False,2025ApJ...989..177C (Campelo+ 2025),,,2.923,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+259171045,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+259449942,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),114.016208333,-14.4927722222,1.075268817204301,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+259862349,ROT,ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),39.89734,-68.26695,2.487562189054726,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+260128701,PULS,SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),92.4077,-59.52211,,,,,,,,False,False,False
+260131665,ECL,EB + {Beta} Cep,False,2019ApJ...872L...9P (Pedersen+ 2019),92.57462,-54.96864,,,,,,,,False,False,False
+260368525,ROT,ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),95.2412,-58.35207,0.8375209380234506,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+260540898,ROT,rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),97.19051,-55.91716,1.779359430604982,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+260640910,BE,SPB/Be,False,2019ApJ...872L...9P (Pedersen+ 2019),97.9929583333,-58.7538361111,0.4366812227074236,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+260820871,ROT,rot / binary?,False,2019ApJ...872L...9P (Pedersen+ 2019),348.05459,-70.1132,,,,,,,,False,False,False
+261131970,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+261134863,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+261205462,ROT,SPB / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),87.56994,-79.36136,,,,,,,,False,False,False
+261992444,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),193.78521,-59.01875,0.6711409395973155,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+261993378,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),193.66325,-59.1467,0.3076923076923077,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+262815962,ROT,rot / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),348.23321,-54.18669,2.7215135501355014,2.0,1.008477,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+263805130,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),96.00072,8.30068,,,,,,2.0,2.0,True,True,False
+264075158,PULS,Pulsation (IGW),False,2025ApJ...989..177C (Campelo+ 2025),,,3.439,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+264180023,PULS,Pulsation (IGW),False,2025ApJ...989..177C (Campelo+ 2025),,,2.229,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+264305622,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+264459943,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),81.1867916667,1.84644444444,0.7299270072992701,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+264468331,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+264631173,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),82.201915,2.164707,0.3571428571428571,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+265080539,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.226,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,2.0,2.0,True,False,True
+265555524,BE,Be=Y; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),94.74357,4.19135,1.0101010101010102,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+266347283,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+266656195,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),119.26666,2.95083,0.5263157894736842,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+268351249,BE,Be=Y; signals=I/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),176.77855,-59.05629,,,,,,,,False,True,False
+268605693,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+268971806,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.289,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+269087549,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),105.72825,-4.23923333333,,,,,,,,False,False,False
+269118344,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.855,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+269598007,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+269696438,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,1.446,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+269870654,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),148.7523,-63.54136,0.4201680672268907,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+270070443,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),312.32339,-25.78124,2.5333227848101263,2.0,1.0013250000000002,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+270219259,BE,instr / {Beta} Cep + outburst,False,2019ApJ...872L...9P (Pedersen+ 2019),330.20927,-28.45374,,,,,,,,False,True,False
+270491267,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.193,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+270557257,ROT,ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),99.90896,-78.44044,0.404040404040404,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+270622440,ECL,EB (contamination!),False,2019ApJ...872L...9P (Pedersen+ 2019),358.81954,-31.88427,,,,,,,,False,False,False
+270622446,ECL,EB,False,2019ApJ...872L...9P (Pedersen+ 2019),358.81911,-31.92148,,,,,,,,False,False,False
+270934336,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.08694,-46.9105,,,,,,4.0,4.0,True,True,False
+271164763,OTHER,sdB candidate (EB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.122,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+271190727,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),132.35312,-47.48866,1.1904761904761905,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+271379300,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),125.30587,-26.33314,0.7692307692307692,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+271503441,BE,SPB? / outburst?,False,2019ApJ...872L...9P (Pedersen+ 2019),7.88612,-62.95822,0.3272251308900523,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,True,False
+271614171,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),233.29704,-60.90935,0.6289308176100629,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+271971626,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),113.84023,-74.27495,4.651162790697675,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+273875093,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+274192238,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+274331770,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+274385041,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+274623605,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+274907223,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),149.53475,-59.67188,0.5319148936170213,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+275038687,PULS,Pulsation (IGW),False,2025ApJ...989..177C (Campelo+ 2025),,,3.637,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,9.0,9.0,True,False,True
+275420565,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,1.668,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+275504377,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+275691308,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+275927504,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),240.78858,-48.72269,0.6493506493506493,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+276549422,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.215,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+276653683,PULS,Pulsation (SPB (IGW)),False,2025ApJ...989..177C (Campelo+ 2025),,,3.595,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,10.0,10.0,True,False,True
+276864600,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),83.57692,-67.30381,,,,,,,,False,False,False
+277013493,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,0.984,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+277022505,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),83.76501,-69.75056,,,,,,,,False,False,False
+277022967,BE,rot / SPB?/ SLF?/ Be,False,2019ApJ...872L...9P (Pedersen+ 2019),83.8193,-69.67734,,,,,,,,False,True,False
+277099925,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),83.98653,-67.4596,,,,,,28.0,28.0,True,False,False
+277103567,ELL,rot / EV?,False,2019ApJ...872L...9P (Pedersen+ 2019),84.22908,-66.56029,0.6684491978609626,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+277172980,BE,SLF? / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),84.10772,-69.38216,,,,,,,,False,True,False
+277173650,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),84.19661,-69.4978,,,,,,30.0,30.0,True,False,False
+277298891,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),84.50529,-69.37057,,,,,,,,False,False,False
+277502552,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,11.0,11.0,True,False,False
+277982164,ROT,rot / SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),104.14364,-79.42019,0.7898894154818326,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+278313134,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),235.07132,-58.06383,,,,,,,,False,True,False
+278358300,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.279,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+278683664,ROT,ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),99.16749,-58.40888,0.5878894767783657,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+278865766,NOISY,const??,False,2019ApJ...872L...9P (Pedersen+ 2019),100.71139,-56.01607,,,,,,,,False,False,False
+278867172,NOISY,const??,False,2019ApJ...872L...9P (Pedersen+ 2019),100.96246,-54.18205,,,,,,,,False,False,False
+279430029,BE,rot / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),105.0433,-56.907,0.56085,3.0,1.0079096045197742,2019MNRAS.485.3457B (Balona+ 2019) | 2022AJ....163..226L (Labadie-Bartz+ 2022) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,True,False
+279511712,ELL,ELL(LPB),False,2019MNRAS.485.3457B (Balona+ 2019),105.81291,-59.17811,1.6522812809917355,2.0,1.0007401974870713,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+279826483,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+279957111,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),81.96943,-68.98569,,,,,,,,False,False,False
+280051467,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),45.56437,-71.90246,4.369406113537117,2.0,1.0011880000000002,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+280643259,BE,Be=Y; signals=S/I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),101.288672,-1.255713,1.0869565217391304,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+280684074,ROT,SPB+ROT(LPB),False,2019MNRAS.485.3457B (Balona+ 2019),342.59506,-80.12384,1.7761989342806397,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+280835427,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),144.46204,-53.68035,0.6896551724137931,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,6.0,6.0,True,True,False
+281047621,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),84.7964583333,4.12146666667,0.9345794392523364,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+281148636,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),98.81596,0.89022,4.44642063139173,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+281643356,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),170.58218,-61.07346,0.9433962264150942,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+281703963,PULS,hybrid SPB/{delta} Sct,False,2019ApJ...872L...9P (Pedersen+ 2019),10.83838,-57.46306,,,,,,,,False,False,False
+281717549,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.481356,-5.513127,0.591715976331361,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+281741629,BE,rot / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),12.25548,-56.09704,0.9615384615384616,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,4.0,4.0,True,True,False
+282207882,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),102.959297,-5.619767,0.7407407407407407,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+282306169,BE,Be=Y; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),103.043183,-0.29556,,,,,,,,False,True,False
+282808223,BE,Be=S; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),103.67521,-1.75651,,,,,,,,False,True,False
+282899554,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),103.745091,-3.700377,1.0638297872340423,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+283206453,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),104.079519,-3.80706,1.5873015873015872,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+283793973,PULS,SPB,False,2020A&A...639A..81B (Burssens+ 2020),63.88357,8.89236,2.0,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+283818445,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+283870336,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+284230347,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),108.66021,2.90191,,,,,,,,False,False,False
+284562929,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+284563819,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.341,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+284735369,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+284759068,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,1.012,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+285010437,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+285187855,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),233.77022,-56.98395,,,,,,3.0,3.0,True,True,False
+285194955,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+285699059,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),130.50158,-47.66497,0.6329113924050632,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+285916305,BE,Be=Y; signals=S/I/L/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),119.75305,-48.37631,,,,,,6.0,6.0,True,True,False
+286159211,BE,Be=Y; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.93098,-48.3442,,,,,,,,False,True,False
+286916209,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+287141559,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+287193769,PULS,Pulsation (SPB?),False,2025ApJ...989..177C (Campelo+ 2025),,,0.849,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+288316744,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+288639535,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+289536555,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+289877581,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),233.971875,-44.9583888889,,,,,,,,False,False,False
+290523979,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),173.81319,-61.69988,0.4566210045662101,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+290525745,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),173.84197,-61.53636,0.4566210045662101,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+290682353,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),174.03904,-61.69487,,,,,,,,False,True,False
+290682406,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),174.02284,-61.70167,0.8849557522123894,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+291385725,BE,Be=Y; signals=S/I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),94.3942,11.19092,,,,,,,,False,True,False
+292362364,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),106.980564,1.719594,1.7543859649122808,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+292550464,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),218.46943,-56.74563,,,,,,,,False,True,False
+292674898,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),218.40323,-58.82082,0.6666666666666666,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+293268667,ROT,SPB/ rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),98.56016,-63.91811,0.2949852507374631,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+293271581,ECL,EB(NB),False,2019MNRAS.485.3457B (Balona+ 2019),98.90026,-62.64008,,,,,,,,False,False,False
+293290586,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),222.00311,-65.73955,,,,,,,,False,True,False
+293973218,ROT,rot / SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),106.81781,-59.71642,,,,,,,,False,False,False
+294114621,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),92.23259,15.70505,0.819672131147541,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,7.0,7.0,True,False,True
+294553294,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),222.70942,-60.2862,0.8333333333333334,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+294747615,ROT,rot / SLF?,False,2019ApJ...872L...9P (Pedersen+ 2019),70.76652,-70.93103,5.200066666666666,2.0,1.0031845089050682,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+294852531,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),140.35362,-51.16647,,,,,,,,False,True,False
+294872353,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),71.76855,-67.11476,,,,,,,,False,False,False
+295099096,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),140.49343,-51.17649,0.819672131147541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,5.0,5.0,True,True,False
+295581098,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),140.98252,-51.96226,0.8474576271186441,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+296969980,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),224.183291667,-62.7810166667,0.4739336492890995,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+298093039,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+298109741,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+298542142,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+298601073,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+298663903,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+299022962,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),143.47983,-53.63508,0.6993006993006994,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+300010961,ROT,rot / {Beta} Cep?,False,2019ApJ...872L...9P (Pedersen+ 2019),106.94569,-67.93686,1.4641288433382136,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+300325379,ROT,rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),110.70542,-66.53885,0.544069640914037,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+300329728,ELL,ELL/ROT,False,2019MNRAS.485.3457B (Balona+ 2019),110.96647,-70.77259,2.4330900243309004,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+300524274,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),245.05516,-64.49798,,,,,,,,False,True,False
+300744369,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),116.50272,-69.49798,1.044606039707419,2.0,1.0006244296690905,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+300865934,BE,instr / outburst?,False,2019ApJ...872L...9P (Pedersen+ 2019),117.4208,-66.19597,,,,,,,,False,True,False
+301435200,BE,Be=Y; signals=I/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),178.50235,-58.52116,,,,,,,,False,True,False
+302348015,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),81.824131,13.149162,0.4464285714285714,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+302962039,BE,Be=Y; signals=S/I/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),136.409916667,-70.5385,,,,,,,,False,True,False
+305090822,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),261.65908,-63.81499,,,,,,,,False,False,False
+305255878,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.377,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,12.0,12.0,True,False,True
+305629042,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),178.75238,-60.31018,1.2195121951219512,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+305850608,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+305896243,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),178.84027,-63.70355,1.1111111111111112,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+306419817,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),179.39569,-61.54971,1.7241379310344829,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+306491594,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),166.88674,-59.96353,2.092050209205021,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.0,5.0,True,False,False
+306672432,ROT,const? / rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),120.59293,-67.79489,0.9174311926605504,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+306824672,ROT,rot? / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),121.64756,-68.61739,,,,,,,,False,False,False
+306829961,PULS,SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),121.98248,-68.61706,,,,,,,,False,False,False
+307100246,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),179.66067,-60.65501,0.5319148936170213,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,4.0,4.0,True,True,False
+307225534,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),208.4885,-47.1281638889,1.282051282051282,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+307291308,ROT,instr / rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),125.0022,-71.50538,1.9401946640826875,2.0,1.9931806513104455,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,False
+307291318,ROT,instr / rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),124.95402,-71.51491,,,,,,,,False,False,False
+307993483,ROT,SPB+ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),129.08624,-70.67666,0.2704895861509331,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+308395911,PULS,SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),120.08319,-63.56746,,,,,,,,False,False,False
+308454245,PULS,{delta} Sct,False,2019ApJ...872L...9P (Pedersen+ 2019),120.95821,-64.62917,,,,,,,,False,False,False
+308456810,ROT,rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),120.78139,-62.13281,3.98406374501992,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+308537791,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),120.92351,-60.90756,1.8975332068311197,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+308748912,BE,SLF? / outburst? / instr,False,2019ApJ...872L...9P (Pedersen+ 2019),122.1027,-63.80077,,,,,,,,False,True,False
+308760236,BE,Be=Y; signals=L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),184.15326,-64.51648,1.1764705882352942,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+308951795,BE,Be=S; signals=S/I/L/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),167.83056,-59.92046,,,,,,2.0,2.0,True,True,False
+309184049,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),184.55679,-61.49191,0.6289308176100629,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+309591474,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+309702035,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),79.71561,-65.68956,,,,,,33.0,33.0,True,False,False
+310645192,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),129.21952,-63.62764,0.8,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+311334494,BE,Be=Y; signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),185.58085,-63.6598,,,,,,,,False,True,False
+311432346,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.543,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+311521201,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+311898870,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.356,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+312931751,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),201.89771,-62.11859,0.4608294930875576,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+313007038,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+313074666,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),201.85446,-62.64899,,,,,,,,False,True,False
+313303167,OTHER,sdB candidate (Undetermined),False,2025ApJ...989..177C (Campelo+ 2025),,,0.399,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+313934087,ROT,SPB / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),0.58304,-29.72044,1.7482537292865865,2.0,1.004547726,2020A&A...639A..81B (Burssens+ 2020) | 2022ApJ...924....2B (Barraza+ 2022),visual | visual+spectroscopy,,,False,False,True
+313955481,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),202.39291,-61.19337,0.9615384615384616,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+313986452,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,9.0,9.0,True,False,False
+314416691,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),244.66243,-53.31917,0.6451612903225806,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+314576961,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.524,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+314868712,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),244.6641,-49.41389,1.0526315789473684,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+315036866,BE,Be=Y; signals=I+/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),202.81455,-61.7326,1.282051282051282,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+315207705,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),244.76109,-49.40636,0.3436426116838488,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+315679257,BE,Be=S; signals=S/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),244.92781,-52.77194,,,,,,,,False,True,False
+315830698,BE,Be=Y; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),171.30736,-61.27688,,,,,,3.0,3.0,True,True,False
+316681593,OTHER,sdB candidate (Bin(sdB+F7V)),False,2025ApJ...989..177C (Campelo+ 2025),,,1.306,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+316792722,BE,Be=S; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),171.98698,-62.80518,1.639344262295082,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+317795621,BE,Be=Y; signals=S/I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),172.77881,-62.94694,1.075268817204301,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,4.0,4.0,True,True,False
+318252726,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+318357716,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+319152335,BE,Be=Y; signals=S/I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),110.17912,-8.42103,0.5434782608695652,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+319730932,BE,Be=Y; signals=I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),99.624626,0.709756,,,,,,,,False,True,False
+319854805,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),99.60376,4.88096,,,,,,,,False,False,False
+319936861,AMBIGUOUS,cont.,False,2020A&A...639A..81B (Burssens+ 2020),,,1.0467915837956665,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.0,5.0,True,False,True
+320039694,OTHER,sdB candidate (Bin (sdB+MS/WD)),False,2025ApJ...989..177C (Campelo+ 2025),,,1.638,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+320228013,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),174.74155,-63.47751,,,,,,,,False,False,False
+321335373,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,10.0,10.0,True,False,False
+321818578,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.184,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+322060937,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+322104948,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),175.77723,-60.73459,,,,,,,,False,False,False
+322233181,BE,Be=S; signals=S/I/L/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),175.65095,-59.97818,,,,,,,,False,True,False
+322312832,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.362,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+322312868,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.971,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+323325708,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),176.31835,-61.92989,0.8333333333333334,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+323348984,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),84.472725,0.968581,0.3311258278145695,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+323612875,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),176.66098,-64.16585,,,,,,,,False,False,False
+323613746,BE,Be=Y; signals=F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),176.61827,-64.0629,0.5555555555555556,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+324268119,BE,Be=Y; signals=S/I/H/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),177.00011,-62.20694,0.6666666666666666,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+324940394,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),248.80856,-61.8945,,,,,,,,False,True,False
+325170579,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),177.421083333,-63.7884777778,0.5681818181818182,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+325237845,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),177.37477,-64.6225,0.8,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,5.0,5.0,True,True,False
+325273334,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),209.49073,-59.88467,0.5405405405405405,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+326022066,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),270.29715,-40.33552,0.4807692307692307,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+327856894,BE,rot? / outburst?/ instr?,False,2019ApJ...872L...9P (Pedersen+ 2019),1.17212,-71.43689,,,,,,,,False,True,False
+327913813,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),210.78152,-63.83678,0.7633587786259541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+328161938,PULS,beta Cep,False,2020A&A...639A..81B (Burssens+ 2020),,,0.16113490536547,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+329059929,BE,Be=Y; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),211.35494,-62.58844,,,,,,2.0,2.0,True,True,False
+329060936,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),211.34181,-62.50741,1.0638297872340423,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+329074395,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,3.775,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,9.0,9.0,True,False,True
+330281456,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),211.85682,-60.4706,2.103934357248054,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+330435560,BE,Be=Y; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),211.98611,-61.50894,,,,,,,,False,True,False
+331553315,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+332210657,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+332856560,PULS,hybrid,False,2020A&A...639A..81B (Burssens+ 2020),,,0.084825556243585,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+332913301,PULS,hybrid,False,2020A&A...639A..81B (Burssens+ 2020),84.65822,-6.57396,0.9048136083966704,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+333419799,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.166,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+333670665,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),182.02175,-50.6612694444,,,,,,,,False,False,False
+334776134,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),157.749333333,-13.5884694444,0.7518796992481203,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+334901449,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+335036191,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.599,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,8.0,8.0,True,False,True
+335682563,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+336343562,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),195.77225,-71.4757305556,0.5464480874316939,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+337364158,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,8.0,8.0,True,False,False
+337793038,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),252.89051,-41.23054,1.858736059479554,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+337886863,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,2.754,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,9.0,9.0,True,False,True
+338532011,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),189.65087,-61.25358,1.639344262295082,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+338640317,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),253.19739,-41.78583,8.928571428571429,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+338738989,BE,Be=Y; signals=I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),253.2499,-41.40759,,,,,,2.0,2.0,True,True,False
+339565205,AMBIGUOUS,cont.,False,2020A&A...639A..81B (Burssens+ 2020),,,4.424778761061947,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.0,3.0,True,False,True
+339567904,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),253.5485,-41.84925,2.1978021978021975,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,True
+339568114,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),253.6082,-41.83216,5.291005291005291,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,2.0,2.0,True,False,False
+339570292,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),253.54799,-41.64194,6.305170239596469,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.0,3.0,True,False,True
+340633517,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),116.50009,-56.1935,0.4975124378109453,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+340878553,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),238.44099,-61.66396,,,,,,3.0,3.0,True,True,False
+341040849,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),118.09283,-59.49313,0.7194244604316548,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+341258182,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,2.247191011235955,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.0,3.0,True,False,True
+341816971,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+342201547,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),123.08721,-55.35285,0.4716981132075471,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+342257745,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),254.34979,-40.36107,,,,,,,,False,False,False
+343376491,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),240.93523,-60.49847,0.6666666666666666,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,3.0,3.0,True,True,False
+344341901,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),251.83666,-57.03503,,,,,,,,False,True,False
+346597868,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+347225198,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),253.85421,-50.63656,1.162790697674419,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+347665026,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),254.03685,-50.67476,0.4629629629629629,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+349043273,PULS,beta Cep,False,2020A&A...639A..81B (Burssens+ 2020),114.17098,-19.70234,0.1646903820816864,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+349829477,NOISY,const?,False,2019ApJ...872L...9P (Pedersen+ 2019),113.67648,-61.0828,,,,,,,,False,False,False
+349907707,ECL,EB + puls,False,2019ApJ...872L...9P (Pedersen+ 2019),114.10522,-61.87385,,,,,,,,False,False,False
+350146577,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),115.904,-63.39919,1.8378811470588234,2.0,1.0003854605225648,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+350472809,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),246.25599,-65.04065,0.7633587786259541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+350823719,ECL,EB,False,2019MNRAS.485.3457B (Balona+ 2019),89.74623,-58.26882,4.1963,1.0,1.0,2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+352556540,PULS,Pulsation (SPB),False,2025ApJ...989..177C (Campelo+ 2025),,,0.454,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+352762746,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,3.038,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+353895732,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+354671857,ROT,SPB? / rot,False,2019ApJ...872L...9P (Pedersen+ 2019),34.12744,-51.51217,0.343791977303989,2.0,1.000506116023852,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+355141264,NOISY,const?,False,2019ApJ...872L...9P (Pedersen+ 2019),329.46321,-47.54685,,,,,,,,False,False,False
+355477670,ROT,ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),351.78795,-50.15724,3.676470588235294,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+355553423,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),137.67508,-53.0458,0.7194244604316548,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+355653322,BE,rot? / outburst? / instr?,False,2019ApJ...872L...9P (Pedersen+ 2019),359.979083333,-65.5771333333,0.7915347077409163,2.0,1.00416588,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,True,False
+356107943,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+356341059,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+356521959,BE,Be=Y; signals=S/I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),134.34703,-63.49693,0.7874015748031495,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+356674547,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+357032981,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+358232450,ECL,EB,False,2019ApJ...872L...9P (Pedersen+ 2019),17.09617,-55.24576,,,,,,,,False,False,False
+358466708,ROT,rot / SPB,False,2019ApJ...872L...9P (Pedersen+ 2019),119.22784,-60.59847,0.6020469596628537,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+358467049,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),119.18794,-60.81508,3.7572924528301885,2.0,1.0087102126865481,2019MNRAS.485.3457B (Balona+ 2019) | 2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+358467087,ELL,SPB / EV? / rot? /SLF?/ instr?,False,2019ApJ...872L...9P (Pedersen+ 2019),119.19665,-60.84085,,,,,,,,False,False,False
+358467471,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),119.06572,-61.09949,,,,,,,,False,True,False
+358818468,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),139.23161,-63.77517,0.5376344086021505,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+359055762,OTHER,sdB candidate (sdOB),False,2025ApJ...989..177C (Campelo+ 2025),,,2.673,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+362105045,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+363236260,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),146.02988,-53.74532,1.8518518518518516,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+363748801,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),250.346291667,-68.2961222222,0.641025641025641,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+364323837,ROT,rot? / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),88.00096,-62.51775,,,,,,,,False,False,False
+364398190,ROT,rot? / SLF?,False,2019ApJ...872L...9P (Pedersen+ 2019),119.62806,-60.72906,1.3157894736842106,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+364398342,BE,rot? / SPB? / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),119.710625,-60.8244611111,0.8064516129032259,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+364421326,ROT,rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),119.57302,-63.13157,0.5060728744939271,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+365213081,OTHER,sdB candidate (Bin (sdB+dM)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.086,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+365572007,ROT,SLF+rot?,False,2020A&A...639A..81B (Burssens+ 2020),81.28276,6.3497,3.621876131836291,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+367003034,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+367779738,OTHER,"sdB candidate (Bin, g, b)",False,2025ApJ...989..177C (Campelo+ 2025),,,0.037,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+368827573,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+369312341,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),191.85926,-62.54382,0.6802721088435374,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+369397090,NOISY,Noisy,False,2022ApJ...924....2B (Barraza+ 2022),358.15039,-30.1692,,,,,,,,False,False,False
+369457005,ROT,rot / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),311.58362,-39.19927,,,,,,,,False,False,False
+370038084,NOISY,const?,False,2019ApJ...872L...9P (Pedersen+ 2019),60.60598,-70.27213,,,,,,,,False,False,False
+372913233,BE,const? / outburst? / instr?,False,2019ApJ...872L...9P (Pedersen+ 2019),119.43841,-60.92646,,,,,,,,False,True,False
+372913367,BE,Be=Y; signals=I+/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),119.44136,-60.82632,0.5181347150259068,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+372913582,BE,const? / outburst? / instr?,False,2019ApJ...872L...9P (Pedersen+ 2019),119.4549,-60.68364,,,,,,,,False,True,False
+372913684,ECL,SXARI(EA:),False,2019MNRAS.485.3457B (Balona+ 2019),119.51213,-60.61479,1.4579270072992698,2.0,1.0026469880484479,2019MNRAS.485.3457B (Balona+ 2019) | 2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+373843852,ROT,SPB? / rot?,False,2019ApJ...872L...9P (Pedersen+ 2019),81.56341,-67.49997,,,,,,,,False,False,False
+374690639,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),150.64821,-60.14764,,,,,,,,False,True,False
+374753420,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),150.89216,-61.88396,1.7857142857142856,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+375232307,BE,Be=Y; signals=I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),283.054291667,-62.1875916667,,,,,,,,False,True,False
+376077639,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),262.847,-56.9209638889,,,,,,,,False,False,False
+376480349,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),180.64836,-59.33703,0.9090909090909092,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+376869778,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+377053047,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+377099704,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.479,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+377159029,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+377309425,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+378812108,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),180.59749,-61.45145,0.8771929824561404,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+378996846,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),180.88591,-61.09825,1.1904761904761905,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+379203908,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+380117288,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),181.53208,-61.2569,,,,,,,,False,False,False
+381257866,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),182.50471,-64.00095,,,,,,,,False,True,False
+381641106,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),182.82723,-62.49544,,,,,,,,False,False,False
+381747495,BE,Be=S; signals=S/L/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),182.6254,-64.1009,,,,,,5.0,5.0,True,True,False
+382396569,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),183.17746,-63.59989,1.5625,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+382750740,BE,Be=Y; signals=I/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),183.53186,-60.60234,0.819672131147541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,4.0,4.0,True,True,False
+382795601,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),242.54396,-40.12881,0.381679389312977,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+383162375,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),258.25165,-42.63346,0.4608294930875576,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+383285551,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),134.3142,-58.58599,0.6024096385542169,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+383287960,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),134.196359,-59.520023,0.5291005291005292,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+383542260,BE,Be=Y; signals=S/I/L/H/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),216.31626,-61.31988,0.5128205128205129,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+383763886,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),221.72959,-45.23313,1.282051282051282,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+384471407,BE,Be=Y; signals=I/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),136.26569,-58.76766,,,,,,,,False,True,False
+384992041,OTHER,sdB candidate (Bin+R (sdB+dM)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.257,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+385626507,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),138.46401,-55.53969,1.2195121951219512,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,6.0,6.0,True,True,False
+385873047,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),111.167458333,-16.2014722222,0.9803921568627452,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+386024312,BE,Be=Y; signals=I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),139.07371,-59.23418,0.4273504273504274,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+388935529,PULS,hybrid,False,2020A&A...639A..81B (Burssens+ 2020),84.14872,-6.06475,3.69139904023625,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+388940683,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+389217256,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),217.43586,-64.15993,0.4329004329004329,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+389576843,BE,Be=Y; signals=I+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),277.52718,-52.20454,0.4424778761061947,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+389921913,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),87.83658,-70.28592,,,,,,30.0,30.0,True,False,False
+390071999,BE,Be=Y; signals=S/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),183.50734,-59.39687,0.495049504950495,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+391810734,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),82.6577,-68.41089,,,,,,,,False,False,False
+391887875,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),82.69906,-71.06731,,,,,,,,False,False,False
+392569763,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,1.429,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+393790402,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+393852409,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,2.415,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+394020645,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,1.113,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+394060863,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),218.62192,-64.20207,0.9433962264150942,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+394728064,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),160.464666667,-79.7832861111,,,,,,,,False,False,False
+395429445,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),218.88884,-61.00832,1.1235955056179776,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+398912586,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+398940155,OTHER,sdB candidate (MSRot),False,2025ApJ...989..177C (Campelo+ 2025),,,0.479,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+399669624,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),72.653,8.90018055556,,,,,,,,False,False,False
+399990331,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),219.89688,-61.98544,,,,,,,,False,True,False
+400136687,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),133.74085,-50.86399,,,,,,,,False,True,False
+401635731,BE,Be=Y; signals=I/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),220.02282,-59.93134,0.423728813559322,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+402894425,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.139,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,30.0,30.0,True,False,True
+404768847,PULS,SPB? / SLF?,False,2019ApJ...872L...9P (Pedersen+ 2019),84.67807,-69.09517,,,,,,,,False,False,False
+404768956,PULS,SLF? / SPB? / instr?,False,2019ApJ...872L...9P (Pedersen+ 2019),84.69044,-69.10624,,,,,,,,False,False,False
+404796860,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),84.67706,-69.38587,,,,,,,,False,False,False
+404852071,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),85.20335,-69.28089,,,,,,,,False,False,False
+404933493,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),85.33497,-69.08535,,,,,,,,False,False,False
+404967301,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),85.36531,-69.80104,,,,,,30.0,30.0,True,False,False
+405387285,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),184.2488,-56.40671,0.4975124378109453,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+405520863,BE,Be=S; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),190.485708333,-59.6858194444,,,,,,,,False,True,False
+405577964,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),191.86374,-57.97248,0.641025641025641,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+406050497,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),193.98806,-56.8358,3.1847133757961785,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+406341244,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),197.87294,-55.35682,0.8130081300813008,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+406931389,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+407615454,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+408382023,BE,Be=Y; signals=I+/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),145.320875,-23.5915138889,0.6451612903225806,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+408757239,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),213.41585,-54.62566,,,,,,,,False,False,False
+409233684,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+409358619,BE,Be=Y; signals=H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),213.738083333,-57.086125,0.3875968992248061,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+409791884,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),126.25166,-12.76477,1.2195121951219512,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+410447919,ROT,rot/SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),117.96203,-62.9088,4.39965502283105,2.0,1.0786917497016608,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,False
+410451677,ROT,rot,False,2019ApJ...872L...9P (Pedersen+ 2019),119.99086,-60.7468,2.052175163934426,2.0,1.00292296,2019MNRAS.485.3457B (Balona+ 2019) | 2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True
+410599289,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),243.91678,-52.37027,0.7194244604316548,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+411643280,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),218.82185,-56.7711,0.5617977528089888,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+412353405,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+412359545,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.628,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+415820931,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+416542110,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+417620454,OTHER,sdB candidate,False,2025ApJ...989..177C (Campelo+ 2025),,,0.272,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+418011185,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+419065817,ROT,rot / SPB?,False,2019ApJ...872L...9P (Pedersen+ 2019),4.17643,-20.21006,0.6784260515603799,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+419585280,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),191.15436,-59.1601,0.8849557522123894,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+420003853,BE,Be=Y; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),202.8177,-53.09655,,,,,,,,False,True,False
+420114700,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+421335341,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+422331664,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+423026102,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+424383364,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+424720852,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+424884512,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),237.38835,-60.1509,0.5813953488372093,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+424903953,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+425057879,ECL,EB/ELL?,False,2019MNRAS.485.3457B (Balona+ 2019),82.81514,-71.06942,,,,,,,,False,False,False
+425064757,ECL,EA(EA/D),False,2019MNRAS.485.3457B (Balona+ 2019),82.91816,-69.88393,,,,,,,,False,False,False
+425081475,BE,SLF / rot? / Be,False,2019ApJ...872L...9P (Pedersen+ 2019),82.96784,-68.54413,,,,,,,,False,True,False
+425083410,ROT,rot / SPB? / SLF?,False,2019ApJ...872L...9P (Pedersen+ 2019),82.9342,-67.63372,,,,,,,,False,False,False
+425084841,PULS,ACYG,False,2019MNRAS.485.3457B (Balona+ 2019),82.96496,-67.03951,,,,,,,,False,False,False
+425215861,BE,Be=Y; signals=S/I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),77.2865833333,-8.75408055556,0.7194244604316548,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+426588729,ECL,EB,False,2020A&A...639A..81B (Burssens+ 2020),,,2.4691358024691357,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+426683285,BE,Be=Y; signals=I/L/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),240.97705,-56.55427,0.7407407407407407,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+427312571,ECL,Binary (eclipsing/ellipsoidal),False,2025ApJ...989..177C (Campelo+ 2025),,,6.037,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+427373476,AMBIGUOUS,cont.,False,2020A&A...639A..81B (Burssens+ 2020),,,3.3444816053511706,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+427373484,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),83.76117,-6.00203,0.9976057462090984,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+427393058,ROT,Rotation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.855,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,2.0,2.0,True,False,True
+427393350,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+427393354,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),,,1.2019230769230769,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+427393920,ROT,rot,False,2020A&A...639A..81B (Burssens+ 2020),83.88069,-5.26738,1.095505260850504,2.0,1.0009228508685009,2020A&A...639A..81B (Burssens+ 2020) | 2025ApJ...989..177C (Campelo+ 2025),visual | visual+spectroscopy,2.0,2.0,True,False,True
+427394772,AMBIGUOUS,cont.,False,2020A&A...639A..81B (Burssens+ 2020),,,3.257328990228013,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+427395049,SLF,SLF?,False,2020A&A...639A..81B (Burssens+ 2020),83.8454166667,-5.41606111111,5.617977528089888,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+427395058,SLF,SLF?,False,2020A&A...639A..81B (Burssens+ 2020),83.86,-5.41689,4.975124378109452,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,1.0,1.0,True,False,False
+427395300,AMBIGUOUS,Ambiguous variability,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,1.0,1.0,True,False,False
+427395774,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),,,1.98019801980198,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+427396133,BE,Be=Y; signals=I+/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),83.975354,-5.628421,,,,,,,,False,True,False
+427400331,BE,Be=S; signals=L/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),83.98129,-0.77756,0.9523809523809524,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+427451176,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),84.05339,-1.20192,21.73913043478261,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+427451587,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),84.07428,-1.63536,0.3225806451612903,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+429143022,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),174.52127,-45.13892,0.8333333333333334,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+429412649,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.959,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+430248409,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),241.99909,-55.13044,0.4651162790697674,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+430625455,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),131.29309,-46.03868,0.6377551020408163,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.0,4.0,True,False,True
+430960919,OTHER,sdB candidate (Bin+R (sdB+dM/BD)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.301,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+433738620,ROT,rot?,False,2020A&A...639A..81B (Burssens+ 2020),190.55293,-60.65242,0.8082767539605561,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,5.0,5.0,True,False,True
+433936219,BE,Be=Y; signals=S/I/L/H/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),190.709458333,-63.058625,0.6578947368421053,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+434244626,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),191.05769,-62.49004,0.99009900990099,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+434384707,SLF,SLF?,False,2020A&A...639A..81B (Burssens+ 2020),93.7853,13.8511,3.215434083601286,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+434998753,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),192.36457,-60.69915,0.9090909090909092,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+435866273,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+436103278,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),83.7845,9.93415,4.878048780487805,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+436378066,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),193.59749,-60.6987,0.4081632653061224,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+436802660,BE,Be=Y; signals=S/I+/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),140.72814,-55.73666,0.5555555555555556,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+437371531,BE,Be=Y; signals=S/L/F/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),141.16445,-58.68902,1.2987012987012987,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+437746793,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+438103655,BE,Be=Y; signals=S/I/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),95.85284,15.10181,,,,,,6.0,6.0,True,True,False
+438306275,BE,Be=Y; signals=S/I/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),96.81572,14.88923,3.4843205574912894,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,True,False
+438877747,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),195.39541,-60.67138,1.1494252873563218,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+439164152,BE,Be=Y; signals=S/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),195.69857,-63.83571,,,,,,,,False,True,False
+439331111,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),143.42659,-57.16336,0.7246376811594204,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+439397894,BE,Be=Y; signals=S/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),0.934958333333,-17.3359916667,0.6993006993006994,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+439430953,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),143.37774,-58.38625,1.2195121951219512,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+440399815,BE,Be=S; signals=S/L,False,2022AJ....163..226L (Labadie-Bartz+ 2022),196.49344,-62.23705,,,,,,,,False,True,False
+441182258,BE,instr / SPB/outburst?,False,2019ApJ...872L...9P (Pedersen+ 2019),333.57813,-27.76691,0.7849293563579278,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,True,False
+441196602,ROT,ROT?,False,2019MNRAS.485.3457B (Balona+ 2019),335.40804,-28.77267,6.944444444444445,1.0,1.0,2019MNRAS.485.3457B (Balona+ 2019),visual,,,False,False,True
+441687165,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+441713413,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+441715327,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+441725813,OTHER,sdB candidate (Pul (p-mode)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.066,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+441752709,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),145.67788,-58.10546,0.684931506849315,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+442240473,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),145.9806,-55.05106,,,,,,,,False,False,False
+442759685,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),146.39749,-55.74373,1.0638297872340423,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+442871031,ROT,rot,False,2020A&A...639A..81B (Burssens+ 2020),79.89385,-13.17679,1.2621481761958857,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,True
+443126408,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),95.353,-11.7732388889,1.0101010101010102,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+443175014,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),146.8917,-58.18798,0.4347826086956522,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+443317662,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),96.52646,-9.39739,0.3636363636363636,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+443616529,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),169.165416667,-3.65160555556,,,,,,,,False,False,False
+443848410,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+444061855,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+444676711,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),147.56121,-58.04588,1.4084507042253522,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+445831245,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+447970564,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),136.02722,-45.67676,1.1235955056179776,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,6.0,6.0,True,True,False
+449459169,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),200.1478,-63.41202,0.9615384615384616,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+450276053,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),168.468,-58.60846,,,,,,,,False,False,False
+450609787,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),186.71814,-60.75387,0.4878048780487805,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+450826315,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),187.15458,-61.85387,1.0989010989010988,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+451280762,BE,Be=S; signals=S/I/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),170.97069,-59.30476,0.495049504950495,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+451445219,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),171.50573,-59.35289,1.4492753623188408,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+451875177,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),172.78546,-57.24755,0.5847953216374269,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+452163402,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),173.69025,-54.2640916667,,,,,,,,False,True,False
+453366788,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+454081779,BE,Be=Y; signals=I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),176.73399,-41.29279,0.6097560975609756,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+454778372,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),227.26381,-61.88756,0.8064516129032259,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+455389730,BE,Be=Y; signals=I/L/H/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),223.34214,-45.85578,0.3333333333333333,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+455463415,OTHER,Be=N (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),229.152875,-60.9039944444,,,,,,2.0,2.0,True,False,False
+455675248,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),229.70476,-60.49633,1.6,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+455755305,OTHER,sdB candidate (Bin (sdB+WD)),False,2025ApJ...989..177C (Campelo+ 2025),,,0.077,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+455809360,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),230.03879,-62.25223,,,,,,3.0,3.0,True,False,False
+456446715,BE,Be=Y; signals=I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),231.62413,-64.21274,,,,,,,,False,True,False
+457546452,OTHER,Be=U (rejected/other); signals=,False,2022AJ....163..226L (Labadie-Bartz+ 2022),217.63522,-52.25559,,,,,,,,False,False,False
+458452988,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+458785169,OTHER,sdB candidate (Bin+R),False,2025ApJ...989..177C (Campelo+ 2025),,,0.107,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+459532732,SLF,SLF,False,2020A&A...639A..81B (Burssens+ 2020),162.96979,-58.97646,2.380952380952381,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,,,False,False,False
+460090329,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+460703129,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),191.47487,-60.55149,1.5384615384615383,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+460976315,BE,Be=Y; signals=I,False,2022AJ....163..226L (Labadie-Bartz+ 2022),232.19602,-60.70801,,,,,,,,False,True,False
+461658287,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+463103957,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),152.943583333,-58.0605444444,0.7633587786259541,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+464028809,BE,Be=Y; signals=I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),155.22875,-56.0433166667,2.2222222222222223,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+464295672,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),155.93523,-57.64209,1.721170395869191,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,6.0,6.0,True,False,True
+464839773,PULS,SPB,False,2020A&A...639A..81B (Burssens+ 2020),82.00613,1.29825,1.198302395209581,2.0,1.0011649999999999,2020A&A...639A..81B (Burssens+ 2020) | 2025ApJ...989..177C (Campelo+ 2025),visual | visual+spectroscopy,,,False,False,True
+465012898,ROT,SLF+rot,False,2020A&A...639A..81B (Burssens+ 2020),162.15738,-60.22375,2.902757619738752,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,4.0,4.0,True,False,True
+466353921,BE,Be=Y; signals=S/I/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),165.79036,-61.76875,,,,,,5.0,5.0,True,True,False
+466527712,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),166.25032,-61.3936,0.641025641025641,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,4.0,4.0,True,True,False
+466628058,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),166.36789,-61.84527,0.641025641025641,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+466715331,BE,Be=S; signals=S/I/L/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),166.80678,-62.04959,,,,,,4.0,4.0,True,True,False
+466880435,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),167.32821,-60.71188,1.3333333333333333,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,3.0,3.0,True,True,False
+467027607,BE,Be=Y; signals=S/I/L/H/V/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),167.33261,-61.1015,0.5464480874316939,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+467059272,BE,Be=Y; signals=L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),167.50967,-60.09515,0.5291005291005292,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+467065657,PULS,SLF+SPB?,False,2020A&A...639A..81B (Burssens+ 2020),167.67525,-60.38446,2.0202020202020203,1.0,1.0,2020A&A...639A..81B (Burssens+ 2020),visual+spectroscopy,3.0,3.0,True,False,True
+467178271,NOISY,Noisy,False,2025ApJ...989..177C (Campelo+ 2025),,,,,,,,,,False,False,False
+467199933,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),167.86307,-63.20571,1.96078431372549,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+467408384,BE,Be=Y; signals=S/L/F+/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),168.3947,-61.34521,0.625,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+467409163,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),168.37294,-61.26416,0.7299270072992701,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,2.0,2.0,True,True,False
+467456980,BE,Be=Y; signals=L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),168.68488,-60.36947,0.6134969325153374,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+467821546,BE,Be=Y; signals=G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),169.43898,-61.13943,0.5050505050505051,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+468074636,BE,Be=Y; signals=S/I/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),170.02312,-61.23343,,,,,,,,False,True,False
+468095832,BE,Be=Y; signals=S/I/L/H,False,2022AJ....163..226L (Labadie-Bartz+ 2022),170.23824,-61.91673,,,,,,,,False,True,False
+468195912,BE,Be=Y; signals=I/L/G,False,2022AJ....163..226L (Labadie-Bartz+ 2022),170.47679,-63.48718,0.5847953216374269,1.0,1.0,2022AJ....163..226L (Labadie-Bartz+ 2022),visual,,,False,True,False
+469247028,BE,Be=Y; signals=I+,False,2022AJ....163..226L (Labadie-Bartz+ 2022),148.6326,-58.60969,,,,,,,,False,True,False
+469523327,PULS,Pulsation,False,2025ApJ...989..177C (Campelo+ 2025),,,0.596,1.0,1.0,2025ApJ...989..177C (Campelo+ 2025),visual,,,False,False,True
+469906369,ROT,Rotation ($c$),False,2022ApJ...924....2B (Barraza+ 2022),336.83318,-64.96636,2.8535,1.0,1.0,2022ApJ...924....2B (Barraza+ 2022),visual,,,False,False,True

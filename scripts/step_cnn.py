@@ -62,7 +62,15 @@ def main():
     data = np.load(args.npz_in, allow_pickle=True)
     cube = data["X"]
 
-    if not args.mc_dropout:
+    if args.model and not args.mc_dropout:
+        # Una pasada determinista de UN checkpoint: es lo que consume
+        # step_clasificar_una_red.py. Antes `--model` se ignoraba sin
+        # `--mc-dropout` y cargaba igual los 7.
+        models = [classify_brf.load_cnn(model_name)]
+        probabilities = classify_brf.cnn_ensemble_probs(models, cube,
+                                                        batch_size=args.batch_size)
+        label, n_iter = model_name, 1
+    elif not args.mc_dropout:
         models = [classify_brf.load_cnn(name) for name in config.MODELS]
         probabilities = classify_brf.cnn_ensemble_probs(models, cube,
                                                         batch_size=args.batch_size)

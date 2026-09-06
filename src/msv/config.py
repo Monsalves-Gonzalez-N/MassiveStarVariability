@@ -92,7 +92,12 @@ CLASS_GROUPS = {name: ("Pulsating" if name in PULSATING else name)
 HIST_NORM = os.environ.get("MSV_HIST_NORM", "log")
 MODELS = ["Number_CEP", "Number_DST", "Number_ELL", "Number_M",
           "batchBalanced_Number_DST", "batchBalanced_Number_ELL", "batchBalanced_Number_M"]
-DEFAULT_MODEL = "Number_DST"
+# Medido el 2026-09-07 corriendo el pipeline completo de scripts/vsx con los 7
+# checkpoints sobre el mismo cubo (norm log) y la misma sonda: `Number_M` gana
+# en acierto del periodo (91.6 % contra 87.3 % de `Number_ELL`) y a la vez
+# reduce a la mitad las estrellas que pierde el filtro de Rndm (4 contra 8).
+# Ver scripts/vsx/comparar_checkpoints.py.
+DEFAULT_MODEL = "Number_M"
 
 # Gate de incertidumbre (MC-dropout) y selección Path-2
 PROB_MIN = 0.90
@@ -174,7 +179,8 @@ ACF_TRIALS_CORRECTION = True # corregir la banda por look-elsewhere. FAP_ALPHA
                              # conservador porque los lags adyacentes están
                              # correlacionados, pero el número efectivo de
                              # trials solo cambia z en ~0.1σ.
-ACF_WIDTH_FRAC = 0.05        # ancho mínimo del pico como fracción de SU
+ACF_WIDTH_FRAC = float(os.environ.get("MSV_ACF_WIDTH_FRAC", 0.01))
+                             # ancho mínimo del pico como fracción de SU
                              # período, en muestras: f*P/cadencia. Va como
                              # array a `width` de find_peaks, igual que la
                              # banda va a `height`.
@@ -184,12 +190,43 @@ ACF_WIDTH_FRAC = 0.05        # ancho mínimo del pico como fracción de SU
                              # prominencia es ~6σ automáticamente, justo el
                              # umbral 2*fap), y altura y prominencia dejan de
                              # ser independientes. Lo que separa señal de ruido
-                             # es la coherencia: un pico real del ACF dura
-                             # ~0.27*P (168 muestras en TIC 12675729 s82) y un
-                             # spike de ruido 1-2 muestras (TIC 273664200 s75).
+                             # es la coherencia: un spike dura 1-2 muestras y
+                             # un pico real es ancho porque la correlación
+                             # persiste.
+                             # El ancho del pico escala con P, no con la
+                             # cadencia: medido sobre las 288 estrellas OK del
+                             # benchmark VSX que tienen pico de ACF en su
+                             # per_vsx, w/P es la parametrización de menor
+                             # dispersión (std/mediana 0.64, contra 1.80 en
+                             # días y 2.37 en muestras). Por eso el criterio va
+                             # como f*P/cadencia y no como un piso absoluto.
+                             # Pero la constante NO es única: depende de la
+                             # clase, porque lo que fija el ancho del pico es
+                             # la duración del rasgo, no el período.
+                             #   BCEP 0.49  DSCT 0.48  DCEP 0.42   (el 0.5 de
+                             #   ELL  0.25  EB   0.22  E    0.21    un coseno)
+                             #   EA   0.13, con cola hasta 0.01
+                             # Una eclipsante SEPARADA es plana salvo el
+                             # eclipse, que dura un 2-5% del período: su pico
+                             # de ACF es 4x más angosto que el de una pulsante.
+                             # El umbral lo fija la clase más angosta, no la
+                             # mediana global. El 0.05 anterior (derivado del
+                             # ~0.27*P de una sola estrella, citado además en
+                             # muestras, que no son comparables entre
+                             # cadencias) quedaba 2.5x por encima de la mediana
+                             # de las EA y les borraba el fundamental: en el
+                             # benchmark VSX el ACF perdía TIC 373702832 (pico
+                             # a 3.7 sigma rechazado por 1.7 muestras de ancho)
+                             # y TIC 458076434, y ambas se recuperan con 0.01
+                             # sin perder ninguna otra. Recall del período de
+                             # VSX en las 295 OK: 99.0% -> 99.7%, EA 96.7% ->
+                             # 100%. Cuesta +24% de picos crudos, de los que el
+                             # 97% los absorbe la clase Rndm de la CNN: tras
+                             # descartar Rndm el catálogo crece 3.3% (1334 ->
+                             # 1378 picos).
 ACF_WIDTH_MAX_SAMPLES = 20   # techo del ancho exigido, en muestras. El ancho
                              # de un pico del ACF lo fija el período
-                             # FUNDAMENTAL (~0.27*P0) y es el mismo en todos
+                             # FUNDAMENTAL y es el mismo en todos
                              # sus armónicos, pero f*P/cadencia crece con n:
                              # en TIC 384805438 s58 exigía 283 muestras al 9x
                              # contra las ~305 reales, y al 10x habría empezado
